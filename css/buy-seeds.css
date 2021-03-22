@@ -1,0 +1,3131 @@
+
+/**** BUY SEEDS PAGE - STEPS ****/
+.account-name
+{
+
+}
+
+
+.account-info .account-data
+{
+    padding:0;
+}
+
+
+
+/*User Info */
+.account-info table
+{
+    width: 100%;
+}
+
+.account-info table thead tr th:first-child, .account-info table tbody tr td:first-child
+{
+    padding-left:50px;
+}
+
+
+.account-info table thead tr th
+{
+    vertical-align: bottom;
+}
+
+.account-info table thead tr th.no-border
+{
+    border-bottom:none;
+}
+
+.account-info table tbody tr td
+{
+    vertical-align: middle;
+}
+
+
+
+body.buy-seeds .is-combo .combo-box .box-dropdown .dropdown-inner
+{
+    max-height: 274px;
+}
+
+
+body.buy-seeds #step-3 .subheading
+{
+  font-size: 16px !important;
+  max-width: 90%;
+  margin: 0 auto;
+  line-height: 1.6em;
+  padding-bottom: 20px;
+}
+
+
+body.buy-seeds .can-purchase .column
+{
+    padding-top: 0px !important;
+}
+
+body.buy-seeds .can-purchase .column.account-name
+{
+    padding-top: 10px !important;
+}
+
+body.buy-seeds .can-purchase .column.account-data
+{
+    padding-top: 0px !important;
+}
+
+body.buy-seeds label.label
+{
+    font-size: 19px;
+}
+
+  iframe#fiatgateway {
+    width: 1px;
+    min-width: 100%;
+    height:800px;
+  }
+
+
+body.buy-seeds .section-feature-grey .subheading
+{
+    margin-top:40px;
+}
+
+body.buy-seeds .scroll-down-arrow
+{
+    margin-top:50px;
+}
+
+
+body.buy-seeds .scroll-down-arrow a img
+{
+    width:30px;
+}
+
+#button-previous[disabled="disabled"], #button-next[disabled="disabled"] {
+display: none;
+}
+
+
+#after-address-text
+{
+    margin-bottom:20px;
+}
+
+#seeds-loader.pageloader.is-active.minimal-preloader
+{
+    background:none;
+}
+
+.currency-field.control.has-icons-left .icon, .currency-field.control.has-icons-right .icon
+{
+    height: 46px;
+    padding:8px;
+    color:#fff;
+    min-width: 56px;
+}
+
+.currency-field.control.has-icons-right .is-right.icon
+{
+    min-width: 80px;
+}
+
+.currency-field.control.has-icons-left .input:focus ~ .icon,.currency-field.control.has-icons-left .select:focus ~ .icon,.currency-field.control.has-icons-right .input:focus ~ .icon,.currency-field.control.has-icons-right .select:focus ~ .icon
+{
+    color:#fff;
+}
+
+.currency-field.control.has-icons-left .input, .currency-field.control.has-icons-right .input
+{
+    padding-left: 60px;
+    padding-right: 90px;
+    height: 52px;
+    font-size: 24px;
+}
+
+
+
+
+body.buy-seeds .field .control.required small.validation-info
+{
+    font-size:1.3rem;
+    padding-bottom: 15px;
+}
+
+.currency-field .is-left
+{
+
+}
+
+
+
+
+/*.steps-content #proceed_to_moonpay:hover
+{
+
+}
+*/
+
+.steps-content .centered-title .subheading
+{
+    max-width: none;
+    font-weight: normal;
+
+}
+
+
+
+
+.buy-seeds .centered-title .subheading,
+.seeds-swap .centered-title .subheading
+{
+  max-width: 100% !important;
+  margin: auto;
+  line-height: 2em;
+  margin-top: 30px;
+}
+
+.buy-seeds .blockchain-process .subheading
+{
+    max-width: 100% !important;
+}
+
+
+body.buy-seeds .field .control.required i
+{
+    top:54%;
+}
+
+body.buy-seeds .box-chevron img
+{
+    width:20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 1023px)
+{
+
+    body.buy-seeds #crypto-qrcode-column
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    body.buy-seeds .section.section-feature-grey.is-medium
+    {
+        padding: 5rem 1.5rem 4rem;
+    }
+
+
+}
+
+@media (max-width: 1048px)
+{
+    body.buy-seeds .account-info
+    {
+        max-width:100% !important;
+    }
+}
+
+@media (max-width: 1024px)
+{
+
+    body.buy-seeds .account-name
+    {
+        padding:20px 0 !important;
+    }
+
+    body.buy-seeds .account-info table thead tr th:first-child, body.buy-seeds .account-info table tbody tr td:first-child
+    {
+        padding-left: 20px;
+    }
+
+
+    iframe#fiatgateway
+    {
+        width: 575px;
+        border:1px solid #24b0d6;
+        height:575px;
+    }
+
+    body.buy-seeds section.huge-pb
+    {
+        padding-bottom:20px;
+    }
+
+    body.buy-seeds .centered-title .subheading
+    {
+        max-width: none !important;
+    }
+
+    body.buy-seeds #crypto-address, body.buy-seeds #crypto-memo
+    {
+        display:block;
+        font-size:12px;
+        padding: 10px 5px;
+    }
+
+    body.buy-seeds .step-content .column
+    {
+        padding:0px;
+    }
+}
+
+
+
+
+/* COMBO BOX STYLING */
+/*! _forms.scss | Bulkit | CSS Ninja */ /* line 32, src/assets/scss/components/_components-forms.scss */
+form {
+    width: 100%;
+} /* line 36, src/assets/scss/components/_components-forms.scss */
+.input,
+.textarea,
+select {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+} /* line 44, src/assets/scss/components/_components-forms.scss */
+.form-label {
+    padding-bottom: 5px;
+
+} /* line 53, src/assets/scss/components/_components-forms.scss */
+.input {
+
+    height: 36px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+} /* line 59, src/assets/scss/components/_components-forms.scss */
+.input.is-small {
+    height: 26px;
+} /* line 62, src/assets/scss/components/_components-forms.scss */
+.input.is-small ~ .icon {
+    height: 26px !important;
+    width: 26px !important;
+} /* line 68, src/assets/scss/components/_components-forms.scss */
+.input.is-medium {
+    height: 44px;
+} /* line 71, src/assets/scss/components/_components-forms.scss */
+.input.is-medium ~ .icon {
+    height: 44px !important;
+    width: 44px !important;
+} /* line 77, src/assets/scss/components/_components-forms.scss */
+.input.is-large {
+    height: 52px;
+} /* line 80, src/assets/scss/components/_components-forms.scss */
+.input.is-large ~ .icon {
+    height: 52px !important;
+    width: 52px !important;
+} /* line 86, src/assets/scss/components/_components-forms.scss */
+.input.custom-input {
+    height: 46px;
+    line-height: 46px;
+    padding-left: 50px !important;
+} /* line 91, src/assets/scss/components/_components-forms.scss */
+.input.custom-input:focus {
+    border-color: #dbdbdb !important;
+} /* line 96, src/assets/scss/components/_components-forms.scss */
+.input.rounded {
+    border-radius: 100px;
+} /* line 100, src/assets/scss/components/_components-forms.scss */
+.input.is-primary-focus:focus {
+    border-color: #4fc1ea;
+} /* line 103, src/assets/scss/components/_components-forms.scss */
+.input.is-primary-focus:focus ~ .icon i {
+    color: #4fc1ea;
+} /* line 108, src/assets/scss/components/_components-forms.scss */
+.input.is-secondary-focus:focus {
+    border-color: #30b689;
+} /* line 111, src/assets/scss/components/_components-forms.scss */
+.input.is-secondary-focus:focus ~ .icon i {
+    color: #30b689;
+} /* line 116, src/assets/scss/components/_components-forms.scss */
+.input.is-accent-focus:focus {
+    border-color: #ad5cff;
+} /* line 119, src/assets/scss/components/_components-forms.scss */
+.input.is-accent-focus:focus ~ .icon i {
+    color: #ad5cff;
+} /* line 124, src/assets/scss/components/_components-forms.scss */
+.input.is-grey-focus:focus {
+    border-color: #a9abac;
+} /* line 127, src/assets/scss/components/_components-forms.scss */
+.input.is-grey-focus:focus ~ .icon i {
+    color: #a9abac;
+} /* line 132, src/assets/scss/components/_components-forms.scss */
+.input:focus,
+.input:active {
+    border-color: #eff4f7;
+} /* line 135, src/assets/scss/components/_components-forms.scss */
+.input:focus.has-shadow,
+.input:active.has-shadow {
+    -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06) !important;
+    box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06) !important;
+    border-color: #e8e8e8;
+} /* line 141, src/assets/scss/components/_components-forms.scss */
+.input .icon {
+    height: 36px !important;
+    width: 36px !important;
+} /* line 150, src/assets/scss/components/_components-forms.scss */
+textarea.textarea {
+    color: #878787;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+} /* line 155, src/assets/scss/components/_components-forms.scss */
+textarea.textarea:focus {
+    border: 1px solid #ededed;
+} /* line 160, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-primary-focus:focus {
+    border-color: #4fc1ea;
+} /* line 163, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-primary-focus:focus ~ span.icon i {
+    color: #4fc1ea;
+} /* line 170, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-secondary-focus:focus {
+    border-color: #30b689;
+} /* line 173, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-secondary-focus:focus ~ span.icon i {
+    color: #30b689;
+} /* line 180, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-accent-focus:focus {
+    border-color: #ad5cff;
+} /* line 183, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-accent-focus:focus ~ span.icon i {
+    color: #ad5cff;
+} /* line 190, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-grey-focus:focus {
+    border-color: #a9abac;
+} /* line 193, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-grey-focus:focus ~ span.icon i {
+    color: #a9abac;
+} /* line 200, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-default-focus:focus {
+    border-color: #ccc;
+} /* line 203, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-default-focus:focus ~ span.icon i {
+    color: #ccc;
+} /* line 210, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-grow {
+    min-height: 40px !important;
+    height: 40px;
+    resize: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    overflow: hidden;
+} /* line 217, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-grow:focus {
+    height: 130px !important;
+    border-color: #999;
+} /* line 224, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-button {
+    min-height: 50px !important;
+    height: 50px !important;
+    resize: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none !important;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+} /* line 235, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-button:hover {
+    border-color: #ccc;
+} /* line 239, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-button:focus {
+    height: 130px !important;
+    padding-bottom: 40px !important;
+    border-color: #ccc;
+} /* line 245, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-button + .textarea-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    border: 1px solid #ccc;
+    border-top: none !important;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+} /* line 254, src/assets/scss/components/_components-forms.scss */
+textarea.textarea.is-button + .textarea-button button {
+    margin: 10px 7px 7px 7px;
+} /* line 266, src/assets/scss/components/_components-forms.scss */
+.control.required {
+    position: relative;
+} /* line 271, src/assets/scss/components/_components-forms.scss */
+.control.required.has-success .input {
+    border-color: #00b289;
+} /* line 276, src/assets/scss/components/_components-forms.scss */
+.control.required.has-success .validation-info.is-success {
+    display: block;
+} /* line 281, src/assets/scss/components/_components-forms.scss */
+.control.required.has-success .success {
+    opacity: 1;
+} /* line 288, src/assets/scss/components/_components-forms.scss */
+.control.required.has-error .input {
+    border-color: #ff7273;
+} /* line 293, src/assets/scss/components/_components-forms.scss */
+.control.required.has-error .validation-info.is-error {
+    display: block;
+} /* line 298, src/assets/scss/components/_components-forms.scss */
+.control.required.has-error .error {
+    opacity: 1;
+} /* line 304, src/assets/scss/components/_components-forms.scss */
+.control.required.required-small .success,
+.control.required.required-small .error {
+    height: 26px;
+    width: 26px;
+} /* line 308, src/assets/scss/components/_components-forms.scss */
+.control.required.required-small .success i,
+.control.required.required-small .error i {
+    font-size: 10px;
+} /* line 313, src/assets/scss/components/_components-forms.scss */
+.control.required.required-small .input {
+    padding-right: 26px;
+} /* line 319, src/assets/scss/components/_components-forms.scss */
+.control.required.required-medium .success,
+.control.required.required-medium .error {
+    height: 44px;
+    width: 44px;
+} /* line 324, src/assets/scss/components/_components-forms.scss */
+.control.required.required-medium .input {
+    padding-right: 44px;
+} /* line 330, src/assets/scss/components/_components-forms.scss */
+.control.required.required-large .success,
+.control.required.required-large .error {
+    height: 52px;
+    width: 52px;
+} /* line 335, src/assets/scss/components/_components-forms.scss */
+.control.required.required-large .input {
+    padding-right: 52px;
+} /* line 340, src/assets/scss/components/_components-forms.scss */
+.control.required .success,
+.control.required .error {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36px;
+    width: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+} /* line 354, src/assets/scss/components/_components-forms.scss */
+.control.required .success i {
+    color: #00b289;
+} /* line 360, src/assets/scss/components/_components-forms.scss */
+.control.required .error i {
+    color: #ff7273;
+} /* line 365, src/assets/scss/components/_components-forms.scss */
+.control.required .validation-info {
+    display: none;
+    font-size: 0.8rem;
+} /* line 369, src/assets/scss/components/_components-forms.scss */
+.control.required .validation-info.is-success {
+    color: #00b289;
+} /* line 373, src/assets/scss/components/_components-forms.scss */
+.control.required .validation-info.is-error {
+    color: #ff7273;
+} /* line 378, src/assets/scss/components/_components-forms.scss */
+.control.required .input {
+
+} /* line 389, src/assets/scss/components/_components-forms.scss */
+.control-material {
+    position: relative;
+    margin-bottom: 2em;
+} /* line 393, src/assets/scss/components/_components-forms.scss */
+.control-material input,
+.control-material textarea {
+    border-radius: 0 !important;
+} /* line 399, src/assets/scss/components/_components-forms.scss */
+.control-material.is-primary input.material-input:focus ~ label,
+.control-material.is-primary input:valid ~ label,
+.control-material.is-primary textarea:focus ~ label {
+    color: #4fc1ea;
+} /* line 405, src/assets/scss/components/_components-forms.scss */
+.control-material.is-primary .material-input:focus ~ .caret-icon i {
+    color: #4fc1ea;
+} /* line 409, src/assets/scss/components/_components-forms.scss */
+.control-material.is-primary .bar:before,
+.control-material.is-primary .bar:after {
+    background: #4fc1ea;
+} /* line 413, src/assets/scss/components/_components-forms.scss */
+.control-material.is-primary.has-icon input:focus ~ i {
+    color: #4fc1ea !important;
+} /* line 417, src/assets/scss/components/_components-forms.scss */
+.control-material.is-primary .dropdown-list .option.selected {
+    background: #4fc1ea;
+    color: #fcfcfc;
+} /* line 425, src/assets/scss/components/_components-forms.scss */
+.control-material.is-secondary input.material-input:focus ~ label,
+.control-material.is-secondary input:valid ~ label,
+.control-material.is-secondary textarea:focus ~ label {
+    color: #30b689;
+} /* line 431, src/assets/scss/components/_components-forms.scss */
+.control-material.is-secondary .material-input:focus ~ .caret-icon i {
+    color: #30b689;
+} /* line 435, src/assets/scss/components/_components-forms.scss */
+.control-material.is-secondary .bar:before,
+.control-material.is-secondary .bar:after {
+    background: #30b689;
+} /* line 439, src/assets/scss/components/_components-forms.scss */
+.control-material.is-secondary.has-icon input:focus ~ i {
+    color: #30b689 !important;
+} /* line 443, src/assets/scss/components/_components-forms.scss */
+.control-material.is-secondary .dropdown-list .option.selected {
+    background: #30b689;
+    color: #fcfcfc;
+} /* line 451, src/assets/scss/components/_components-forms.scss */
+.control-material.is-accent input.material-input:focus ~ label,
+.control-material.is-accent input:valid ~ label,
+.control-material.is-accent textarea:focus ~ label {
+    color: #ad5cff;
+} /* line 457, src/assets/scss/components/_components-forms.scss */
+.control-material.is-accent .material-input:focus ~ .caret-icon i {
+    color: #ad5cff;
+} /* line 461, src/assets/scss/components/_components-forms.scss */
+.control-material.is-accent .bar:before,
+.control-material.is-accent .bar:after {
+    background: #ad5cff;
+} /* line 465, src/assets/scss/components/_components-forms.scss */
+.control-material.is-accent.has-icon input:focus ~ i {
+    color: #ad5cff !important;
+} /* line 469, src/assets/scss/components/_components-forms.scss */
+.control-material.is-accent .dropdown-list .option.selected {
+    background: #ad5cff;
+    color: #fcfcfc;
+} /* line 477, src/assets/scss/components/_components-forms.scss */
+.control-material.is-light input.material-input:focus ~ label,
+.control-material.is-light input:valid ~ label,
+.control-material.is-light textarea:focus ~ label {
+    color: #fff;
+} /* line 483, src/assets/scss/components/_components-forms.scss */
+.control-material.is-light .bar:before,
+.control-material.is-light .bar:after {
+    background: #fff;
+} /* line 487, src/assets/scss/components/_components-forms.scss */
+.control-material.is-light.has-icon input:focus ~ i {
+    color: #fff !important;
+} /* line 493, src/assets/scss/components/_components-forms.scss */
+.control-material .material-input,
+.control-material textarea {
+    width: 100% !important;
+    font-size: 18px;
+    padding: 0.625em 0.625em 0.625em 0.3125em;
+    display: block;
+    width: 18.75em;
+    border: none;
+    border-bottom: 1px solid #a9abac;
+    background-color: transparent !important;
+} /* line 503, src/assets/scss/components/_components-forms.scss */
+.control-material .material-input:focus,
+.control-material textarea:focus {
+    outline: none;
+} /* line 509, src/assets/scss/components/_components-forms.scss */
+.control-material label {
+    font-family: "Arial";
+    color: #cecece;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    top: 1em;
+    left: 0.3125em;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+} /* line 523, src/assets/scss/components/_components-forms.scss */
+.control-material .material-input:focus ~ label,
+.control-material input:valid ~ label,
+.control-material textarea:focus ~ label {
+    top: -8px;
+    left: -2px;
+    font-size: 12px;
+} /* line 532, src/assets/scss/components/_components-forms.scss */
+.control-material .bar {
+    position: relative;
+    display: block;
+} /* line 536, src/assets/scss/components/_components-forms.scss */
+.control-material .bar:before,
+.control-material .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+} /* line 547, src/assets/scss/components/_components-forms.scss */
+.control-material .bar:before {
+    left: 50%;
+} /* line 551, src/assets/scss/components/_components-forms.scss */
+.control-material .bar:after {
+    right: 50%;
+} /* line 556, src/assets/scss/components/_components-forms.scss */
+.control-material .material-input:focus ~ .bar:before,
+.control-material input.material-input:focus ~ .bar:after,
+.control-material textarea:focus ~ .bar:before,
+.control-material textarea:focus ~ .bar:after {
+    width: 50%;
+} /* line 564, src/assets/scss/components/_components-forms.scss */
+.control-material.has-icon {
+    position: relative;
+} /* line 567, src/assets/scss/components/_components-forms.scss */
+.control-material.has-icon input {
+    padding-right: 54px;
+} /* line 571, src/assets/scss/components/_components-forms.scss */
+.control-material.has-icon input:focus ~ i,
+.control-material.has-icon input:valid ~ i {
+    margin-top: 10px;
+} /* line 577, src/assets/scss/components/_components-forms.scss */
+.control-material.has-icon i {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #cecece;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 587, src/assets/scss/components/_components-forms.scss */
+.control-material.required {
+    position: relative;
+} /* line 590, src/assets/scss/components/_components-forms.scss */
+.control-material.required input {
+    padding-right: 54px;
+} /* line 594, src/assets/scss/components/_components-forms.scss */
+.control-material.required i {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #cecece;
+    display: none;
+} /* line 602, src/assets/scss/components/_components-forms.scss */
+.control-material.required .validation-info {
+    display: none;
+    font-size: 0.8rem;
+} /* line 609, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-success input {
+    border-bottom-color: #00b289 !important;
+} /* line 613, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-success .bar:after,
+.control-material.required.has-success .bar:before {
+    background: #00b289 !important;
+} /* line 617, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-success .success i {
+    color: #00b289 !important;
+    display: block;
+} /* line 622, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-success label {
+    color: #00b289 !important;
+} /* line 626, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-success small.validation-info.success {
+    color: #00b289;
+    display: block;
+} /* line 634, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-error input {
+    border-bottom-color: #ff7273 !important;
+} /* line 638, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-error .bar:after,
+.control-material.required.has-error .bar:before {
+    background: #ff7273 !important;
+} /* line 642, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-error .error i {
+    color: #ff7273 !important;
+    display: block;
+} /* line 647, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-error label {
+    color: #ff7273 !important;
+} /* line 651, src/assets/scss/components/_components-forms.scss */
+.control-material.required.has-error small.validation-info.error {
+    color: #ff7273;
+    display: block;
+} /* line 660, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select.is-active .dropdown-list {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: all;
+} /* line 669, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select.has-value .inner-wrap label {
+    top: -20px;
+    left: -2px;
+    font-size: 12px;
+} /* line 678, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .inner-wrap .caret-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 689, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .inner-wrap .caret-icon i {
+    color: #999;
+} /* line 696, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .material-input:focus {
+    pointer-events: none !important;
+} /* line 699, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .material-input:focus ~ .caret-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+} /* line 705, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .dropdown-list {
+    background: #fff;
+    border: 1px solid #ededed;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 15px;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+} /* line 718, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .dropdown-list .option {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+} /* line 723, src/assets/scss/components/_components-forms.scss */
+.control-material .material-select .dropdown-list .option:hover:not(.selected) {
+    background: #ededed;
+} /* line 739, src/assets/scss/components/_components-forms.scss */
+.control.has-icons-left .select select {
+    padding-left: 2.5rem;
+} /* line 745, src/assets/scss/components/_components-forms.scss */
+.control.has-icons-left .select.is-small select {
+    padding-left: 1.75rem;
+} /* line 752, src/assets/scss/components/_components-forms.scss */
+.control.has-icons-left .select.is-medium select {
+    padding-left: 3rem;
+} /* line 759, src/assets/scss/components/_components-forms.scss */
+.control.has-icons-left .select.is-large + .icon {
+    font-size: 1.6rem;
+} /* line 763, src/assets/scss/components/_components-forms.scss */
+.control.has-icons-left .select.is-large select {
+    padding-left: 3.3rem;
+} /* line 771, src/assets/scss/components/_components-forms.scss */
+.control .select:after {
+    border: 1px solid #4fc1ea;
+    border-right: 0;
+    border-top: 0;
+} /* line 778, src/assets/scss/components/_components-forms.scss */
+.control .select:hover:after {
+    border: 1px solid #21b1e5;
+    border-right: 0;
+    border-top: 0;
+} /* line 786, src/assets/scss/components/_components-forms.scss */
+.control .select select:active,
+.control .select select:focus {
+    border-color: #4fc1ea;
+} /* line 792, src/assets/scss/components/_components-forms.scss */
+.control .select:not(.is-multiple):not(.is-loading)::after {
+    right: 1.525em;
+    z-index: 4;
+    font-size: 0.8rem;
+    border: 1px solid #999;
+    border-right: 0;
+    border-top: 0;
+} /* line 807, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .icon {
+    height: 44px !important;
+    width: 44px !important;
+} /* line 811, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .icon i {
+    font-size: 18px;
+} /* line 816, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .autocpl {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+} /* line 822, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container ul li {
+    padding: 8px 12px;
+} /* line 825, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container ul li.selected {
+    background: #f7f7f7 !important;
+} /* line 831, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container .template-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+} /* line 836, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container .template-wrapper .autocpl-avatar {
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 100px !important;
+} /* line 842, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container .template-wrapper .entry-text {
+    margin-left: 15px;
+} /* line 845, src/assets/scss/components/_components-forms.scss */
+.auto-cpl-control .easy-autocomplete-container .template-wrapper .entry-text span {
+    font-size: 0.8rem;
+    color: #a9abac;
+} /* line 858, src/assets/scss/components/_components-forms.scss */
+.datepicker-panel > ul > li.picked,
+.datepicker-panel > ul > li.picked:hover {
+    background-color: #ad5cff !important;
+} /* line 868, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+} /* line 874, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+} /* line 884, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control .inputfile + label {
+    max-width: 80%;
+    font-size: 1.05rem;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0.625rem 1.45rem 0.8rem 1.25rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 897, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control .inputfile + label i {
+    margin-right: 10px;
+} /* line 902, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control .simple-file-input + label {
+    color: #fff;
+    background-color: #ad5cff;
+} /* line 907, src/assets/scss/components/_components-forms.scss */
+.file-input-wrapper .control .simple-file-input:focus + label,
+.file-input-wrapper .control .simple-file-input.has-focus + label,
+.file-input-wrapper .control .simple-file-input + label:hover {
+    background-color: #ba76ff;
+    outline: none;
+    -webkit-box-shadow: inset rgba(143, 160, 241, 0.2) 0 0 0 1px, rgba(213, 220, 247, 0.59) 0 10px 20px;
+    box-shadow: inset rgba(143, 160, 241, 0.2) 0 0 0 1px, rgba(213, 220, 247, 0.59) 0 10px 20px;
+} /* line 919, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} /* line 923, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper .field-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fcfcfc;
+    border: 1px solid #ededed;
+    padding: 16px;
+    width: 450px;
+    position: relative;
+    border-radius: 3px;
+} /* line 935, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper .field-input > [type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    cursor: pointer;
+} /* line 947, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper .field-input > .button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+    line-height: 1;
+} /* line 957, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper .field-input > .label {
+    color: #444f60;
+    font-weight: 400;
+    white-space: nowrap;
+    opacity: 0.3;
+} /* line 964, src/assets/scss/components/_components-forms.scss */
+.field-input-wrapper .field-input.-chosen > .label {
+    opacity: 1;
+} /* line 970, src/assets/scss/components/_components-forms.scss */
+.field.has-addons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+} /* line 973, src/assets/scss/components/_components-forms.scss */
+.field.has-addons input {
+    margin-right: 5px;
+} /* line 977, src/assets/scss/components/_components-forms.scss */
+.field.has-addons .button {
+    height: 36px;
+} /* line 988, src/assets/scss/components/_components-forms.scss */
+.label--checkbox {
+    position: relative;
+    margin: 0.5rem;
+    font-family: Arial, sans-serif;
+    line-height: 135% !important;
+    cursor: pointer;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+} /* line 996, src/assets/scss/components/_components-forms.scss */
+.label--checkbox span {
+    position: relative;
+    top: -7px;
+    font-size: 14px;
+    color: #444f60;
+} /* line 1005, src/assets/scss/components/_components-forms.scss */
+.md-checkbox {
+    position: relative;
+    top: -0.375rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+} /* line 1012, src/assets/scss/components/_components-forms.scss */
+.md-checkbox:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1.5px solid #ccc;
+} /* line 1025, src/assets/scss/components/_components-forms.scss */
+.md-checkbox:checked:before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 0.5rem;
+    border-color: #4fc1ea;
+    border-top-style: none;
+    border-right-style: none;
+} /* line 1037, src/assets/scss/components/_components-forms.scss */
+.md-checkbox:after {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    left: 0;
+    width: 1rem;
+    height: 1rem;
+    background: #fff;
+    cursor: pointer;
+}
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(6.25rem);
+        transform: translateY(6.25rem);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(6.25rem);
+        transform: translateY(6.25rem);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@media (min-width: 769px) {
+    /* line 1088, src/assets/scss/components/_components-forms.scss */
+    input.md-checkbox:focus {
+        border-bottom-color: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline: none !important;
+        outline-offset: 0 !important;
+        background: #fff !important;
+    }
+} /* line 1099, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap,
+.radio-wrap {
+    position: relative;
+    cursor: pointer;
+    padding: 1em;
+} /* line 1104, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap::-moz-selection,
+.radio-wrap::-moz-selection {
+    background: transparent;
+}
+.checkbox-wrap::selection,
+.radio-wrap::selection {
+    background: transparent;
+} /* line 1109, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input.d-checkbox + span,
+.radio-wrap input.d-checkbox + span,
+.checkbox-wrap input.b-radio + span,
+.radio-wrap input.b-radio + span {
+    background: #fff;
+    content: "";
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+    border: 1px solid #999;
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+} /* line 1120, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input.d-checkbox + span::after,
+.radio-wrap input.d-checkbox + span::after,
+.checkbox-wrap input.b-radio + span::after,
+.radio-wrap input.b-radio + span::after {
+    content: "";
+    display: block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+} /* line 1129, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input.d-checkbox:checked + span::after,
+.radio-wrap input.d-checkbox:checked + span::after,
+.checkbox-wrap input.b-radio:checked + span::after,
+.radio-wrap input.b-radio:checked + span::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+} /* line 1134, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input.d-checkbox,
+.radio-wrap input.d-checkbox,
+.checkbox-wrap input.b-radio,
+.radio-wrap input.b-radio {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+} /* line 1146, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input + span {
+    border-radius: 2px;
+} /* line 1149, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap input + span::after {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTMuNzA3LDMyLjI5MyAxMi4yOTMsMzMuODU0IDI0LjI5Myw0NiAyNS43MDcsNDYgNDkuNzA3LDIxLjg1NCA0OC4yOTMsMjAuMzY2IDI1LDQzLjYyMyAiLz48L2c+PC9zdmc+)
+        no-repeat center;
+    background-size: contain;
+    width: 1.9em;
+    height: 1.9em;
+} /* line 1158, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap.is-medium input + span {
+    width: 1.4em;
+    height: 1.4em;
+} /* line 1162, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap.is-medium input + span::after {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTMuNzA3LDMyLjI5MyAxMi4yOTMsMzMuODU0IDI0LjI5Myw0NiAyNS43MDcsNDYgNDkuNzA3LDIxLjg1NCA0OC4yOTMsMjAuMzY2IDI1LDQzLjYyMyAiLz48L2c+PC9zdmc+)
+        no-repeat center;
+    background-size: contain;
+    width: 1.3em;
+    height: 1.3em;
+} /* line 1171, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap.is-small input + span {
+    width: 1em;
+    height: 1em;
+} /* line 1175, src/assets/scss/components/_components-forms.scss */
+.checkbox-wrap.is-small input + span::after {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTMuNzA3LDMyLjI5MyAxMi4yOTMsMzMuODU0IDI0LjI5Myw0NiAyNS43MDcsNDYgNDkuNzA3LDIxLjg1NCA0OC4yOTMsMjAuMzY2IDI1LDQzLjYyMyAiLz48L2c+PC9zdmc+)
+        no-repeat center;
+    background-size: contain;
+    width: 0.9em;
+    height: 0.9em;
+} /* line 1189, src/assets/scss/components/_components-forms.scss */
+.radio-wrap input + span {
+    border-radius: 1000px;
+} /* line 1192, src/assets/scss/components/_components-forms.scss */
+.radio-wrap input + span::after {
+    border-radius: 1000px;
+    margin: 0.55em;
+    width: 0.75em;
+    height: 0.75em;
+} /* line 1201, src/assets/scss/components/_components-forms.scss */
+.radio-wrap input:checked + span::after {
+    background: #444f60;
+} /* line 1206, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-small span {
+    -webkit-transform: scale(0.6) !important;
+    transform: scale(0.6) !important;
+} /* line 1209, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-small span::after {
+    margin: 0.54em !important;
+} /* line 1214, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-medium span {
+    -webkit-transform: scale(0.8) !important;
+    transform: scale(0.8) !important;
+} /* line 1217, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-medium span::after {
+    margin: 0.58em !important;
+} /* line 1224, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-primary input:checked + span::after {
+    background: #4fc1ea;
+} /* line 1230, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-secondary input:checked + span::after {
+    background: #30b689;
+} /* line 1236, src/assets/scss/components/_components-forms.scss */
+.radio-wrap.is-accent input:checked + span::after {
+    background: #ad5cff;
+} /* line 1246, src/assets/scss/components/_components-forms.scss */
+.tagsinput {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+} /* line 1254, src/assets/scss/components/_components-forms.scss */
+.tagsinput .tag {
+    position: relative;
+    border: 1px solid #039be5;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    background: #039be5;
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+} /* line 1270, src/assets/scss/components/_components-forms.scss */
+.tagsinput .tag:after {
+    position: absolute;
+    right: 4px;
+    font-family: "Material Icons";
+    content: "\E5CD";
+    color: #fff;
+    opacity: 1;
+    z-index: 0;
+} /* line 1280, src/assets/scss/components/_components-forms.scss */
+.tagsinput .tag span {
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+} /* line 1286, src/assets/scss/components/_components-forms.scss */
+.tagsinput .tag a {
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+} /* line 1297, src/assets/scss/components/_components-forms.scss */
+.tagsinput input {
+    width: 80px;
+    margin: 0 5px 5px 0;
+    font-family: helvetica;
+    font-size: 13px;
+    border: 1px solid transparent;
+    padding: 5px;
+    background: 0 0;
+    color: #000;
+    outline: 0;
+} /* line 1309, src/assets/scss/components/_components-forms.scss */
+.tagsinput div {
+    display: block;
+    float: left;
+} /* line 1315, src/assets/scss/components/_components-forms.scss */
+.tags_clear {
+    clear: both;
+    width: 100%;
+    height: 0;
+} /* line 1321, src/assets/scss/components/_components-forms.scss */
+.not_valid {
+    background: #fbd8db !important;
+    color: #90111a !important;
+} /* line 1327, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px;
+    overflow-y: auto;
+} /* line 1334, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .control {
+    margin-right: 0.2rem !important;
+} /* line 1338, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .tags {
+    outline: none !important;
+} /* line 1341, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .tags .tag:first-child {
+    padding: 4px 8px 6px;
+} /* line 1344, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .tags .tag:first-child.is-active {
+    background: #039be5;
+} /* line 1348, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .tags .tag:first-child:after {
+    display: none !important;
+} /* line 1353, src/assets/scss/components/_components-forms.scss */
+.bulma-tags .tagsinput .tags .is-delete {
+    margin: 0;
+    background: #344258;
+} /* line 1365, src/assets/scss/components/_components-forms.scss */
+.wickedpicker {
+    height: 150px;
+} /* line 1368, src/assets/scss/components/_components-forms.scss */
+.wickedpicker .wickedpicker__controls {
+    padding: 12px 0 !important;
+} /* line 1373, src/assets/scss/components/_components-forms.scss */
+.wickedpicker .wickedpicker__controls__control-up:before {
+    font-family: "material icons";
+    content: "\e316";
+} /* line 1380, src/assets/scss/components/_components-forms.scss */
+.wickedpicker .wickedpicker__controls__control-down:after {
+    font-family: "material icons";
+    content: "\e313";
+    top: 8px;
+    position: relative;
+} /* line 1393, src/assets/scss/components/_components-forms.scss */
+
+.steps-wrapper .steps {
+
+} /* line 1405, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps .steps-content {
+    padding-bottom: 50px;
+} /* line 1411, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps .step-item.is-active .step-marker {
+    border-color: #30b689 !important;
+    color: #30b689;
+} /* line 1416, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps .step-item.is-active:before {
+    background-position: left bottom;
+} /* line 1422, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps .step-item.is-completed .step-marker {
+    background: #30b689;
+} /* line 1426, src/assets/scss/components/_components-forms.scss */
+
+.steps-wrapper .step-title {
+    font-size: 0.7rem !important;
+    text-transform: uppercase;
+} /* line 1452, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .label {
+    text-align: left;
+    font-weight: 600 !important;
+} /* line 1457, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps-actions {
+    position: relative;
+    width: 100%;
+} /* line 1464, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps-actions .steps-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0;
+} /* line 1469, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .steps-actions .steps-action .button {
+    margin-left: 8px;
+} /* line 1475, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper .confirm-image {
+    display: block;
+    margin: 10px auto;
+    height: 75px;
+} /* line 1482, src/assets/scss/components/_components-forms.scss */
+.steps-wrapper.is-squared .step-marker {
+    border-radius: 4px !important;
+}
+@media (max-width: 767px) {
+    /* line 1491, src/assets/scss/components/_components-forms.scss */
+    .steps-wrapper.is-double-column .steps-actions {
+        bottom: 20px !important;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* line 1501, src/assets/scss/components/_components-forms.scss */
+    .steps-wrapper.is-double-column .steps-actions {
+        bottom: 20px !important;
+    }
+} /* line 1513, src/assets/scss/components/_components-forms.scss */
+.is-combo {
+
+} /* line 1517, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #999;
+} /* line 1524, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box,
+.is-combo .image-combo-box,
+.is-combo .stacked-combo-box,
+.is-combo .user-combo-box {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 4px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1535, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box.has-rounded-images .combo-item img,
+.is-combo .combo-box.has-rounded-images .item-icon img,
+.is-combo .image-combo-box.has-rounded-images .combo-item img,
+.is-combo .image-combo-box.has-rounded-images .item-icon img,
+.is-combo .stacked-combo-box.has-rounded-images .combo-item img,
+.is-combo .stacked-combo-box.has-rounded-images .item-icon img,
+.is-combo .user-combo-box.has-rounded-images .combo-item img,
+.is-combo .user-combo-box.has-rounded-images .item-icon img {
+    border-radius: 50%;
+} /* line 1541, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner,
+.is-combo .image-combo-box .box-inner,
+.is-combo .stacked-combo-box .box-inner,
+.is-combo .user-combo-box .box-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+} /* line 1547, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item,
+.is-combo .image-combo-box .box-inner .combo-item,
+.is-combo .stacked-combo-box .box-inner .combo-item,
+.is-combo .user-combo-box .box-inner .combo-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    padding-left: 8px;
+} /* line 1554, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item i,
+.is-combo .image-combo-box .box-inner .combo-item i,
+.is-combo .stacked-combo-box .box-inner .combo-item i,
+.is-combo .user-combo-box .box-inner .combo-item i {
+    color: #30b689;
+    font-size: 20px;
+    margin-right: 8px;
+} /* line 1560, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa,
+.is-combo .image-combo-box .box-inner .combo-item .fa,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa,
+.is-combo .user-combo-box .box-inner .combo-item .fa {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+} /* line 1565, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa.is-green,
+.is-combo .image-combo-box .box-inner .combo-item .fa.is-green,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa.is-green,
+.is-combo .user-combo-box .box-inner .combo-item .fa.is-green {
+    color: #00b289;
+} /* line 1569, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa.is-blue,
+.is-combo .image-combo-box .box-inner .combo-item .fa.is-blue,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa.is-blue,
+.is-combo .user-combo-box .box-inner .combo-item .fa.is-blue {
+    color: #039be5;
+} /* line 1573, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa.is-orange,
+.is-combo .image-combo-box .box-inner .combo-item .fa.is-orange,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa.is-orange,
+.is-combo .user-combo-box .box-inner .combo-item .fa.is-orange {
+    color: #eda514;
+} /* line 1577, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa.is-red,
+.is-combo .image-combo-box .box-inner .combo-item .fa.is-red,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa.is-red,
+.is-combo .user-combo-box .box-inner .combo-item .fa.is-red {
+    color: #ff7273;
+} /* line 1581, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .fa.is-secondary,
+.is-combo .image-combo-box .box-inner .combo-item .fa.is-secondary,
+.is-combo .stacked-combo-box .box-inner .combo-item .fa.is-secondary,
+.is-combo .user-combo-box .box-inner .combo-item .fa.is-secondary {
+    color: #30b689;
+} /* line 1587, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img,
+.is-combo .image-combo-box .box-inner .combo-item img,
+.is-combo .stacked-combo-box .box-inner .combo-item img,
+.is-combo .user-combo-box .box-inner .combo-item img {
+    display: block;
+    height: 26px;
+    width: 26px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-right: 8px;
+} /* line 1597, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked,
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked,
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked,
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked {
+    height: 26px;
+    width: 26px;
+    border: 2px solid #fff;
+    margin-right: 0 !important;
+} /* line 1607, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(1),
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(1),
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(1),
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(1) {
+    margin-left: -9px;
+} /* line 1607, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(2),
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(2),
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(2),
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(2) {
+    margin-left: -9px;
+} /* line 1607, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(3),
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(3),
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(3),
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(3) {
+    margin-left: -9px;
+} /* line 1607, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(4),
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(4),
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(4),
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(4) {
+    margin-left: -9px;
+} /* line 1607, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(5),
+.is-combo .image-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(5),
+.is-combo .stacked-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(5),
+.is-combo .user-combo-box .box-inner .combo-item img.is-stacked:not(:first-child):nth-child(5) {
+    margin-left: -9px;
+} /* line 1615, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .avatar-container,
+.is-combo .image-combo-box .box-inner .combo-item .avatar-container,
+.is-combo .stacked-combo-box .box-inner .combo-item .avatar-container,
+.is-combo .user-combo-box .box-inner .combo-item .avatar-container {
+    position: relative;
+    display: block;
+    height: 26px;
+    width: 26px;
+} /* line 1621, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .avatar-container .avatar,
+.is-combo .image-combo-box .box-inner .combo-item .avatar-container .avatar,
+.is-combo .stacked-combo-box .box-inner .combo-item .avatar-container .avatar,
+.is-combo .user-combo-box .box-inner .combo-item .avatar-container .avatar {
+    display: block;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+} /* line 1628, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item .avatar-container .badge,
+.is-combo .image-combo-box .box-inner .combo-item .avatar-container .badge,
+.is-combo .stacked-combo-box .box-inner .combo-item .avatar-container .badge,
+.is-combo .user-combo-box .box-inner .combo-item .avatar-container .badge {
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0;
+} /* line 1641, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-inner .combo-item span,
+.is-combo .image-combo-box .box-inner .combo-item span,
+.is-combo .stacked-combo-box .box-inner .combo-item span,
+.is-combo .user-combo-box .box-inner .combo-item span {
+    display: block;
+    color: #444f60;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 8px;
+} /* line 1652, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-chevron,
+.is-combo .image-combo-box .box-chevron,
+.is-combo .stacked-combo-box .box-chevron,
+.is-combo .user-combo-box .box-chevron {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+} /* line 1662, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-chevron i,
+.is-combo .image-combo-box .box-chevron i,
+.is-combo .stacked-combo-box .box-chevron i,
+.is-combo .user-combo-box .box-chevron i {
+    font-size: 18px;
+    stroke: #444f60;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1669, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-chevron svg,
+.is-combo .image-combo-box .box-chevron svg,
+.is-combo .stacked-combo-box .box-chevron svg,
+.is-combo .user-combo-box .box-chevron svg {
+    height: 18px;
+    width: 18px;
+    stroke: #444f60;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1679, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown,
+.is-combo .image-combo-box .box-dropdown,
+.is-combo .stacked-combo-box .box-dropdown,
+.is-combo .user-combo-box .box-dropdown {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1691, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown.is-dropup,
+.is-combo .image-combo-box .box-dropdown.is-dropup,
+.is-combo .stacked-combo-box .box-dropdown.is-dropup,
+.is-combo .user-combo-box .box-dropdown.is-dropup {
+    top: -165px;
+    height: 148px;
+} /* line 1695, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown.is-dropup .dropdown-inner,
+.is-combo .image-combo-box .box-dropdown.is-dropup .dropdown-inner,
+.is-combo .stacked-combo-box .box-dropdown.is-dropup .dropdown-inner,
+.is-combo .user-combo-box .box-dropdown.is-dropup .dropdown-inner {
+    overflow-y: auto;
+} /* line 1701, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin-top: 10px;
+    max-height: 190px;
+    overflow-y: auto;
+} /* line 1713, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul {
+    padding: 10px 0;
+} /* line 1717, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li {
+    padding: 6px 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+} /* line 1725, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+} /* line 1734, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon i,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon i,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon i,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon i {
+    color: #999;
+    font-size: 20px;
+} /* line 1739, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+} /* line 1744, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green {
+    color: #00b289;
+} /* line 1748, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue {
+    color: #039be5;
+} /* line 1752, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-orange,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-orange,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-orange,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-orange {
+    color: #eda514;
+} /* line 1756, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-red,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-red,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-red,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-red {
+    color: #ff7273;
+} /* line 1760, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-secondary {
+    color: #30b689;
+} /* line 1766, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon img,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon img,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon img,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon img {
+    display: block;
+    height: 22px;
+    width: 22px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+} /* line 1775, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon img.faded-img,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon img.faded-img,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon img.faded-img,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon img.faded-img {
+    opacity: 0.4;
+} /* line 1780, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .avatar,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .avatar,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .avatar,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .avatar {
+    display: block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+} /* line 1787, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .badge,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .badge,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .badge,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+} /* line 1799, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .checkmark,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .checkmark,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .checkmark,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .checkmark {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    margin-left: auto;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1810, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .checkmark svg,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .checkmark svg {
+    stroke: #30b689;
+    stroke-width: 3px;
+    height: 16px;
+    width: 16px;
+} /* line 1817, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li .checkmark i,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .checkmark i,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .checkmark i,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .checkmark i {
+    font-size: 16px;
+    color: #30b689;
+} /* line 1823, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li span,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li span,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li span,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li span {
+    display: block;
+    color: #999;
+    font-size: 0.9rem;
+    font-weight: 500;
+} /* line 1830, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li:hover,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li:hover,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li:hover,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li:hover {
+    background: #f2f2f2;
+} /* line 1837, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i {
+    color: #30b689;
+} /* line 1841, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon .faded-img {
+    opacity: 1;
+} /* line 1846, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li.is-active span,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active span,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li.is-active span,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li.is-active span {
+    color: #444f60;
+} /* line 1850, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box .box-dropdown .dropdown-inner ul li.is-active .checkmark,
+.is-combo .image-combo-box .box-dropdown .dropdown-inner ul li.is-active .checkmark,
+.is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li.is-active .checkmark,
+.is-combo .user-combo-box .box-dropdown .dropdown-inner ul li.is-active .checkmark {
+    opacity: 1;
+} /* line 1860, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box.is-active,
+.is-combo .image-combo-box.is-active,
+.is-combo .stacked-combo-box.is-active,
+.is-combo .user-combo-box.is-active {
+    border-color: #30b689;
+} /* line 1863, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box.is-active .box-chevron svg,
+.is-combo .combo-box.is-active .box-chevron i,
+.is-combo .image-combo-box.is-active .box-chevron svg,
+.is-combo .image-combo-box.is-active .box-chevron i,
+.is-combo .stacked-combo-box.is-active .box-chevron svg,
+.is-combo .stacked-combo-box.is-active .box-chevron i,
+.is-combo .user-combo-box.is-active .box-chevron svg,
+.is-combo .user-combo-box.is-active .box-chevron i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+} /* line 1867, src/assets/scss/components/_components-forms.scss */
+.is-combo .combo-box.is-active .box-dropdown,
+.is-combo .image-combo-box.is-active .box-dropdown,
+.is-combo .stacked-combo-box.is-active .box-dropdown,
+.is-combo .user-combo-box.is-active .box-dropdown {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: all;
+} /* line 1876, src/assets/scss/components/_components-forms.scss */
+.is-combo .help-text {
+    font-size: 0.75rem;
+    color: #999;
+} /* line 1882, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    height: 58px;
+    margin-top: 4px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1893, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+} /* line 1900, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 58px;
+    padding-left: 8px;
+} /* line 1906, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item i {
+    color: #30b689;
+    font-size: 1.6rem;
+} /* line 1912, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item .combo-text {
+    margin-left: 16px;
+} /* line 1915, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item .combo-text span {
+    display: block;
+} /* line 1918, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item .combo-text span:first-child {
+    color: #444f60;
+    font-size: 0.9rem;
+    font-weight: 500;
+} /* line 1924, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-inner .combo-item .combo-text span:nth-child(2) {
+    color: #999;
+    font-size: 0.8rem;
+    max-width: 330px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} /* line 1938, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-chevron {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 58px;
+    width: 58px;
+} /* line 1948, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-chevron svg {
+    height: 18px;
+    width: 18px;
+    stroke: #444f60;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1958, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} /* line 1970, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin-top: 10px;
+    max-height: 190px;
+    overflow-y: auto;
+    overflow-x: hidden;
+} /* line 1983, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul {
+    padding: 10px 0;
+} /* line 1987, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li {
+    padding: 6px 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+} /* line 1995, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li .item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    margin-right: 16px;
+} /* line 2005, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li .item-icon i {
+    color: #999;
+    font-size: 1.6rem;
+} /* line 2013, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li .item-name span {
+    display: block;
+} /* line 2016, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li .item-name span:first-child {
+    color: #444f60;
+    font-size: 0.9rem;
+    font-weight: 500;
+} /* line 2022, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li .item-name span:nth-child(2) {
+    color: #999;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} /* line 2032, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li:hover {
+    background: #f2f2f2;
+} /* line 2038, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li.is-active .item-icon i {
+    color: #30b689;
+} /* line 2042, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box .box-dropdown .dropdown-inner ul li.is-active span {
+    color: #444f60;
+} /* line 2052, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box.is-active {
+    border-color: #30b689;
+} /* line 2055, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box.is-active .box-chevron svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+} /* line 2059, src/assets/scss/components/_components-forms.scss */
+.is-combo .big-combo-box.is-active .box-dropdown {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+/* CURRENT STYPES STYLING */
+/* line 37, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    min-height: 2rem;
+} /* line 163, src/assets/sass/sass/utilities/mixins.sass */
+.steps:not(:last-child) {
+    margin-bottom: 1.5rem;
+} /* line 42, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item {
+    margin-top: 0;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+} /* line 47, src/assets/sass/sass/extensions/bulma-steps.sass */
+
+.steps .step-item:not(:first-child)::before {
+    content: " ";
+    display: block;
+    position: absolute;
+} /* line 57, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #00d1b2));
+    background: linear-gradient(to left, #dbdbdb 50%, #00d1b2 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 61, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item::before .step-marker {
+    color: #fff;
+} /* line 64, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-active::before {
+    background-position: left bottom;
+} /* line 66, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-active .step-marker {
+    background-color: #fff;
+    border-color: #00d1b2;
+    color: #00d1b2;
+} /* line 71, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-completed::before {
+    background-position: left bottom;
+} /* line 73, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-completed .step-marker {
+    color: #fff;
+    background-color: #00d1b2;
+} /* line 77, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item .step-marker {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50%;
+    font-weight: 700;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #b5b5b5;
+    color: #fff;
+    border: 0.2em solid #fff;
+    z-index: 1;
+} /* line 88, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item .step-details {
+    text-align: center;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-white::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #fff));
+    background: linear-gradient(to left, #dbdbdb 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-white.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-white.is-active .step-marker {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-white.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-white.is-completed .step-marker {
+    color: #0a0a0a;
+    background-color: #fff;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-black::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #0a0a0a));
+    background: linear-gradient(to left, #dbdbdb 50%, #0a0a0a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-black.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-black.is-active .step-marker {
+    background-color: #fff;
+    border-color: #0a0a0a;
+    color: #0a0a0a;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-black.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-black.is-completed .step-marker {
+    color: #fff;
+    background-color: #0a0a0a;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-light::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #f5f5f5));
+    background: linear-gradient(to left, #dbdbdb 50%, #f5f5f5 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-light.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-light.is-active .step-marker {
+    background-color: #fff;
+    border-color: #f5f5f5;
+    color: #f5f5f5;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-light.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-light.is-completed .step-marker {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #f5f5f5;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-dark::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #363636));
+    background: linear-gradient(to left, #dbdbdb 50%, #363636 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-dark.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-dark.is-active .step-marker {
+    background-color: #fff;
+    border-color: #363636;
+    color: #363636;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-dark.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-dark.is-completed .step-marker {
+    color: #fff;
+    background-color: #363636;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-primary::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #00d1b2));
+    background: linear-gradient(to left, #dbdbdb 50%, #00d1b2 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-primary.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-primary.is-active .step-marker {
+    background-color: #fff;
+    border-color: #00d1b2;
+    color: #00d1b2;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-primary.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-primary.is-completed .step-marker {
+    color: #fff;
+    background-color: #00d1b2;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-link::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #3273dc));
+    background: linear-gradient(to left, #dbdbdb 50%, #3273dc 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-link.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-link.is-active .step-marker {
+    background-color: #fff;
+    border-color: #3273dc;
+    color: #3273dc;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-link.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-link.is-completed .step-marker {
+    color: #fff;
+    background-color: #3273dc;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-info::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #3298dc));
+    background: linear-gradient(to left, #dbdbdb 50%, #3298dc 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-info.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-info.is-active .step-marker {
+    background-color: #fff;
+    border-color: #3298dc;
+    color: #3298dc;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-info.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-info.is-completed .step-marker {
+    color: #fff;
+    background-color: #3298dc;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-success::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #48c774));
+    background: linear-gradient(to left, #dbdbdb 50%, #48c774 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-success.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-success.is-active .step-marker {
+    background-color: #fff;
+    border-color: #48c774;
+    color: #48c774;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-success.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-success.is-completed .step-marker {
+    color: #fff;
+    background-color: #48c774;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-warning::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #ffdd57));
+    background: linear-gradient(to left, #dbdbdb 50%, #ffdd57 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-warning.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-warning.is-active .step-marker {
+    background-color: #fff;
+    border-color: #ffdd57;
+    color: #ffdd57;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-warning.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-warning.is-completed .step-marker {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #ffdd57;
+} /* line 96, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-danger::before {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #dbdbdb), color-stop(50%, #f14668));
+    background: linear-gradient(to left, #dbdbdb 50%, #f14668 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+} /* line 101, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-danger.is-active::before {
+    background-position: left bottom;
+} /* line 103, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-danger.is-active .step-marker {
+    background-color: #fff;
+    border-color: #f14668;
+    color: #f14668;
+} /* line 108, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-danger.is-completed::before {
+    background-position: left bottom;
+} /* line 110, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item.is-danger.is-completed .step-marker {
+    color: #fff;
+    background-color: #f14668;
+} /* line 114, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .steps-content {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 2rem 0;
+} /* line 118, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .steps-content .step-content {
+    display: none;
+} /* line 120, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .steps-content .step-content.is-active {
+    display: block;
+} /* line 123, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .steps-actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+} /* line 127, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .steps-actions .steps-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 0.5rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+} /* line 137, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-animated .step-item::before {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+} /* line 139, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-animated .step-item .step-marker {
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
+    -webkit-transition-delay: 1.5s;
+    transition-delay: 1.5s;
+} /* line 13, src/assets/sass/sass/extensions/bulma-steps.sass */
+
+.steps .step-item .step-marker {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+} /* line 25, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item .step-marker .icon * {
+    font-size: 1rem;
+} /* line 27, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item .step-details {
+    margin-top: 2rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 0.2em;
+} /* line 32, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps .step-item .step-details .step-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+} /* line 144, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small {
+    font-size: 0.75rem;
+    min-height: 1.5rem;
+} /* line 13, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small .step-item:not(:first-child)::before {
+    height: 0.2em;
+    width: 100%;
+    bottom: 0;
+    left: -50%;
+    top: 0.75rem;
+} /* line 19, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small .step-item .step-marker {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    left: calc(50% - 0.75rem);
+} /* line 25, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small .step-item .step-marker .icon * {
+    font-size: 0.75rem;
+} /* line 27, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small .step-item .step-details {
+    margin-top: 1.5rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 0.2em;
+} /* line 32, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-small .step-item .step-details .step-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+} /* line 146, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium {
+    font-size: 1.25rem;
+    min-height: 2.5rem;
+} /* line 13, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium .step-item:not(:first-child)::before {
+    height: 0.2em;
+    width: 100%;
+    bottom: 0;
+    left: -50%;
+    top: 1.25rem;
+} /* line 19, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium .step-item .step-marker {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    left: calc(50% - 1.25rem);
+} /* line 25, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium .step-item .step-marker .icon * {
+    font-size: 1.25rem;
+} /* line 27, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium .step-item .step-details {
+    margin-top: 2.5rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 0.2em;
+} /* line 32, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-medium .step-item .step-details .step-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+} /* line 148, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large {
+    font-size: 1.5rem;
+    min-height: 3rem;
+} /* line 13, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large .step-item:not(:first-child)::before {
+    height: 0.2em;
+    width: 100%;
+    bottom: 0;
+    left: -50%;
+    top: 1.5rem;
+} /* line 19, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large .step-item .step-marker {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    left: calc(50% - 1.5rem);
+} /* line 25, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large .step-item .step-marker .icon * {
+    font-size: 1.5rem;
+} /* line 27, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large .step-item .step-details {
+    margin-top: 3rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 0.2em;
+} /* line 32, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps.is-large .step-item .step-details .step-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+/* line 37, src/assets/sass/sass/extensions/bulma-steps.sass */
+.steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    min-height: 2rem;
+}
+
+
+
+/*luigis override */
+.indicators-wrapper {
+  width:200px;
+  position:relative;
+  display: flex;
+  margin:auto;
+  justify-content: center;
+}
+
+.steps .step-item {
+  display:flex;
+  justify-content: center;
+  width:fit-content;
+  position:relative;
+  align-items: center;
+  max-width:26px;
+}
+
+.steps .step-item.is-active {
+  max-width:50px;
+}
+
+.steps .step-item .step-marker {
+  width:12px;
+  height:12px;
+  background-color:var(--sand);
+  color:var(--sand);
+  border:none;
+}
+
+.steps-wrapper .steps .step-item.is-active .step-marker {
+  border:none;
+  background-color:var(--sand);
+  width:40px;
+  height:40px;
+  color:var(--forest);
+  font-size:16px;
+}
+
+.steps-wrapper .steps .step-item.is-completed .step-marker {
+    background: var(--spring);
+    width: 14px;
+    height: 14px;
+    border: none;
+    color: var(--spring);
+}
+
+
+.steps-wrapper {
+    position: relative;
+    padding: 28px;
+    background: var(--white);
+    background: linear-gradient(to top , var(--sand)120px , var(--white)120px );
+    border: none;
+    border-radius: 16px;
+    position:relative;
+
+  }
+
+/*
+  .steps-wrapper:before {
+    width:100%;
+    height:140px;
+    background-color: var(--sand);
+    bottom:0;
+    left:0;
+    content:"";
+    position:absolute;
+  }
+*/
+
+.steps-wrapper .steps .steps-content
+
+  {
+      padding-bottom:0px !important;
+      z-index:500;
+      margin-bottom:0px;
+      margin-top:40px;
+      text-align: center;
+  }
+
+  .steps-content h2 {
+      font-size: var(--h-normal);
+  }
+
+  .text-content p,
+  .centered-title p,
+  .subheading p,
+  .is-5 p {
+    opacity:.6;
+    padding:0px 10px;
+    font-size:16px;
+  }
+
+
+  .actual-field{
+    width: calc(100% + 56px);
+    left: -28px;
+    position: relative;
+    background-color: var(--sand);
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom:50px;
+  }
+
+  .actual-field .input {
+    background-color: #fff;
+    height: auto!important;
+    padding: 16px 22px;
+    border-radius: 40px;
+    border: none;
+    color: var(--forest);
+    width: fit-content;
+    max-width: none;
+    min-width: 280px;
+
+  }
+
+    .actual-field .input:focus {
+      outline:none!important;
+    }
+
+  .actual-field .input::placeholder {
+    color:var(--forest);
+    opacity:.5;
+  }
+
+  .steps-actions {
+    background:var(--sand);
+    padding-bottom:24px;
+  }
+
+  .steps .steps-actions .steps-action {
+    margin:0;
+    padding:2px 0px;
+  }
+
+  .steps-action a#button-next {
+    padding:14px 26px;
+    font-size:16px;
+    border-radius:30px;
+    color:var(--forest);
+    font-weight:700;
+    background-color:var(--spring);
+    transition-duration:.2s;
+    -moz-transition-duration:.2s;
+    -webkit-transition-duration:.2s;
+    margin:0px 8px;
+  }
+
+  .steps-action a#button-next:hover {
+    transform:scale(1.04);
+  }
+
+  .steps-action a#button-previous {
+    padding:14px 26px;
+    font-size:16px;
+    border-radius:30px;
+    color:var(--forest);
+    border:1px solid var(--forest);
+    font-weight:700;
+    background-color:transparent;
+    transition-duration:.2s;
+    -moz-transition-duration:.2s;
+    -webkit-transition-duration:.2s;
+    margin:0px 8px;
+  }
+
+  .steps-action a#button-previous:hover {
+    transform:scale(1.04);
+  }
+
+  .actual-field .component-block {
+    max-width:calc(100% - 140px);
+    position:relative;
+    left:70px;
+  }
+
+  .is-combo .combo-box,
+  .is-combo .image-combo-box,
+  .is-combo .stacked-combo-box,
+  .is-combo .user-combo-box {
+    padding:6px;
+    border-radius: 30px;
+    border:none;
+  }
+
+  .is-combo .combo-box .box-chevron,
+  .is-combo .image-combo-box .box-chevron,
+  .is-combo .stacked-combo-box .box-chevron,
+  .is-combo .user-combo-box .box-chevron {
+    top:8px;
+    right:4px;
+  }
+
+  body.buy-seeds .field .control.required small.validation-info {
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+
+  .account-info {
+    padding:20px 0px 50px 0px;
+  }
+
+  .account-name {
+    display:flex;
+    justify-content: center;
+  }
+
+
+  .account-name .seeds-username
+  {
+
+  }
+
+  .account-name img {
+
+      display: block;
+      margin:8px auto 5px auto;
+      border-radius:50%;
+      height:110px;
+      width:110px;
+  }
+
+  .user-avatar-infos p {
+    margin:0;
+    line-height:1.4em;
+    font-size:18px;
+  }
+  .user-avatar-infos p.seeds-username {
+    font-weight:700;
+  }
+
+  .user-avatar-infos p.data-status {
+    font-weight: 700;
+    color: var(--spring);
+    text-transform: capitalize;
+}
+
+.custom-data p.c-data-h {
+  font-weight:700;
+  margin-bottom:0;
+  margin-top:28px;
+}
+
+.custom-data .data-buy-remaining,
+.custom-data .data-weekly-limits {
+  font-size:28px;
+  font-weight:300;
+  position:relative;
+  padding-left:16px;
+}
+
+.custom-data.left-one {
+  padding-right:24px;
+  text-align:right;
+}
+
+.custom-data.right-two {
+  padding-left:24px;
+  text-align:left;
+}
+
+
+.custom-data .data-weekly-limits:before,
+.custom-data .data-buy-remaining:before {
+  content:url(../assets/images/icons/seeds-currency-spring.svg);
+  width: 10px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.currencies-inputs {
+  background:var(--sand);
+  width:calc(100% + 56px);
+  position:relative;
+  left:-28px;
+  padding-top:50px;
+}
+
+.is-5 p {
+  margin:0;
+  padding:0px 30px;
+}
+
+.currency-field.control.has-icons-left .input,
+.currency-field.control.has-icons-right .input {
+  font-family:var(--font-body);
+  font-weight:300;
+  border: none;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.field-wrapper {
+  padding:30px 0px;
+}
+
+.currencies-inputs .field {
+  padding:18px 0px;
+}
+
+.field .control {
+  position:relative;
+  max-width: 370px;
+  width: 100%;
+  margin:0px auto;
+}
+
+.field .control input {
+  box-sizing: border-box;
+  width:100%;
+}
+
+.crypt.is-left {
+  position:absolute;
+  top: 6px;
+  left:6px;
+}
+
+.crypt.is-left img {
+  width:32px;
+}
+
+
+.currency-field .crypt.is-right {
+  position:absolute;
+  top: 12px;
+  right:10px;
+  background: transparent;
+  color:var(--forest);
+  font-weight:700;
+}
+
+.custom-resp {
+  display:none;
+}
+
+.buy-seeds .blockchain-process .subheading {
+  text-align:center;
+  margin-top:40px;
+  line-height: 2em;
+}
+
+/* purchase final step */
+
+
+body.buy-seeds #seeds-to-buy {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+
+
+body.buy-seeds #crypto-to-send-container
+{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:40px;
+}
+
+body.buy-seeds #crypto-to-send-container #crypto-amount {
+  font-weight:300;
+  font-size:32px;
+}
+
+body.buy-seeds #crypto-to-fiat
+{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+body.buy-seeds #chosen-crypto
+{
+    font-weight: bold;
+}
+
+
+body.buy-seeds #crypto-address-wrapper
+{
+    padding:20px 0;
+}
+
+body.buy-seeds .crypto-purchase-countdown
+{
+    font-size: 14px;
+}
+
+
+
+
+body.buy-seeds #crypto-qrcode img
+{
+margin:0 auto;
+}
+
+
+
+#crypto-select .box-dropdown ul li span.item-name
+{
+    color:#4a4a4a;
+}
+
+#crypto-select .box-dropdown ul li.is-active span.item-name, #crypto-select .combo-item span.selected-item
+{
+    font-weight:bold;
+}
+
+
+
+body.buy-seeds #crypto-select .currency-fees
+{
+    margin-left:8px;
+}
+
+
+
+#modal-validate-price .card-body
+{
+    border: 1px solid #24b0d6;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 3%;
+    padding-bottom: 35px;
+}
+
+
+.steps-content .primary-btn
+{
+    background: var(--sand);
+    padding:12px 18px;
+    border-radius:36px;
+    color:var(--forest);
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.steps-content .primary-btn:hover
+{
+    color:var(--forest);
+    background: var(--spring);
+}
+
+
+.steps-content #proceed_to_moonpay
+{
+    color: #fff;
+}
+
+
+body.buy-seeds #crypto-address, body.buy-seeds #crypto-memo
+{
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #fff;
+  border-left: 5px solid var(--canopy);
+  margin: 20px 0px;
+  text-align: center;
+  padding: 20px 0px;
+
+}
+
+#step-4 .columns {
+  padding-bottom:60px;
+}
+
+
+body.buy-seeds #crypto-memo
+{
+    margin-bottom: 20px;
+}
+
+body.buy-seeds #crypto-memo.is-hidden,
+body.buy-seeds #memo-text.is-hidden
+{
+    display:none;
+}
+
+#after-address-text {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+#crypto-qrcode-column {
+  margin-top:40px;
+}
+
+
+
+/*seeds swap page */
+
+.upper-white {
+  text-align: center;
+  padding:48px 28px;
+  background:var(--white);
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#buyseeds-wizard.swap-page {
+  overflow:hidden;
+}
+
+.upper-white p {
+  max-width:420px;
+  margin-top:28px;
+  margin-bottom:0;
+}
+
+.upper-white h2 {
+  font-size:var(--h-normal);
+
+}
+
+.lower-sand a.bott {
+  padding: 14px 26px;
+    font-size: 16px;
+    border-radius: 30px;
+    color: var(--forest);
+    font-weight: 700;
+    background-color: var(--spring);
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    margin: 0px 8px;
+}
+
+.lower-sand a.bott:hover {
+  transform:scale(1.04);
+  -moz-transform:scale(1.04);
+  -webkit-transform:scale(1.04);
+}
+
+.lower-sand {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.multistep.swap .centered {
+  flex-wrap: wrap;
+  max-width:650px;
+}
+
+.note-text-wr {
+  display: flex;
+  justify-content: center;
+  padding-top:50px;
+  text-align: center;
+}
+
+p.note-text {
+  max-width: 420px;
+}
+
+p.very-small {
+  font-size:12px;
+}
+
+.text-content p.spring {
+  opacity:1;
+}
+
+@media screen and (max-width : 600px) {
+  .lower-sand {
+    flex-wrap: wrap;
+  }
+
+  .lower-sand a.bott {
+    margin-bottom:30px;
+  }
+
+  .lower-sand a.bott:last-child{
+    margin-bottom:0;
+  }
+}

@@ -1,0 +1,175 @@
+/* actual CSS*/
+
+#join-widget {
+    min-height: 500px;
+    background-color: var(--white);
+    max-width: 640px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.1);
+    position: relative;
+    margin-top: -128px;
+    transition-duration: .6s;
+    -moz-transition-duration: .6s;
+    -webkit-transition-duration: .6s;
+    opacity: 1;
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+section.multistep.close #join-widget {
+  opacity:0;
+  transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -webkit-transform: translateY(-30px);
+}
+
+.buy-intro .spring {
+  font-family:var(--font-body);
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.buy-claim.widget {
+  font-size: 18px!important;
+}
+
+
+a[class^='claim-reward'] {
+  display: inline-block;
+}
+button[class^='claim-reward'] {
+  border: none;
+  cursor: pointer;
+}
+button[class^='claim-reward']:focus {
+  outline: none;
+}
+
+a[class^='claim-reward'],
+button[class^='claim-reward'] {
+    --claim-reward-original-width: 300px;
+   --claim-reward-original-height: 125px;
+  height: calc(var(--claim-reward-original-height) / 2);
+  width: calc(var(--claim-reward-original-width) / 2);
+  cursor: default;
+}
+
+.claim-reward-dark {
+  background: url("../../img/widgets/claim-reward/claim-dark.svg") no-repeat left top;
+}
+.claim-reward-light {
+  background: url("../../img/widgets/claim-reward/claim-light.svg") no-repeat left top;
+}
+.claim-reward-white {
+  background: url("../../img/widgets/claim-reward/claim-white.svg") no-repeat left top;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+#claim-reward-form {
+margin-top: 50px;
+}
+
+.actual-field {
+    padding-top: 50px;
+    margin-top:0;
+}
+
+.steps-wrapper .label {
+    margin-bottom: 25px;
+    display: block;
+    text-align: center;
+}
+
+.radios {
+  display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+
+.radios > .radios-button-style {
+
+}
+
+
+.radios > .radios-button-style input {
+    min-width: 0;
+}
+
+.radios > .radios-button-style  > button,
+.radios > .radios-button-style  > div  {
+    margin-bottom: 10px;
+}
+
+.claimreward-theme-dark {
+  --join-seeds-theme-dark-width: 670px;
+  --join-seeds-theme-dark-height: 832px;
+
+ height: calc(var(--join-seeds-theme-dark-height) / 3);
+ width: calc(var(--join-seeds-theme-dark-width) / 3);
+ background-image: url("../../img/widgets/join-seeds/join-seeds-theme-dark.svg");
+ background-size: cover;
+ box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
+ border-radius: 10px;
+}
+
+.claimreward-theme-light {
+  --join-seeds-theme-light-width: 670px;
+  --join-seeds-theme-light-height: 832px;
+
+ height: calc(var(--join-seeds-theme-light-height) / 3);
+ width: calc(var(--join-seeds-theme-light-width) / 3);
+ background-image: url("../../img/widgets/join-seeds/join-seeds-theme-light.svg");
+ background-size: cover;
+ box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
+ border-radius: 10px;
+}
+
+
+.field .control {
+  max-width:80%;
+}
+
+.actual-field textarea.input {
+  min-width: 100%;
+  box-sizing: border-box;
+  border-radius:20px;
+}
+
+
+input[type="radio" i] {
+  cursor:pointer;
+}
+
+p.helper {
+    font-size: 12px;
+}
+
+@media screen and (max-width : 600px) {
+  #join-widget {
+        margin-top: -68px;
+  }
+
+  .field .control input {
+    min-width:unset;
+  }
+
+  .field .control {
+    max-width: 86%;
+  }
+
+  .radios {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .radios-button-style {
+    margin-bottom:50px;
+  }
+
+  .radios-button-style:last-child {
+    margin-bottom:0;
+  }
+}
