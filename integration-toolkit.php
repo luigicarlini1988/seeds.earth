@@ -121,6 +121,7 @@
               <h1>Integration <span class="spring">Toolkit</h1>
               <p class="org-fake-tit">For Partners<br/><span class="text-font spring">&Collaborators</p>
               <p>Find all the tools you need to <strong>invite</strong> your members to join, send them <strong>rewards</strong> and <strong>accept payments</strong> in Seeds on your website, or at your phisical store.</p>
+              <a class="backlink" href="javascript:history.back()">Go back</a>
             </div>
           </div>
 
@@ -167,7 +168,7 @@
               <h2>Plug-ins & Widgets</h2>
               <p class="fake-tit-small">All the Magic Directly<br><span class="spring">on Your Website</span></p>
               <p>For everyone who has a <strong>website</strong>, these tools help you <strong>invite</strong> your community, <strong>reward</strong> them and <strong>accept payments in Seeds</strong> all directly on your own website.
-                <br><br>You'll find a series of <strong>plug-in</strong> for the major web platforms in order to make your life easy!
+                <br><br>You'll find a series of <strong>plug-ins</strong> for the major web platforms in order to make your life easy!
               </p>
               <div class="buttons-magic">
                 <p id="opt2-btn"  href="#" class="discover">Discover</p>

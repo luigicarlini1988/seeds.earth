@@ -117,6 +117,10 @@
 
               <div class="content">
                 <div class="text-content">
+                  <div class="go-back">
+                    <a class="backlink" href="javascript:history.back()">Go back</a>
+                  </div>
+                  
                   <h1>Get <span class="spring">Started</h1>
                   <p>Wherever you are, it’s the perfect place to begin. <br>Luckily, it only takes 3 steps to begin this journey and start co-creating this new world with us. </p>
                   <p class="spring">Scroll down to begin</p>

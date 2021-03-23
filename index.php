@@ -12,7 +12,7 @@
 
 
     <!--  Non-Essential, But Recommended -->
-    
+
     <meta property="og:site_name" content="SEEDS :: Economic Renaissance">
 
 
@@ -510,7 +510,7 @@
         </section>
 
 
-        <section class="org-toolkit">
+        <section id="org-toolkit" class="org-toolkit">
           <div class="org-liner">
             <img src="img/ot-liner.svg"/>
           </div>
@@ -577,7 +577,7 @@
                     </a>
                   </div>
                   <div class="art-tit">
-                    <h3> <a href="https://seedslibrary.com/money-that-grows-trees/" target="_blank">Money that grow trees</a> </h3>
+                    <h3> <a href="https://seedslibrary.com/money-that-grows-trees/" target="_blank">Money that grows trees</a> </h3>
                   </div>
                   </article>
 
@@ -983,7 +983,7 @@
                 <div class="time-card close">
                   <p class="data">-</p>
                   <p class="tc-title">Go Live Begins</p>
-                  <p class="tc-cont">Citizens of SEEDS vote on whether or not they believe key criteria are met. They include robust security and economic tests, growth targets, and a healthy foundation to begin stablising algorithmically. Before this point, all Seeds supply is fixed.</p>
+                  <p class="tc-cont">Citizens of SEEDS vote on whether or not they believe key criteria are met. They include robust security and economic tests, growth targets, and a healthy foundation to begin stabylising algorithmically. Before this point, all Seeds supply is fixed.</p>
                 </div>
               </div>
 

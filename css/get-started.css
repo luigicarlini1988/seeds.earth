@@ -627,3 +627,9 @@ ul.bp li::before {
     top: 4px;
     position: relative;
 }
+
+.go-back {
+  pointer-events: all;
+  margin-bottom:20px;
+  margin-left:12px;
+}

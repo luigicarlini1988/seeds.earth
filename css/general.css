@@ -2918,3 +2918,22 @@ p.pop-up-trigger {
   opacity:1!important;
   cursor:pointer;
 }
+
+.backlink {
+  position:relative;
+  font-size:14px;
+  font-weight:600;
+}
+
+.backlink:before {
+  position:absolute;
+  content: "<";
+  left:-12px;
+  top:0px;
+  transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+}
+.backlink:hover:before {
+  left:-16px;
+}
