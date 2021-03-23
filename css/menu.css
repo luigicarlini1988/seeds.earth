@@ -80,7 +80,7 @@
 
 
 #real-menu .fifty {
-  width:calc(50% - 100px);
+  width:calc(50% - 150px);
   margin-left:40px;
   opacity:0;
   transition-duration:.6s;
@@ -95,7 +95,7 @@
 }
 
 #real-menu .fifty.sec {
-  width:50%;
+  width:calc(50% + 50px);
   margin-left:-40px;
   opacity:0;
   position:relative;
@@ -184,7 +184,7 @@ content:"04";
 }
 
 #real-menu .fifty.sec p span.opct {
-  opacity:.3;
+  opacity:.5;
 }
 
 #real-menu .fifty.sec p a {
