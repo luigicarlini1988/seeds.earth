@@ -43,6 +43,7 @@ $(document).ready(function ($){
                     $('input#org-id').addClass('wrong');
                     $('.wrap-shower').removeClass('open');
                     $('.nope').addClass('show');
+                    $('.yeah').removeClass('show');
                     $('#alert-box').append('<div class="please-verify">The Username is incorrect, please retry</div>');
                     return false;
                 }
