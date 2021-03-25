@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
     <!-- Meta Tags Generic-->
-    <title>SEEDS :: Pay With SEEDS widget</title>
+    <title>SEEDS :: Pay With Seeds widget</title>
     <meta name="description" content="Join SEEDS widget">
     <meta name="image" content="img/seeds-social-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
     <!--  Non-Essential, But Recommended -->
-    <meta property="og:site_name" content="SEEDS :: Pay With SEEDS widget">
+    <meta property="og:site_name" content="SEEDS :: Pay With Seeds widget">
 
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#E9EDD9">
@@ -108,7 +108,7 @@
       <section class="buy-header parallax" data-image-src="img/buy-header.jpg">
         <div class="centered">
           <div class="buy-intro close">
-            <h1>Pay With <span class="spring">SEEDS</span></h1>
+            <h1>Pay With <span class="spring">Seeds</span></h1>
             <p class="buy-claim widget">WIDGET</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
             <img class="arrow-down" src="img/arrow-green-down.svg"/>
