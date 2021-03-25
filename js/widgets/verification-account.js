@@ -31,6 +31,7 @@ $(document).ready(function ($){
                     $('.nope').removeClass('show');
                     $('.please-verify').remove();
                     $('.wrap-shower').addClass('open');
+                    $( "#verify-org-id" ).remove();
 
                 }
 

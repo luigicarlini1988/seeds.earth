@@ -116,7 +116,7 @@
           <div class="buy-intro close">
             <h1>Join <span class="spring">SEEDS</span></h1>
             <p class="buy-claim widget">WIDGET</p>
-            <p>SEEDS is a movement for movements. It’s a new economy, a financial ecosystem that’s designed to be equitable for the people and regenerative for our planet. There’s an entire community of people here to help you.</p>
+            <p>By creating the Join SEEDS widget on your website, you’ll be able to bring your community onto the SEEDS platform and start sharing Seeds currency from your live campaigns immediately.</p>
             <img class="arrow-down" src="img/arrow-green-down.svg"/>
           </div>
 
@@ -147,7 +147,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                          <p>Bringing your community is easier than it seems, and we’re here to help. By creating the Join SEEDS widget on your website, you’ll be able to bring your community onto the SEEDS platform and start sharing Seeds currency from your live campaigns immediately.</p>
+                                          <p>The configuration process is very simple:<br>Start verifying your organization account name in the form below. <br> After the verification, enter your Invite Campaign Name, select the color Theme you want to use, click on "generate" and your code is ready! <br><br>Now, simply paste the widget code on your website wherever you want the join SEEDS button to appear.</p>
                                         </div>
                                     </div>
 
