@@ -50,6 +50,8 @@
     <script src="js/owl.navigation.js" type="text/javascript"></script>
 
 
+    <!--luigi's verification account -->
+    <script src="js/widgets/verification-account.js" type="text/javascript"></script>
 
     <!--luigi's global custom animations-->
     <script src="js/animations-buy.js" type="text/javascript"></script>
@@ -139,7 +141,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                          <p>Reward your community on your website by using this widget. It links directly to the campaign you’ve already created in the Global Passport and makes it accessible on your platform so your community can get immediate benefits from the SEEDS ecosystem.</p>
+                                          <p>The configuration process is very simple:<br>Start verifying your organization account name in the form below. <br> After the verification, enter your Invite Campaign Name, select the color Theme you want to use, click on "generate" and your code is ready! <br><br>Now, simply paste the widget code on your website wherever you want the Claim Reward button to appear.</p>
                                         </div>
                                     </div>
 
@@ -152,117 +154,139 @@
                                                   <div class="field">
                                                       <div class="control required">
                                                           <label for="org_id" class="label">Organization Account Name</label>
-                                                          <input class="input is-large" name="org_id" type="text" placeholder="Insert here..." value="" data-validate="require">
+                                                          <input id="org-id" class="input is-large" name="org_id" type="text" placeholder="Insert here..." value="" data-validate="require">
                                                           <p class="helper">Enter the 12-character SEEDS account name you have created for your organisation.</p>
+                                                          <div class="verification-icons">
+                                                            <img src="img/nope.svg" class="nope"/>
+                                                            <img src="img/yeah.svg" class="yeah"/>
+                                                          </div>
+                                                          <div id="alert-box"></div>
+                                                      </div>
+                                                      <p id="verify-org-id">Verify</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+
+                                    <div class="wrap-shower">
+
+                                          <!-- button key -->
+                                          <div id="scroll-after-valid" class="actual-field">
+                                              <div class="field field-container">
+                                                  <div class="field-body">
+                                                      <div class="field">
+                                                          <div class="control required">
+                                                            <label for="campaign_name" class="label">Invite Campaign Name</label>
+                                                            <input id="campaign-name" class="input is-large" name="campaign_name"  value="" type="text" placeholder="Insert here..." data-validate="require">
+                                                              <p class="helper">Enter the name of the Invite Campaign you created with your organisation account in the Global Passport.</p>
+                                                          </div>
                                                       </div>
                                                   </div>
                                               </div>
                                           </div>
-                                      </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label for="campaign_name" class="label">Invite Campaign Name</label>
-                                                        <input class="input is-large" name="campaign_name"  value="" type="text" placeholder="Insert here..." data-validate="require">
-                                                          <p class="helper">Enter the name of the Invite Campaign you created with your organisation account in the Global Passport.</p>
+                                          <!-- button key -->
+                                          <div class="actual-field">
+                                              <div class="field field-container">
+                                                  <div class="field-body">
+                                                      <div class="field">
+                                                          <div class="control required">
+                                                            <label for="button_theme" class="label">Button Style</label>
+                                                            <div class="radios">
+                                                            <div class="radios-button-style">
+                                                             <button type="button" class="claim-reward-white"></button>
+                                                              <input class="input is-large"
+                                                              name="button_theme"
+                                                              type="radio"
+                                                              value="white"
+                                                              checked
+                                                              data-validate="require">
+                                                            </div>
+                                                            <div class="radios-button-style">
+                                                            <button type="button"  class="claim-reward-light"></button>
+                                                              <input class="input is-large"
+                                                              name="button_theme"
+                                                              type="radio"
+                                                              value="light"
+                                                              data-validate="require">
+                                                            </div>
+                                                            <div class="radios-button-style">
+                                                            <button type="button" class="claim-reward-dark"></button>
+                                                              <input class="input is-large"
+                                                              name="button_theme"
+                                                              type="radio"
+                                                              value="dark"
+                                                              data-validate="require">
+                                                              </div>
+                                                              </div>
+                                                            </div>
                                                       </div>
                                                   </div>
                                               </div>
                                           </div>
-                                      </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label for="button_theme" class="label">Button Style</label>
-                                                        <div class="radios">
-                                                        <div class="radios-button-style">
-                                                         <button type="button" class="claim-reward-white"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="white"
-                                                          checked
-                                                          data-validate="require">
-                                                        </div>
-                                                        <div class="radios-button-style">
-                                                        <button type="button"  class="claim-reward-light"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="light"
-                                                          data-validate="require">
-                                                        </div>
-                                                        <div class="radios-button-style">
-                                                        <button type="button" class="claim-reward-dark"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="dark"
-                                                          data-validate="require">
-                                                          </div>
-                                                          </div>
-                                                        </div>
+                                          <!-- button key -->
+                                          <div class="actual-field">
+                                              <div class="field field-container">
+                                                  <div class="field-body">
+                                                      <div class="field">
+                                                          <div class="control required">
+                                                            <label class="label"  for="multistep_theme">Multistep Style</label>
+                                                            <div class="radios">
+                                                              <div class="radios-button-style">
+                                                              <div  class="claimreward-theme-dark"></div>
+                                                                <input class="input is-large"
+                                                                name="multistep_theme"
+                                                                value="dark"
+                                                                checked
+                                                                type="radio"  data-validate="require">
+                                                              </div>
+                                                              <div class="radios-button-style">
+                                                              <div  class="claimreward-theme-light"></div>
+                                                                <input class="input is-large"
+                                                                name="multistep_theme"
+                                                                value="light"
+                                                                type="radio"  data-validate="require">
+                                                                                        </div>
+                                                            </div>
+                                                            </div>
+                                                      </div>
                                                   </div>
                                               </div>
                                           </div>
-                                      </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label class="label"  for="multistep_theme">Multistep Style</label>
-                                                        <div class="radios">
-                                                          <div class="radios-button-style">
-                                                          <div  class="claimreward-theme-dark"></div>
-                                                            <input class="input is-large"
-                                                            name="multistep_theme"
-                                                            value="dark"
-                                                            checked
-                                                            type="radio"  data-validate="require">
+                                          <div class="actual-field sand-back">
+                                              <p id="real-widget-button">Generate Widget</p>
+                                          </div>
+
+                                          <div class="wrap-real-widget">
+
+                                              <!-- button key -->
+                                              <div class="actual-field">
+                                                  <div class="field field-container">
+                                                      <div class="field-body">
+                                                          <div class="field">
+                                                              <div class="control required">
+                                                                <label class="label">Your widget</label>
+                                                                <textarea class="input is-large"
+                                                                name="code"
+                                                                rows="10"
+                                                                placeholder="Lorem Ipsum" data-validate="require"></textarea>
                                                           </div>
-                                                          <div class="radios-button-style">
-                                                          <div  class="claimreward-theme-light"></div>
-                                                            <input class="input is-large"
-                                                            name="multistep_theme"
-                                                            value="light"
-                                                            type="radio"  data-validate="require">
-                                                                                    </div>
-                                                        </div>
-                                                        </div>
+                                                      </div>
                                                   </div>
                                               </div>
-                                          </div>
-                                      </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label class="label">Your widget</label>
-                                                        <textarea class="input is-large"
-                                                        name="code"
-                                                        rows="10"
-                                                        placeholder="Lorem Ipsum" data-validate="require"></textarea>
-                                                  </div>
-                                              </div>
                                           </div>
-                                      </div>
-                                    </form>
-                                </div>
+
+                                        </div>  <!-- wrap shower-->
+
+                                  </div><!-- wrap shower-->
+
+                              </form>
                             </div>
+                          </div>
                         </div>
                     </div>
                 </div>

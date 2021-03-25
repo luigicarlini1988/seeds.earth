@@ -32,6 +32,9 @@ $(document).ready(function ($){
                     $('.please-verify').remove();
                     $('.wrap-shower').addClass('open');
                     $( "#verify-org-id" ).remove();
+                    $('html, body').animate({
+                        scrollTop: $("#scroll-after-valid").offset().top
+                    }, 500);
 
                 }
 

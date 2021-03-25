@@ -2,7 +2,7 @@
 
 #join-widget {
     min-height: 500px;
-    background-color: var(--sand);
+    background-color: var(--white);
     max-width: 640px;
     width: 100%;
     border-radius: 16px;
@@ -16,7 +16,19 @@
     transform: translateY(0px);
     -moz-transform: translateY(0px);
     -webkit-transform: translateY(0px);
+    position:relative;
+    overflow:hidden;
 }
+
+#join-widget:before {
+  position:absolute;
+  content:"";
+  bottom:0;
+  width:100%;
+  height:100px;
+  background-color:var(--sand);
+}
+
 
 section.multistep.close #join-widget {
   opacity:0;
@@ -76,6 +88,7 @@ margin-top: 50px;
 .actual-field {
     padding-top: 50px;
     margin-top:0;
+    padding-bottom: 20px;
 }
 
 .steps-wrapper .label {
@@ -217,6 +230,7 @@ p#real-widget-button {
 .wrap-shower.open,
 .wrap-real-widget.open {
       height: max-content;
+      overflow: initial;
 }
 
 .steps-wrapper {
@@ -226,6 +240,10 @@ p#real-widget-button {
     border: none;
     border-radius: 16px;
     position: relative;
+  }
+
+  .actual-field.sand-back {
+    padding:0;
   }
 
 
@@ -254,4 +272,5 @@ p#real-widget-button {
   .radios-button-style:last-child {
     margin-bottom:0;
   }
+
 }

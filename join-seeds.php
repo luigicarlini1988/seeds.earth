@@ -178,7 +178,7 @@
                                       <div class="wrap-shower">
 
                                             <!-- button key -->
-                                            <div class="actual-field">
+                                            <div id="scroll-after-valid" class="actual-field">
                                                 <div class="field field-container">
                                                     <div class="field-body">
                                                         <div class="field">
@@ -262,7 +262,9 @@
                                                 </div>
                                             </div>
 
-                                            <p id="real-widget-button">Generate Widget</p>
+                                            <div class="actual-field sand-back">
+                                                <p id="real-widget-button">Generate Widget</p>
+                                            </div>
 
                                             <div class="wrap-real-widget">
 
@@ -281,14 +283,14 @@
                                                         </div>
                                                       </div>
                                                   </div>
-                                                </form>
+
                                               </div>
 
                                           </div> <!--wrap-real-widget-->
 
-                                    </div>
-
-                                  </div><!--wrap-shower-->
+                                    </div> <!--wrap-shower-->
+                                    </form>
+                                  </div>
 
                             </div>
                         </div>
