@@ -30,6 +30,7 @@
 
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/loader-style.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -46,6 +47,9 @@
     <script src="js/apparallax-generic.js" type="text/javascript"></script>
 
 
+
+    <!--luigi's verification account -->
+    <script src="js/widgets/verification-account.js" type="text/javascript"></script>
 
 
 
@@ -76,8 +80,14 @@
 
     <!--page loader very basic(not activtated, it's just a place holder here) Maybe you can use it for the transaction loading-->
     <div class="obscurer">
-      <div id="loader-temp">
-        <img src="img/logo-graph.svg" />
+      <div class="vertical-centered-box">
+        <div class="contentt">
+          <div class="loader-circle"></div>
+          <div class="loader-line-mask">
+            <div class="loader-line"></div>
+          </div>
+          <img src="img/logo-graph.svg" height="60" width="60" />
+        </div>
       </div>
     </div>
 
@@ -150,116 +160,136 @@
                                                   <div class="field">
                                                       <div class="control required">
                                                           <label for="org_id" class="label">Organisation Account Name</label>
-                                                          <input class="input is-large" name="org_id" type="text" placeholder="Insert here..." value="" data-validate="require">
+                                                          <input id="org-id" class="input is-large" name="org_id" type="text" placeholder="Insert here..." value="" data-validate="require">
                                                           <p class="helper">Enter the 12-character SEEDS account name you have created for your organisation.</p>
+                                                          <div class="verification-icons">
+                                                            <img src="img/nope.svg" class="nope"/>
+                                                            <img src="img/yeah.svg" class="yeah"/>
+                                                          </div>
+                                                          <div id="alert-box"></div>
+                                                      </div>
+
+                                                      <p id="verify-org-id">Verify</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="wrap-shower">
+
+                                            <!-- button key -->
+                                            <div class="actual-field">
+                                                <div class="field field-container">
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control required">
+                                                              <label for="campaign_name" class="label">Invite Campaign Name</label>
+                                                              <input id="campaign-name" class="input is-large" name="campaign_name"  value="" type="text" placeholder="Insert here..." data-validate="require">
+                                                              <p class="helper">Enter the name of the Invite Campaign you created with your organisation account in the Global Passport.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- button key -->
+                                            <div class="actual-field">
+                                                <div class="field field-container">
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control required">
+                                                              <label for="button_theme" class="label">Button Style</label>
+                                                              <div class="radios">
+                                                              <div class="radios-button-style">
+                                                               <button type="button" class="join-seeds-white"></button>
+                                                                <input class="input is-large"
+                                                                name="button_theme"
+                                                                type="radio"
+                                                                value="white"
+                                                                checked
+                                                                data-validate="require">
+                                                              </div>
+                                                              <div class="radios-button-style">
+                                                              <button type="button"  class="join-seeds-light"></button>
+                                                                <input class="input is-large"
+                                                                name="button_theme"
+                                                                type="radio"
+                                                                value="light"
+                                                                data-validate="require">
+                                                              </div>
+                                                              <div class="radios-button-style">
+                                                              <button type="button" class="join-seeds-dark"></button>
+                                                                <input class="input is-large"
+                                                                name="button_theme"
+                                                                type="radio"
+                                                                value="dark"
+                                                                data-validate="require">
+                                                                </div>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- button key -->
+                                            <div class="actual-field">
+                                                <div class="field field-container">
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control required">
+                                                              <label class="label"  for="multistep_theme">Multistep Style</label>
+                                                              <div class="radios">
+                                                                <div class="radios-button-style">
+                                                                <div  class="joinseeds-theme-dark"></div>
+                                                                  <input class="input is-large"
+                                                                  name="multistep_theme"
+                                                                  value="dark"
+                                                                  checked
+                                                                  type="radio"  data-validate="require">
+                                                                </div>
+                                                                <div class="radios-button-style">
+                                                                <div  class="joinseeds-theme-light"></div>
+                                                                  <input class="input is-large"
+                                                                  name="multistep_theme"
+                                                                  value="light"
+                                                                  type="radio"  data-validate="require">
+                                                                                          </div>
+                                                              </div>
+                                                              </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <p id="real-widget-button">Generate Widget</p>
+
+                                            <div class="wrap-real-widget">
+
+                                                <!-- button key -->
+                                                <div class="actual-field">
+                                                    <div class="field field-container">
+                                                        <div class="field-body">
+                                                            <div class="field">
+                                                                <div class="control required">
+                                                                  <label class="label">Your widget</label>
+                                                                  <textarea class="input is-large"
+                                                                  name="code"
+                                                                  rows="10"
+                                                                  placeholder="" data-validate="require"></textarea>
+                                                            </div>
+                                                        </div>
                                                       </div>
                                                   </div>
+                                                </form>
                                               </div>
-                                          </div>
-                                      </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label for="campaign_name" class="label">Invite Campaign Name</label>
-                                                        <input class="input is-large" name="campaign_name"  value="" type="text" placeholder="Insert here..." data-validate="require">
-                                                        <p class="helper">Enter the name of the Invite Campaign you created with your organisation account in the Global Passport.</p>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
+                                          </div> <!--wrap-real-widget-->
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label for="button_theme" class="label">Button Style</label>
-                                                        <div class="radios">
-                                                        <div class="radios-button-style">
-                                                         <button type="button" class="join-seeds-white"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="white"
-                                                          checked
-                                                          data-validate="require">
-                                                        </div>
-                                                        <div class="radios-button-style">
-                                                        <button type="button"  class="join-seeds-light"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="light"
-                                                          data-validate="require">
-                                                        </div>
-                                                        <div class="radios-button-style">
-                                                        <button type="button" class="join-seeds-dark"></button>
-                                                          <input class="input is-large"
-                                                          name="button_theme"
-                                                          type="radio"
-                                                          value="dark"
-                                                          data-validate="require">
-                                                          </div>
-                                                          </div>
-                                                        </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
+                                    </div>
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label class="label"  for="multistep_theme">Multistep Style</label>
-                                                        <div class="radios">
-                                                          <div class="radios-button-style">
-                                                          <div  class="joinseeds-theme-dark"></div>
-                                                            <input class="input is-large"
-                                                            name="multistep_theme"
-                                                            value="dark"
-                                                            checked
-                                                            type="radio"  data-validate="require">
-                                                          </div>
-                                                          <div class="radios-button-style">
-                                                          <div  class="joinseeds-theme-light"></div>
-                                                            <input class="input is-large"
-                                                            name="multistep_theme"
-                                                            value="light"
-                                                            type="radio"  data-validate="require">
-                                                                                    </div>
-                                                        </div>
-                                                        </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
+                                  </div><!--wrap-shower-->
 
-                                      <!-- button key -->
-                                      <div class="actual-field">
-                                          <div class="field field-container">
-                                              <div class="field-body">
-                                                  <div class="field">
-                                                      <div class="control required">
-                                                        <label class="label">Your widget</label>
-                                                        <textarea class="input is-large"
-                                                        name="code"
-                                                        rows="10"
-                                                        placeholder="" data-validate="require"></textarea>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

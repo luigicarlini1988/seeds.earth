@@ -2,7 +2,7 @@
 
 #join-widget {
     min-height: 500px;
-    background-color: var(--white);
+    background-color: var(--sand);
     max-width: 640px;
     width: 100%;
     border-radius: 16px;
@@ -146,6 +146,88 @@ input[type="radio" i] {
 p.helper {
     font-size: 12px;
 }
+
+
+/*dynamic verification*/
+
+
+.verification-icons {
+    position: absolute;
+    left: -30px;
+    height: 22px;
+    width: 22px;
+    top:58px;
+  }
+
+  .verification-icons img {
+    width: 22px;
+    position: absolute;
+    opacity: 0;
+    left:0;
+}
+
+.verification-icons img.show {
+    opacity: 1;
+}
+
+input#org-id.yess {
+    border: 1px solid var(--spring);
+}
+
+input#org-id.wrong {
+    border: 1px solid #D8772E;
+}
+
+.please-verify {
+    margin-top: 8px;
+    color: #D8772E;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+p#verify-org-id,
+p#real-widget-button {
+  padding: 15px 20px;
+  border-radius: 26px;
+  background-color: var(--spring);
+  color: var(--forest);
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  line-height: 1.2em;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  white-space: nowrap;
+
+}
+.wrap-shower,
+.wrap-real-widget  {
+  height:0;
+  overflow:hidden;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+
+.wrap-shower.open,
+.wrap-real-widget.open {
+      height: max-content;
+}
+
+.steps-wrapper {
+
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    border-radius: 16px;
+    position: relative;
+  }
+
 
 @media screen and (max-width : 600px) {
   #join-widget {
