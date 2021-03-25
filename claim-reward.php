@@ -31,6 +31,7 @@
 
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/loader-style.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -80,8 +81,14 @@
 
     <!--page loader very basic(not activtated, it's just a place holder here) Maybe you can use it for the transaction loading-->
     <div class="obscurer">
-      <div id="loader-temp">
-        <img src="img/logo-graph.svg" />
+      <div class="vertical-centered-box">
+        <div class="contentt">
+          <div class="loader-circle"></div>
+          <div class="loader-line-mask">
+            <div class="loader-line"></div>
+          </div>
+          <img src="img/logo-graph.svg" height="60" width="60" />
+        </div>
       </div>
     </div>
 
