@@ -70,4 +70,12 @@ export default class ExchangeRates {
   get hasGrowthData() {
     return this.history.length > 0;
   }
+
+  toJSON() {
+    return Object.keys(this.__proto__ || {}).reduce((accum, key) => { accum[key] = this[key]; return accum; }, {});
+  }
+
+  toString() {
+    return JSON.stringify(this);
+  }
 }
