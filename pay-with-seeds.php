@@ -166,7 +166,7 @@
                                               <div class="field-body">
                                                   <div class="field">
                                                       <div class="control required">
-                                                          <label for="org_name" class="label">Organization name</label>
+                                                          <label for="org_name" class="label">Organisation name</label>
                                                           <input id="org-id" class="input is-large" name="org_name" type="text" placeholder="Lorem Ipsum" value="" data-validate="require">
                                                           <p class="helper">Enter the 12-character SEEDS account name you have created for your organisation.</p>
                                                           <div class="verification-icons">

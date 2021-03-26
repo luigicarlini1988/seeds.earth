@@ -156,7 +156,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                          <p>The configuration process is very simple:<br>Start verifying your organization account name in the form below. <br> After the verification, enter your Invite Campaign Name, select the color Theme you want to use, click on "generate" and your code is ready! <br><br>Now, simply paste the widget code on your website wherever you want the Claim Reward button to appear.</p>
+                                          <p>The configuration process is very simple:<br>Start verifying your organisation account name in the form below. <br> After the verification, enter your Invite Campaign Name, select the color Theme you want to use, click on "generate" and your code is ready! <br><br>Now, simply paste the widget code on your website wherever you want the Claim Reward button to appear.</p>
                                         </div>
                                     </div>
 
@@ -168,7 +168,7 @@
                                               <div class="field-body">
                                                   <div class="field">
                                                       <div class="control required">
-                                                          <label for="org_id" class="label">Organization Account Name</label>
+                                                          <label for="org_id" class="label">Organisation Account Name</label>
                                                           <input id="org-id" class="input is-large" name="org_id" type="text" placeholder="Insert here..." value="" data-validate="require">
                                                           <p class="helper">Enter the 12-character SEEDS account name you have created for your organisation.</p>
                                                           <div class="verification-icons">
