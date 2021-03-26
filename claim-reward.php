@@ -68,6 +68,14 @@
   </head>
   <body class="claim-reward">
 
+
+    <div id="fake-alert-box" class="hide">
+      <div id="close-fake">
+        <img src="img/x-close.svg">
+      </div>
+      <p>Please entere a valid Campaign Name in order to generate the Widget</p>
+    </div>
+
     <div class="pages-logo-resp">
         <a href="index.php">
           <img src="img/logo-full-color.svg" alt="seeds"/>
@@ -276,13 +284,17 @@
                                                           <div class="field">
                                                               <div class="control required">
                                                                 <label class="label">Your widget</label>
-                                                                <textarea class="input is-large"
+                                                                <textarea id="code-output" class="input is-large"
                                                                 name="code"
                                                                 rows="10"
                                                                 placeholder="Lorem Ipsum" data-validate="require"></textarea>
                                                           </div>
                                                       </div>
                                                   </div>
+                                              </div>
+
+                                              <div class="flexier">
+                                                  <p id="real-widget-clear">Edit Widget</p> <p id="real-widget-copy">Copy Code</p>
                                               </div>
 
                                           </div>

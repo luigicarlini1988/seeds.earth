@@ -67,26 +67,66 @@ $(document).ready(function ($){
 
     $('#real-widget-button').on('click',function(){
         if ($('#campaign-name').val().length === 0) {
-          alert('Please enter a Campaign Name!');
+          $('#fake-alert-box').removeClass('hide');
           $('html, body').animate({
               scrollTop: $("#scroll-after-valid").offset().top
           }, 500);
         } else {
           $('.wrap-real-widget').addClass('open');
+          $('input').addClass('inactivate');
+          $(this).addClass('hide');
         }
       });
 
 
+
+
       $('#real-widget-button-pay').on('click',function(){
           if ( ( $('#input-amount').val().length === 0) || ( $('#input-email').val().length === 0) || ( $('#input-image').val().length === 0) || ( $('#input-product-name').val().length === 0) || ( $('#input-product-desc').val().length === 0) || ( $('#input-callback').val().length === 0) ) {
-            alert('Please fill all the field');
+            $('#fake-alert-box').removeClass('hide');
             $('html, body').animate({
                 scrollTop: $("#scroll-after-valid").offset().top
             }, 500);
           } else {
             $('.wrap-real-widget').addClass('open');
+            $('input').addClass('inactivate');
+            $(this).addClass('hide');
           }
         });
+
+
+        $('#real-widget-copy').on('click',function(){
+
+        
+
+            var copyText = document.getElementById("code-output");
+
+              /* Select the text field */
+              copyText.select();
+              copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+              /* Copy the text inside the text field */
+              document.execCommand("copy");
+
+        });
+
+        $('#real-widget-clear').on('click',function(){
+
+              $('.wrap-real-widget').removeClass('open');
+              $('input').removeClass('inactivate');
+              $('#real-widget-button-pay').removeClass('hide');
+              $('#real-widget-button').removeClass('hide');
+
+        });
+
+        $('#close-fake').on('click',function(){
+          $('#fake-alert-box').addClass('hide');
+        });
+
+        $('#campaign-name').on('click',function(){
+          $('#fake-alert-box').addClass('hide');
+        });
+
 
 
     });

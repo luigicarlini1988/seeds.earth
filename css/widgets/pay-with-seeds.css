@@ -190,9 +190,11 @@ input#org-id.wrong {
     font-size: 14px;
 }
 
+
 p#verify-org-id,
 p#real-widget-button,
-p#real-widget-button-pay {
+p#real-widget-button-pay,
+p#real-widget-copy {
   padding: 15px 20px;
   border-radius: 26px;
   background-color: var(--spring);
@@ -211,6 +213,28 @@ p#real-widget-button-pay {
   white-space: nowrap;
 
 }
+
+p#real-widget-clear {
+  padding: 15px 20px;
+  border-radius: 26px;
+  background-color: var(--white);
+  color: var(--forest);
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  line-height: 1.2em;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  white-space: nowrap;
+
+}
+
+
 .wrap-shower,
 .wrap-real-widget  {
   height:0;
@@ -272,6 +296,72 @@ p#real-widget-button-pay {
     box-sizing: border-box;
     min-width: auto;
 }
+
+.inactivate {
+  pointer-events: none;
+}
+
+.hide {
+  display:none!important;
+}
+
+.flexier {
+  padding-top:20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: max-content;
+  margin: auto;
+}
+
+.flexier p#real-widget-clear {
+  margin-right:24px;
+}
+
+#fake-alert-box{
+  width:300px;
+  height:max-content;
+  background:var(--white);
+  border-radius:20px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+  position:fixed;
+  padding:80px 40px;
+  z-index:1000;
+  left:50%;
+  top:50%;
+  transform:translate(-50% , -50%);
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+
+#close-fake {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--forest);
+  cursor: pointer;
+  transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+
+}
+
+#close-fake:hover {
+  transform: rotate(90Deg);
+  -moz-transform: rotate(90Deg);
+  -webkit-transform: rotate(90Deg);
+}
+
+#close-fake img {
+  width: 18px;
+}
+
 
 
 @media screen and (max-width : 600px) {
