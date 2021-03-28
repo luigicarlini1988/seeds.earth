@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS | Integration Toolkit</title>
     <meta name="description" content="All the tools you need to bring your community, your business, your movement into the SEEDS Universe.">
-    <meta name="image" content="img/seeds-social-image.jpg">
+    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

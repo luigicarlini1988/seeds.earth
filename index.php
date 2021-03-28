@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Economic Renaissance</title>
     <meta name="description" content="A new economy that rewards regenerative behaviours, finances the regeneration of our Earth and encourages collaboration and community building">
-    <meta name="og:image" content="http://34.245.191.151/img/og-image.jpg">
+    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

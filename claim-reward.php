@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Claim Reward Widget</title>
     <meta name="description" content="Allow your community to instantly claim rewards by using this widget">
-    <meta name="image" content="img/seeds-social-image.jpg">
+    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

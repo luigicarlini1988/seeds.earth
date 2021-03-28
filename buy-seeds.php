@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Buy Seeds</title>
     <meta name="description" content="Buy Seeds, Get Real Change. Say YES to a new economic model that benefits people, planet and prosperity.">
-    <meta name="image" content="img/seeds-social-image.jpg">
+    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

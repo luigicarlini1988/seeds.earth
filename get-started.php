@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Get Started</title>
     <meta name="description" content="We’re here to help you get started wherever you are to join the SEEDS Universe.">
-    <meta name="image" content="img/seeds-social-image.jpg">
+    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
@@ -120,7 +120,7 @@
                   <div class="go-back">
                     <a class="backlink" href="javascript:history.back()">Go back</a>
                   </div>
-                  
+
                   <h1>Get <span class="spring">Started</h1>
                   <p>Wherever you are, it’s the perfect place to begin. <br>Luckily, it only takes 3 steps to begin this journey and start co-creating this new world with us. </p>
                   <p class="spring">Scroll down to begin</p>
