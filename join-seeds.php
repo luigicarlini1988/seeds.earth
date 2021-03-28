@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS | Join SEEDS Widget</title>
     <meta name="description" content="Bring your community onto the new economic system.">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

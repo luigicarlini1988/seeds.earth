@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Seeds Swap</title>
     <meta name="description" content="Exchange Seeds for you local currency using the peer-to-peer network and the onboard & offboard tools.">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

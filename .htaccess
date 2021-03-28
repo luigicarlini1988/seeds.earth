@@ -1,3 +1,8 @@
+AuthType Basic
+AuthName "Area Protetta da Password"
+AuthUserFile  /opt/bitnami/apache/htdocs/.htpasswd
+Require valid-user
+
 RewriteEngine on
 RewriteBase /
 

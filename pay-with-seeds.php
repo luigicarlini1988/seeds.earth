@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Pay With Seeds widget</title>
     <meta name="description" content="Join SEEDS widget">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

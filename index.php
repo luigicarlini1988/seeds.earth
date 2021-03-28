@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
+
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Economic Renaissance</title>
     <meta name="description" content="A new economy that rewards regenerative behaviours, finances the regeneration of our Earth and encourages collaboration and community building">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
@@ -49,10 +50,11 @@
 
     <!-- Luigi's include passport section based on device size -->
     <script type="text/javascript">
+
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'incl/passport-switcher.php',
+            url: 'https://joinseeds.earth/incl/passport-switcher',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
@@ -67,7 +69,7 @@
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'incl/wallet-switcher.php',
+            url: 'https://joinseeds.earth/incl/wallet-switcher',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
@@ -184,6 +186,8 @@
   </head>
   <body class="home-nu">
 
+
+
     <?php
         include 'incl/menu.php';
      ?>
@@ -253,7 +257,7 @@
                     <p class="scroller-3 sentence">our environment</p>
                   </div>
                   <div class="ta-b-text close">
-                    <p>Welcome to a movement for movements providing tools, systems and support for all of us to co-create a thriving world.</p>
+                    <p>Welcome to a movement for movements, providing tools, systems and support for all of us to co-create a thriving world.</p>
                   </div>
                 </div>
 

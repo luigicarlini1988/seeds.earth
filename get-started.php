@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Get Started</title>
     <meta name="description" content="We’re here to help you get started wherever you are to join the SEEDS Universe.">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

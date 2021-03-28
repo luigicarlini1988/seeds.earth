@@ -5,12 +5,13 @@ $(function(){
       $('#opt1-btn').click(function(){
 
 
+
             $('#tools-switcher').addClass('open');
 
             if ($(window).width() < 924) {
               $.ajax({
                 type: 'GET',
-                url: 'incl/tool1-mobile.html',
+                url: 'https://joinseeds.earth/incl/tool1-mobile',
                 success: function(data) {
                   // alert(data);
                   $('#tools-switcher').html(data);
@@ -18,9 +19,12 @@ $(function(){
               });
             }
             else {
+
+              alert(location.protocol + 'first message on ajax call on click')
+
               $.ajax({
                 type: 'GET',
-                url: 'incl/tool1.html',
+                url: 'https://joinseeds.earth/incl/tool1',
                 success: function(data) {
                   // alert(data);
                   $('#tools-switcher').html(data);
@@ -300,9 +304,11 @@ $(function(){
 
           $('#tools-switcher').addClass('open');
 
+          alert(location.protocol + 'second message on ajax call on click')
+
           $.ajax({
             type: 'GET',
-            url: 'incl/tool2.html',
+            url: 'https://joinseeds.earth/incl/tool2',
             success: function(data) {
               // alert(data);
               $('#tools-switcher').html(data);
@@ -475,12 +481,15 @@ $(function(){
 
           $('#opt1, #opt2 , #opt3').addClass('status3');
 
+
+
           $.ajax({
             type: 'GET',
-            url: 'incl/tool3.html',
+            url: 'https://joinseeds.earth/incl/tool3',
             success: function(data) {
               // alert(data);
               $('#tools-switcher').html(data);
+              alert(location.protocol + 'third message on ajax call on click')
             }
           });
 

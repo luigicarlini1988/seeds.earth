@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS | Integration Toolkit</title>
     <meta name="description" content="All the tools you need to bring your community, your business, your movement into the SEEDS Universe.">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
@@ -57,6 +57,10 @@
 
     <!--luigi's Ajax org tools switcher + all the verification and sticker creation process-->
     <script src="js/organization-tools-switcher.js" type="text/javascript"></script>
+
+
+
+
 
     <!--luigi's custom top scrollbar-->
     <script src="js/custom-scrollbar.js" type="text/javascript"></script>

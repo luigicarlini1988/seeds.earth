@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>SEEDS :: Desktop Version</title>
     <meta name="description" content="The Desktop version of the Global Passport is coming very soon">
-    <meta name="og:image" content="http://joinseeds.earth/og-image.jpg">
+    <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
