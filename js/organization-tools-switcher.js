@@ -1,6 +1,6 @@
 $(function(){
 
-
+      alert('changed js');
       //clicking on first button
       $('#opt1-btn').click(function(){
 
@@ -11,7 +11,7 @@ $(function(){
             if ($(window).width() < 924) {
               $.ajax({
                 type: 'GET',
-                url: 'https://joinseeds.earth/incl/tool1-mobile',
+                url: 'incl/tool1-mobile',
                 success: function(data) {
                   // alert(data);
                   $('#tools-switcher').html(data);
@@ -24,7 +24,7 @@ $(function(){
 
               $.ajax({
                 type: 'GET',
-                url: 'https://joinseeds.earth/incl/tool1',
+                url: 'incl/tool1',
                 success: function(data) {
                   // alert(data);
                   $('#tools-switcher').html(data);
@@ -308,7 +308,7 @@ $(function(){
 
           $.ajax({
             type: 'GET',
-            url: 'https://joinseeds.earth/incl/tool2',
+            url: 'incl/tool2',
             success: function(data) {
               // alert(data);
               $('#tools-switcher').html(data);
@@ -485,7 +485,7 @@ $(function(){
 
           $.ajax({
             type: 'GET',
-            url: 'https://joinseeds.earth/incl/tool3',
+            url: 'incl/tool3',
             success: function(data) {
               // alert(data);
               $('#tools-switcher').html(data);
