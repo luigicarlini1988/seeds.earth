@@ -55,11 +55,6 @@
 
   </head>
   <body class="get-started-page">
-    <div class="pages-logo-resp">
-        <a href="index.php">
-          <img src="img/logo-full-color.svg" alt="seeds"/>
-        </a>
-    </div>
 
     <?php
         include 'incl/menu.php';
