@@ -54,7 +54,7 @@
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'https://joinseeds.earth/incl/passport-switcher',
+            url: 'incl/passport-switcher',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
@@ -69,7 +69,7 @@
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'https://joinseeds.earth/incl/wallet-switcher',
+            url: 'incl/wallet-switcher',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
