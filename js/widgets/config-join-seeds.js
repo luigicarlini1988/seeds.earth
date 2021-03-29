@@ -11,13 +11,13 @@ function getCode() {
 }
 
 function getConfig() {
-	var org_id = form.querySelector('input[name="org_id"]').value;
+	var account_name = form.querySelector('input[name="org_id"]').value;
 	var campaign_name = form.querySelector('input[name="campaign_name"]').value;
 	var button_theme = form.querySelector('input[name="button_theme"]:checked').value;
 	var multistep_theme = form.querySelector('input[name="multistep_theme"]:checked').value;
 
 	var obj = new Object();
-	obj.org_id = org_id;
+	obj.account_name = account_name;
 	obj.campaign_name = campaign_name;
 	obj.button_theme = button_theme;
 	obj.multistep_theme = multistep_theme;
