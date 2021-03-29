@@ -20,7 +20,7 @@ $(function(){
             }
             else {
 
-              alert(location.protocol + 'first message on ajax call on click')
+
 
               $.ajax({
                 type: 'GET',
@@ -304,7 +304,7 @@ $(function(){
 
           $('#tools-switcher').addClass('open');
 
-          alert(location.protocol + 'second message on ajax call on click')
+
 
           $.ajax({
             type: 'GET',
@@ -489,7 +489,7 @@ $(function(){
             success: function(data) {
               // alert(data);
               $('#tools-switcher').html(data);
-              alert(location.protocol + 'third message on ajax call on click')
+
             }
           });
 
