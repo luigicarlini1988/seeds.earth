@@ -232,6 +232,9 @@
 
                                                         <?php
 
+                                                        $additional_classes = '';
+                                                        $account_name = '';
+
                                                         if( isset($_GET['acc']) && !empty($_GET['acc']) )
                                                         {
                                                             $account_name = $_GET['acc'];
