@@ -1,8 +1,8 @@
 <div class="tool1">
-  <div class="tool1-invite">
+  <div id="stick-1" class="tool1-invite join-stick">
     <div class="centered">
       <div id="fake-anch" class="section-title">
-          <p>1: Invite Members</p>
+          <p>1 of 2: Invite Members</p>
       </div>
     </div>
 
@@ -15,7 +15,7 @@
 
       <div class="fif">
 
-        <p  class="fake-tit">Inviting your members to <span class="spring">join seeds has never been easier!</span></p>
+        <p class="fake-tit">Inviting your members to <span class="spring">join seeds has never been easier!</span></p>
         <p>You are provided with a <strong>static invite link</strong> and a <strong>QR code</strong>, which you can add to your website or send to your community via email.<br>
         Plus, a <strong>sticker with the same QR code to expose in your shop!</strong></p>
         <!--<ul>
@@ -27,7 +27,7 @@
         <div id="sticker1">
           <p class="subo">Generate now your<br><span class="spring">Static link, QR code and Sticker!</span></p>
             <div class="magic-form">
-                <input id="text" class="field" type="text" placeholder="Enter your 12-letter Organisation Accountname" value=""  />
+                <input id="text" class="field" type="text" placeholder="Enter Your Organization Account Name" value=""  />
                 <div class="buttons-system">
                     <button class="btn-gen verify">Generate!</button>
                     <button class="btn-gen copy-link invs">Copy link</button>
@@ -48,10 +48,12 @@
 
             <div class="generate-stickers">
                 <!--<button type="button" id="pdfDownloader">Download PDF</button>-->
-                <button type="button" id="pngDownloader">Download Your Sticker!</button>
+                <button type="button" id="pngDownloader">Download the Stickers!</button>
 
                 <!--<button type="button" id="pdfDownloader">Download PDF</button>-->
-                <button type="button" id="pngDownloaderQr">Download Your QR-code!</button>
+                <button type="button" id="pngDownloaderQr">Download the QR-code!</button>
+
+
             </div>
 
 
@@ -63,17 +65,112 @@
       <div class="fif">
         <div class="magic-wrapper">
 
-          <div class="shadow-wrapper">
-            <div id="printDiv">
-                <img class="stick-fake" src="img/stickers/fake-stick-light.svg"/>
-                <div id="qrcode"></div>
-            </div>
-          </div>
+              <div class="custom-stickers">
+                  <div class="shadow-wrapper">
+                    <div id="printDiv">
+                        <img class="stick-fake" src="img/stickers/join-sticker-fake.svg"/>
+                        <div id="qrcode"></div>
+                    </div>
+                  </div>
 
-          <div class="shadow-wrapper-qr">
-              <div id="only-qr">
+                  <div class="shadow-wrapper-qr">
+                      <div id="only-qr">
+                      </div>
+                  </div>
+            </div>
+
+            <div class="general-stickers">
+                <img class="fake-collage" src="img/stickers/stick-join-collage-empty.svg" />
+            </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- stiker 2 section -->
+
+  <div id="stick-2" class="tool1-invite pay-stick">
+    <div class="centered">
+      <div id="fake-anch-2" class="section-title">
+          <p>2 of 2: Receive Payments</p>
+      </div>
+    </div>
+
+    <div class="org-liner-rev">
+      <img src="img/org-liner-rev.svg">
+    </div>
+
+
+    <div class="centered">
+
+      <div class="fif">
+
+        <p class="fake-tit">Receive payments in <span class="spring">Seeds has never been easier!</span></p>
+        <p>You are provided with a <strong>static payment link</strong>, that you can add to your website or send to your community via email.<br>
+        Plus, a <strong>sticker with a QR code to expose in your shop and accepting payment in Seeds!</strong></p>
+        <!--<ul>
+
+          <li>Use your SEEDS <strong>organisation account</strong></li>
+          <li>Invite <strong>all your members at once</strong></li>
+        </ul>-->
+
+        <div id="sticker2">
+          <p class="subo">Generate now your<br><span class="spring">Static link and Qr-code Sticker!</span></p>
+            <div class="magic-form">
+                <input id="text-pay" class="field" type="text" placeholder="Enter Your Organization Account Name" value=""  />
+                <div class="buttons-system">
+                    <button class="btn-gen verify-pay">Generate!</button>
+                    <button class="btn-gen copy-link invs">Copy link</button>
+                </div>
+                <a href="#fake-anch-2" onclick="location.reload()">
+                  <div class="retry">
+                    <img src="img/retry.svg">
+                  </div>
+                </a>
+
+
+                <div class="verification-icons">
+                  <img src="img/nope.svg" class="nope"/>
+                  <img src="img/yeah.svg" class="yeah"/>
+                </div>
+            </div>
+            <div id="alert-box"></div>
+
+            <div class="generate-stickers">
+              <!--<button type="button" id="pdfDownloader">Download PDF</button>-->
+              <button type="button" id="pngDownloader-pay">Download the Stickers!</button>
+
+
+            </div>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="fif">
+        <div class="magic-wrapper">
+
+            <div class="custom-sticker">
+
+              <div class="shadow-wrapper">
+                <div id="printDivPay">
+                  <img class="stick-fake" src="img/stickers/pay-sticker-empty.svg"/>
+                  <div id="qrcode-pay"></div>
+                </div>
               </div>
-          </div>
+
+            </div>
+
+            <div class="general-stickers">
+                <img class="fake-collage pay" src="img/stickers/stick-pay-collage-empty.svg" />
+            </div>
 
         </div>
 
