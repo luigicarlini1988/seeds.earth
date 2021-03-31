@@ -44,7 +44,7 @@ $(function(){
                                   $(".obscurer").removeClass('close');
                                },
                                success: function(response) {
-                                 $(".obscurer").addClass('close');
+
                                   var obj = jQuery.parseJSON(response);
 
                                   if( (obj.bitcoinAddress).length > 0 )
@@ -90,6 +90,8 @@ $(function(){
                                               scrollTop: $("#stick-1").offset().top
                                           }, 500);
                                       }, 400);
+
+                                      $(".obscurer").addClass('close');
 
 
 
