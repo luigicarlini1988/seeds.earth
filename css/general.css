@@ -638,6 +638,7 @@ section.what .section-title h2::before {
 .section-title {
   width:100%;
   padding-bottom:80px;
+  position:relative;
 }
 
 .what-left {
@@ -2936,4 +2937,13 @@ p.pop-up-trigger {
 }
 .backlink:hover:before {
   left:-16px;
+}
+
+.section-title.beta:before {
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  content: url(../img/beta-test.svg);
+  left: -50px;
+  top: -8px;
 }

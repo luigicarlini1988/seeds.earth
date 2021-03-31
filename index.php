@@ -495,12 +495,12 @@
 
             <div class="sub-tit-50">
               <!--<p>SEEDS offers you the tools to help you and your movement <span class="spring">regenerate our planet</span> and encourage <span class="spring">collaboration, cooperation and community building.</span></p>-->
-                <p>SEEDS offers you <span class="spring">several apps</span> and <span class="spring">several plug-ins</span> to help you in this new economic system in your life. And, the entire SEEDS community is here to guide you through this journey.</p>
+                <p>SEEDS offers you <span class="spring">several apps</span> and <span class="spring"> plug-ins</span> to help you through this new economic system in your life. And, the entire SEEDS community is here to guide you through this journey.</p>
             </div>
 
             <div class="sub-tit-50">
 
-              <p>On these platforms we use <span class="spring"><img class="small-cur" src="img/seeds-currency.png"/> Seeds, a currency with a conscience.</span> This currency is designed for your everyday use all while changing the world through shared purpose and incentives.</p>
+              <p>On these platforms we use <span class="spring"><img class="small-cur" src="img/seeds-currency.png"/> Seeds, a currency with a conscience.</span> This currency is designed for your everyday use, all while changing the world through shared purpose and incentives.</p>
 
             </div>
           </div>
