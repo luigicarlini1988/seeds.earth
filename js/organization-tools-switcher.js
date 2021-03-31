@@ -1,6 +1,6 @@
 $(function(){
 
-      alert('changed js');
+
       //clicking on first button
       $('#opt1-btn').click(function(){
 
