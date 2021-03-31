@@ -9,8 +9,8 @@
           <p>Hypha2020©</p>
           <div class="soc-f"><img src="img/face.svg"/></div>
           <div class="soc-f"><img src="img/insta.svg"/></div>
-          <div class="soc-f"><img src="img/discord.svg"/></div>
-          <div class="soc-f"></div>
+          <a href="https://medium.com/joinseeds" target="_blank"><div class="soc-f medi"><img src="img/medium.svg"/></div></a>
+          <a href="https://t.me/SEEDS_Community"><div class="soc-f medi"><img src="img/telegram.svg"/></div></a>
         </div>
 
         <nav>
