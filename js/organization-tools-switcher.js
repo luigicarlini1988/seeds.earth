@@ -71,7 +71,7 @@ $(function(){
                                       $('.stick-fake').remove();
 
                                       $('.shadow-wrapper').addClass('shift');
-                                      $('.shadow-wrapper-wr').addClass('shift');
+                                      $('.shadow-wrapper-qr').addClass('shift');
 
                                       $('#pngDownloader').addClass('in');
                                       $('#pngDownloaderQr').addClass('in');
