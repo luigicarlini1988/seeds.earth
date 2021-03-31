@@ -161,7 +161,6 @@ body.buy-seeds .field .control.required small.validation-info
 
 /*.steps-content #proceed_to_moonpay:hover
 {
-
 }
 */
 
@@ -2646,13 +2645,15 @@ textarea.textarea.is-button + .textarea-button button {
     height: auto!important;
     padding: 16px 22px;
     border-radius: 40px;
-    border: none;
+    border: 2px solid #fff;
     color: var(--forest);
     width: fit-content;
     max-width: none;
     min-width: 280px;
 
   }
+
+
 
     .actual-field .input:focus {
       outline:none!important;
@@ -2662,6 +2663,12 @@ textarea.textarea.is-button + .textarea-button button {
     color:var(--forest);
     opacity:.5;
   }
+
+    #accountname
+    {
+        text-align: center;
+        font-size: 20px;
+    }
 
   .steps-actions {
     background:var(--sand);
