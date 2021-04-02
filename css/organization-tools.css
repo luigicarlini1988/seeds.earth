@@ -562,6 +562,10 @@ body.org-tools footer {
       width:46%;
     }
 
+    #tools-switcher .fif.two {
+      width:46%;
+    }
+
     #tools-switcher .fif:last-child {
       width:50%;
     }
@@ -788,7 +792,8 @@ body.org-tools .owl-item {
 }
 
 #tools-switcher .tool3-invite .fif.two,
-#tools-switcher .tool3-rewawrd .fif.two{
+#tools-switcher .tool3-reward .fif.two,
+#tools-switcher .tool3-pay .fif.two{
     width: 46%;
     z-index:5;
 }

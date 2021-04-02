@@ -252,7 +252,7 @@
 
                 <div class="ta-bottom">
                   <div class="ta-b-cont">
-                    <p class="scroller-1 sentence">our ecomonies</p>
+                    <p class="scroller-1 sentence">our economies</p>
                     <p class="scroller-2 sentence">our communities</p>
                     <p class="scroller-3 sentence">our environment</p>
                   </div>

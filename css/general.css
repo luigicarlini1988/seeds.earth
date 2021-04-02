@@ -1734,6 +1734,7 @@ footer .resources ul li a,
 footer .legal ul li a {
   color:var(--forest);
   position:relative;
+  font-size:16px;
 }
 
 footer nav ul li a::before,
@@ -1757,12 +1758,16 @@ footer .legal ul li a:hover::before {
   width:100%;
 }
 
-.ul-tit {
+.ul-tit,
+.org-tools p.ul-tit  {
   padding-left:24px;
   margin-top:0px;
   margin-bottom:0px;
   font-weight: var(--bold);
+  font-size:16px;
 }
+
+
 
 .resources {
     margin-left: 30px;
@@ -1775,6 +1780,7 @@ footer .legal ul li a:hover::before {
     line-height: 1.6em;
     padding-top: 26px;
     margin-bottom: 0;
+    font-size:16px;
 }
 
 
