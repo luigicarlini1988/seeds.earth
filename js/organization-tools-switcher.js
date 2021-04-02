@@ -133,6 +133,7 @@ $(function(){
                                   }
                                   else
                                   {
+                                      $(".obscurer").addClass('close');
                                       $('.join-stick input#text').addClass('wrong');
                                       $('.join-stick .nope').addClass('show');
                                       $('.join-stick #alert-box').append('<div class="please-verify">The Username is incorrect, please retry</div>');
