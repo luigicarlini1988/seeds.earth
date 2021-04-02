@@ -184,7 +184,7 @@
                                       <div class="wrap-shower">
 
 
-                                        <div id="scroll-after-valid" class="two-line-field"><!--from here -->
+                                        <div id="scroll-after-valid" class="two-line-field toggles"><!--from here -->
 
 
                                                 <!-- button key -->
@@ -194,7 +194,7 @@
                                                             <div class="field">
                                                                 <div class="control required">
                                                                   <label for="campaign_name" class="label">Amount ($)</label>
-                                                                  <input id="input-amount" class="input is-large" name="amount"  ype="number" min="0" value="1" data-validate="require">
+                                                                  <input id="input-amount" class="input is-large" name="amount" placeholder="enter here"  type="number" min="0" value="" data-validate="require">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -208,7 +208,7 @@
                                                           <div class="field">
                                                               <div class="control required">
                                                                   <label for="email" class="label">Email</label>
-                                                                  <input id="input-email" class="input is-large" name="email" type="text" placeholder="Lorem Ipsum" value="" data-validate="require">
+                                                                  <input id="input-email" class="input is-large" name="email" type="text" placeholder="enter here" value="" data-validate="require">
                                                               </div>
                                                           </div>
                                                       </div>
@@ -222,7 +222,7 @@
                                                           <div class="field">
                                                               <div class="control required">
                                                                   <label for="product_image" class="label">Product image URL</label>
-                                                                  <input id="input-image" class="input is-large" name="product_image" type="text" placeholder="Lorem Ipsum" value="" data-validate="require">
+                                                                  <input id="input-image" class="input is-large" name="product_image" type="text" placeholder="enter here"  value="" data-validate="require">
                                                               </div>
                                                           </div>
                                                       </div>
@@ -236,7 +236,7 @@
                                                           <div class="field">
                                                               <div class="control required">
                                                                   <label for="product_name" class="label">Product Name</label>
-                                                                  <input id="input-product-name" class="input is-large" name="product_name" type="text" placeholder="Lorem Ipsum" value="" data-validate="require">
+                                                                  <input id="input-product-name" class="input is-large" name="product_name" type="text" placeholder="enter here"  value="" data-validate="require">
                                                               </div>
                                                           </div>
                                                       </div>
@@ -244,20 +244,20 @@
                                                 </div>
 
                                                 <!-- email -->
-                                                <div class="actual-field">
+                                                <div class="actual-field hundred">
                                                   <div class="field field-container">
                                                       <div class="field-body">
                                                           <div class="field">
                                                               <div class="control required">
-                                                                  <label for="product_description" class="label">Product Description</label>
-                                                                  <input id="input-product-desc" class="input is-large" name="product_description" type="text" placeholder="Lorem Ipsum" value="" data-validate="require">
+                                                                  <label for="product_description" class="label">Product Short Description (max 80 characters)</label>
+                                                                  <input id="input-product-desc" class="input is-large" name="product_description" type="text" placeholder="enter here"  value="" data-validate="require" maxlength="80">
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
                                                 </div>
 
-                                                <!-- callback -->
+                                                <!-- callback
                                                 <div class="actual-field">
                                                   <div class="field field-container">
                                                       <div class="field-body">
@@ -269,13 +269,13 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                </div>
+                                                </div> -->
 
 
                                     </div><!--to here-->
 
                                       <!-- button key -->
-                                      <div class="actual-field">
+                                      <div class="actual-field toggles">
                                           <div class="field field-container">
                                               <div class="field-body">
                                                   <div class="field">
@@ -315,7 +315,7 @@
                                       </div>
 
                                       <!-- button key -->
-                                      <div class="actual-field">
+                                      <div class="actual-field toggles">
                                           <div class="field field-container">
                                               <div class="field-body">
                                                   <div class="field">

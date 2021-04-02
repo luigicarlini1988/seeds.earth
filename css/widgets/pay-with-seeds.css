@@ -286,6 +286,10 @@ p#real-widget-clear {
     left: 0;
 }
 
+.two-line-field .actual-field.hundred {
+  width:100%;
+}
+
 .two-line-field .actual-field  .field .control {
   max-width: 90%;
 }
