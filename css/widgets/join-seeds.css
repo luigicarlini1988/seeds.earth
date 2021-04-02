@@ -242,7 +242,8 @@ p#real-widget-clear {
 
 
 .wrap-shower,
-.wrap-real-widget  {
+.wrap-real-widget,
+.wrap-inputs  {
   height:0;
   overflow:hidden;
   transition-duration: 1s;
@@ -251,7 +252,8 @@ p#real-widget-clear {
 }
 
 .wrap-shower.open,
-.wrap-real-widget.open {
+.wrap-real-widget.open,
+.wrap-inputs.open {
       height: max-content;
       overflow: initial;
 }
@@ -332,6 +334,10 @@ p#real-widget-clear {
 
   #close-fake img {
     width: 18px;
+}
+
+.field .control input.empty-input {
+  border:1px solid #D8772E;
 }
 
 

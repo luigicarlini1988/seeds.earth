@@ -335,6 +335,10 @@ p#real-widget-clear {
     width: 18px;
 }
 
+.field .control input.empty-input {
+  border:1px solid #D8772E;
+}
+
 
 @media screen and (max-width : 600px) {
   #join-widget {

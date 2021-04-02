@@ -1184,6 +1184,9 @@
 
   section.eco-data {
     padding: 40px 0px;
+        background-size: auto 100vh;
+    background-position: -3px 0px;
+    background-attachment: fixed;
   }
 
   section.passport.nu .section-title {

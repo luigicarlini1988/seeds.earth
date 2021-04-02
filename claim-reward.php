@@ -202,7 +202,7 @@
                                           </div>
 
                                           <!-- button key -->
-                                          <div class="actual-field">
+                                          <div class="actual-field toggles">
                                               <div class="field field-container">
                                                   <div class="field-body">
                                                       <div class="field">
@@ -242,7 +242,7 @@
                                           </div>
 
                                           <!-- button key -->
-                                          <div class="actual-field">
+                                          <div class="actual-field toggles">
                                               <div class="field field-container">
                                                   <div class="field-body">
                                                       <div class="field">

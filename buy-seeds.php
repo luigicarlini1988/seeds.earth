@@ -438,7 +438,6 @@
                                                         <tr>
                                                             <th>Status</th>
                                                             <th>Weekly Limit</th>
-
                                                             <th>You Can Buy</th>
                                                         </tr>
                                                     </thead>
@@ -447,9 +446,7 @@
                                                             <td class="data-status"></td>
                                                             <td class="data-weekly-limits"></td>
                                                             <td class="data-buy-remaining"></td>
-
                                                         </tr>
-
                                                     </tbody>
                                                 </table>
                                             </div>-->
@@ -573,7 +570,6 @@
                                                           <tr>
                                                               <th>Status</th>
                                                               <th>Weekly Limit</th>
-
                                                               <th>You Can Buy</th>
                                                           </tr>
                                                       </thead>
@@ -582,9 +578,7 @@
                                                               <td class="data-status"></td>
                                                               <td class="data-weekly-limits"></td>
                                                               <td class="data-buy-remaining"></td>
-
                                                           </tr>
-
                                                       </tbody>
                                                   </table>
                                               </div>-->
@@ -703,10 +697,6 @@
                 <p>We use our own currency and financial ecosystem to reward regenerative behaviours and finance the regeneration of our earth.</p>
                 </div>
               </div>
-
-
-
-
               <div class="c-cont">
                 <div class="wrp">
                   <div class="c-tit">

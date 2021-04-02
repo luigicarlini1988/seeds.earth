@@ -60,8 +60,6 @@
 
 
 
-
-
     <!--luigi's custom top scrollbar-->
     <script src="js/custom-scrollbar.js" type="text/javascript"></script>
 
@@ -145,8 +143,8 @@
 
         <div class="centered">
 
-          <div class="section-title beta">
-              <h2>BETA TEST: Take your tools</h2>
+          <div class="section-title">
+              <h2>Take your tools</h2>
             </div>
 
           <div id="opt1" class="option">
