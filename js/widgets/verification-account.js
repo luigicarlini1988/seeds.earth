@@ -67,11 +67,14 @@ $(document).ready(function ($){
 
     $('#real-widget-button').on('click',function(){
         if ($('#campaign-name').val().length === 0) {
+          $('#campaign-name').addClass('empty-input');
           $('#fake-alert-box').removeClass('hide');
           $('html, body').animate({
               scrollTop: $("#scroll-after-valid").offset().top
           }, 500);
         } else {
+          $('.toggles').addClass('hide');
+          $('#campaign-name').removeClass('empty-input');
           $('.wrap-real-widget').addClass('open');
           $('input').addClass('inactivate');
           $(this).addClass('hide');
@@ -97,7 +100,7 @@ $(document).ready(function ($){
 
         $('#real-widget-copy').on('click',function(){
 
-        
+
 
             var copyText = document.getElementById("code-output");
 
@@ -116,6 +119,10 @@ $(document).ready(function ($){
               $('input').removeClass('inactivate');
               $('#real-widget-button-pay').removeClass('hide');
               $('#real-widget-button').removeClass('hide');
+              $('.toggles.hide').removeClass('hide');
+              $('html, body').animate({
+                  scrollTop: $("#scroll-after-valid").offset().top
+              }, 500);
 
         });
 
