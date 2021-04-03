@@ -156,7 +156,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                          <p>The configuration process is very simple:<br>Start verifying your organisation account name in the form below. <br> After the verification, enter your Invite Campaign Name, select the color Theme you want to use, click on "generate" and your code is ready! <br><br>Now, simply paste the widget code on your website wherever you want the Claim Reward button to appear.</p>
+                                          <p>Start verifying your organisation account name in the form below. <br> After the verification, simply add you Campaign name and choose the colour theme that works best with your website and generate the code! <br><br>Now, simply paste the widget code onto your website wherever you want the Claim Reward button to appear.</p>
                                         </div>
                                     </div>
 

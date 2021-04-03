@@ -123,7 +123,7 @@
           <div class="buy-intro close">
             <h1>Pay With <span class="spring">Seeds</span></h1>
             <p class="buy-claim widget">WIDGET</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+            <p>The more Seeds circulate, the more regeneration we can all do together. This widget allows you to accept Seeds currency directly on your website. This lets your community say YES to a regenerative economic system.</p>
             <img class="arrow-down" src="img/arrow-green-down.svg"/>
           </div>
 
@@ -154,7 +154,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                                          <p>Start verifying your organisation account name in the form below.<br> After the verification, simply fill out the form and choose the colour theme that works best with your website and generate the code! <br><br>Now, simply paste the widget code onto your website wherever you want the "Pay with Seeds" button to appear.</p>
                                         </div>
                                     </div>
 
@@ -193,8 +193,9 @@
                                                         <div class="field-body">
                                                             <div class="field">
                                                                 <div class="control required">
-                                                                  <label for="campaign_name" class="label">Amount ($)</label>
+                                                                  <label for="campaign_name" class="label">Amount</label>
                                                                   <input id="input-amount" class="input is-large" name="amount" placeholder="enter here"  type="number" min="0" value="" data-validate="require">
+                                                                  <p class="helper">Amount<strong> (in your local currency)</strong>: Please indicate the amount of your product in your local currency.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -207,8 +208,9 @@
                                                       <div class="field-body">
                                                           <div class="field">
                                                               <div class="control required">
-                                                                  <label for="email" class="label">Email</label>
+                                                                  <label for="email" class="label">Notification Email Address</label>
                                                                   <input id="input-email" class="input is-large" name="email" type="text" placeholder="enter here" value="" data-validate="require">
+                                                                  <p class="helper">Please indicate the email address for your organisation to be notified when a purchase is made using the "Pay with Seeds" widget on your website.</p>
                                                               </div>
                                                           </div>
                                                       </div>
@@ -223,6 +225,7 @@
                                                               <div class="control required">
                                                                   <label for="product_image" class="label">Product image URL</label>
                                                                   <input id="input-image" class="input is-large" name="product_image" type="text" placeholder="enter here"  value="" data-validate="require">
+                                                                  <p class="helper">Please add the URL of the image you want to display for this product.</p>
                                                               </div>
                                                           </div>
                                                       </div>
@@ -237,6 +240,7 @@
                                                               <div class="control required">
                                                                   <label for="product_name" class="label">Product Name</label>
                                                                   <input id="input-product-name" class="input is-large" name="product_name" type="text" placeholder="enter here"  value="" data-validate="require">
+                                                                  <p class="helper">Please add the public-facing name you want to display for this product.</p>
                                                               </div>
                                                           </div>
                                                       </div>
@@ -249,8 +253,9 @@
                                                       <div class="field-body">
                                                           <div class="field">
                                                               <div class="control required">
-                                                                  <label for="product_description" class="label">Product Short Description (max 80 characters)</label>
+                                                                  <label for="product_description" class="label">Product Short Description</label>
                                                                   <input id="input-product-desc" class="input is-large" name="product_description" type="text" placeholder="enter here"  value="" data-validate="require" maxlength="80">
+                                                                  <p class="helper">Please add a <strong>short</strong> (max 80 characters) description of your product</p>
                                                               </div>
                                                           </div>
                                                       </div>
