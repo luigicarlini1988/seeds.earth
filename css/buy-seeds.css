@@ -3122,6 +3122,10 @@ p.very-small {
   opacity:1;
 }
 
+.field .control input:focus {
+  outline:none;
+}
+
 @media screen and (max-width : 600px) {
   .lower-sand {
     flex-wrap: wrap;
