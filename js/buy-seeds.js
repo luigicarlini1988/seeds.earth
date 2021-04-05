@@ -582,8 +582,8 @@ $(document).ready(function ($)
                                 text: bitcoin_address,
                                 width: 200,
                                 height: 200,
-                                colorDark : "#000000",
-                                colorLight : "#30b689",
+                                colorDark : "#2B4835",
+                                colorLight : "#F2F5EC",
                                 correctLevel : QRCode.CorrectLevel.H
                             });
 
