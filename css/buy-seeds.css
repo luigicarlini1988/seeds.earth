@@ -463,7 +463,7 @@ textarea.textarea.is-button + .textarea-button button {
     position: relative;
 } /* line 271, src/assets/scss/components/_components-forms.scss */
 .control.required.has-success .input {
-    border-color: #00b289;
+    border-color: #2FF141;
 } /* line 276, src/assets/scss/components/_components-forms.scss */
 .control.required.has-success .validation-info.is-success {
     display: block;
@@ -529,7 +529,7 @@ textarea.textarea.is-button + .textarea-button button {
     transition: opacity 0.3s;
 } /* line 354, src/assets/scss/components/_components-forms.scss */
 .control.required .success i {
-    color: #00b289;
+    color: #2FF141;
 } /* line 360, src/assets/scss/components/_components-forms.scss */
 .control.required .error i {
     color: #ff7273;
@@ -539,7 +539,7 @@ textarea.textarea.is-button + .textarea-button button {
     font-size: 0.8rem;
 } /* line 369, src/assets/scss/components/_components-forms.scss */
 .control.required .validation-info.is-success {
-    color: #00b289;
+    color: #2FF141;
 } /* line 373, src/assets/scss/components/_components-forms.scss */
 .control.required .validation-info.is-error {
     color: #ff7273;
@@ -722,21 +722,21 @@ textarea.textarea.is-button + .textarea-button button {
     font-size: 0.8rem;
 } /* line 609, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-success input {
-    border-bottom-color: #00b289 !important;
+    border-bottom-color: #2FF141 !important;
 } /* line 613, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-success .bar:after,
 .control-material.required.has-success .bar:before {
-    background: #00b289 !important;
+    background: #2FF141 !important;
 } /* line 617, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-success .success i {
-    color: #00b289 !important;
+    color: #2FF141 !important;
     display: block;
 } /* line 622, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-success label {
-    color: #00b289 !important;
+    color: #2FF141 !important;
 } /* line 626, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-success small.validation-info.success {
-    color: #00b289;
+    color: #2FF141;
     display: block;
 } /* line 634, src/assets/scss/components/_components-forms.scss */
 .control-material.required.has-error input {
@@ -1467,7 +1467,7 @@ textarea.textarea.is-button + .textarea-button button {
 .is-combo .image-combo-box .box-inner .combo-item .fa.is-green,
 .is-combo .stacked-combo-box .box-inner .combo-item .fa.is-green,
 .is-combo .user-combo-box .box-inner .combo-item .fa.is-green {
-    color: #00b289;
+    color: #2FF141;
 } /* line 1569, src/assets/scss/components/_components-forms.scss */
 .is-combo .combo-box .box-inner .combo-item .fa.is-blue,
 .is-combo .image-combo-box .box-inner .combo-item .fa.is-blue,
@@ -1728,7 +1728,7 @@ textarea.textarea.is-button + .textarea-button button {
 .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green,
 .is-combo .stacked-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green,
 .is-combo .user-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-green {
-    color: #00b289;
+    color: #2FF141;
 } /* line 1748, src/assets/scss/components/_components-forms.scss */
 .is-combo .combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue,
 .is-combo .image-combo-box .box-dropdown .dropdown-inner ul li .item-icon .fa.is-blue,
