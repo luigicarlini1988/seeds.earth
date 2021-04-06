@@ -365,7 +365,7 @@
              </div>
 
               <div class="sub-tit-50">
-                <p style="margin-top:0;">Using algorythms within the SEEDS platforms, we incentivise collaborative and regenerative behaviours and activities for the wellbeing of the whole. </p>
+                <p style="margin-top:0;">Using algorithms within the SEEDS platforms, we incentivise collaborative and regenerative behaviours and activities for the wellbeing of the whole. </p>
               </div>
            </div>
 
