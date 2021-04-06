@@ -380,7 +380,8 @@ p#real-widget-clear {
   color: var(--forest);
   width: fit-content;
   max-width: 100%;
-  min-width: 280px;
+  width:100%;
+  min-width:inherit;
 }
 
 .actual-field select:focus {

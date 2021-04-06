@@ -9,7 +9,7 @@ dropdown.empty();
 dropdown.append('<option selected="true" disabled>Choose Currency</option>');
 dropdown.prop('selectedIndex', 0);
 
-const url = 'http://localhost:8088/js/widgets/currency.json';
+const url = '/js/widgets/currency.json';
 
 // Populate dropdown with list of provinces
 $.getJSON(url, function (data) {
