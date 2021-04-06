@@ -869,7 +869,7 @@ a.ju:hover img {
 
 .buttons-cta a.ju {
   padding: 14px 22px 14px 14px;
-  border-radius: 4px;
+  border-radius: 6px;
   background:var(--spring);
   width:max-content;
 }
