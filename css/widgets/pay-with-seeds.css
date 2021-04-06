@@ -371,6 +371,21 @@ p#real-widget-clear {
   border:1px solid #D8772E;
 }
 
+.actual-field select {
+  background-color: #fff;
+  height: auto!important;
+  padding: 16px 22px;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  color: var(--forest);
+  width: fit-content;
+  max-width: none;
+  min-width: 280px;
+}
+
+.actual-field select:focus {
+  outline:none;
+}
 
 @media screen and (max-width : 600px) {
   #join-widget {
