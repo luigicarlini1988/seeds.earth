@@ -67,6 +67,9 @@
     <!--luigi's custom top scrollbar-->
     <script src="js/custom-scrollbar.js" type="text/javascript"></script>
 
+    <!--luigi's currency popolage-->
+    <script src="js/widgets/currency-popolate.js" type="text/javascript"></script>
+
 
 
     <!-- Work Sans Open Source Font -->
@@ -216,7 +219,11 @@
                                                             <div class="field">
                                                                 <div class="control required">
                                                                   <label for="campaign_name" class="label"> Local Currency Symbol</label>
-                                                                  <select name="">
+
+                                                                  <select id="currency-dropdown" name="">
+                                                                  </select>
+
+                                                                  <!--<select name="">
                                                                       	<option value="USD" selected="selected">United States Dollars</option>
                                                                       	<option value="EUR">Euro</option>
                                                                       	<option value="GBP">United Kingdom Pounds</option>
@@ -296,7 +303,7 @@
                                                                       	<option value="XAU">Gold Ounces</option>
                                                                       	<option value="XPD">Palladium Ounces</option>
                                                                       	<option value="XPT">Platinum Ounces</option>
-                                                                      </select>
+                                                                      </select>-->
                                                                   <p class="helper">Please add the symbol or your local currency. Example $, €.</p>
                                                                 </div>
                                                             </div>
