@@ -910,7 +910,7 @@
                 <div class="time-card close">
                   <p class="data">July 2019</p>
                   <p class="tc-title">Telos (Blockchain) mainnet</p>
-                  <p class="tc-cont">Two years later and the core blockchain functionality is live on Telos and EOSIO chain.</p>
+                  <p class="tc-cont">Two years later and the core blockchain functionality is live.</p>
                 </div>
               </div>
 
@@ -934,7 +934,7 @@
                 <div class="time-card close">
                   <p class="data">January 2020</p>
                   <p class="tc-title">Seeds Token Live</p>
-                  <p class="tc-cont">Seeds are listed on ChainRift, Bancor and in The Global Passport - available to be bought, sold and exchanged.</p>
+                  <p class="tc-cont">Seeds are listed on decentralised exchanges to bought and sold.</p>
                 </div>
               </div>
 
@@ -942,17 +942,17 @@
                 <div class="time-card close">
                   <p class="data">February 2020</p>
                   <p class="tc-title">Campaigns begin</p>
-                  <p class="tc-cont">The community engages in campaigns to distribute Seeds for planting trees, good deeds and more. </p>
+                  <p class="tc-cont">The Citizens begin voting on a wide diversity of campaigns to finance the regenerative renaissance. From planting trees to doing good deed and anything in between.</p>
                 </div>
               </div>
 
-              <div class="col-half">
+              <!--<div class="col-half">
                 <div class="time-card close">
                   <p class="data">February 2020</p>
                   <p class="tc-title">Beta and public release of passport</p>
                   <p class="tc-cont">Public release and update of the SEEDS Global Passport on app stores.</p>
                 </div>
-              </div>
+              </div>-->
 
               <div class="col-half">
                 <div class="time-card close">
@@ -962,22 +962,22 @@
                 </div>
               </div>
 
-              <div class="col-half">
+              <!--<div class="col-half">
                 <div class="time-card close">
                   <p class="data">November 2020</p>
                   <p class="tc-title">SEEDS Global Birthday Celebration</p>
                   <p class="tc-cont">The SEEDS community celebrates its one year birthday with a global live online event.</p>
                 </div>
-              </div>
+              </div>-->
 
 
 
 
               <div class="col-half">
                 <div class="time-card close">
-                  <p class="data">March 2021</p>
+                  <p class="data">May 2021</p>
                   <p class="tc-title">New Global Passport Released</p>
-                  <p class="tc-cont">"Major release and update of the SEEDS Passport! SEEDS has a new look and a much easier interface to engage with its tools.</p>
+                  <p class="tc-cont">Major release and update of the SEEDS Passport! SEEDS has a new look and a much easier interface to engage with its tools.</p>
                 </div>
               </div>
 
@@ -985,7 +985,7 @@
               <div class="col-half">
                 <div class="time-card close">
                   <p class="data">-</p>
-                  <p class="tc-title">Ecosystem Ready</p>
+                  <p class="tc-title">SEEDS Game Audited</p>
                   <p class="tc-cont">All major features the Citizens need to govern, evolve, model, exchange and grow their own financial system are deployed. Final economic and security tests running.</p>
                 </div>
               </div>
@@ -994,19 +994,19 @@
               <div class="col-half">
                 <div class="time-card close">
                   <p class="data">-</p>
-                  <p class="tc-title">Go Live Begins</p>
-                  <p class="tc-cont">Citizens of SEEDS vote on whether or not they believe key criteria are met. They include robust security and economic tests, growth targets, and a healthy foundation to begin stabylising algorithmically. Before this point, all Seeds supply is fixed.</p>
+                  <p class="tc-title">Go Live / Go Stable</p>
+                  <p class="tc-cont">Go Live" occurs when Citizens vote on whether or not they believe the SEEDS economy is robust enough to start stabilising the value of the Seeds currency and start the "Harvest". We want this point to occur when our economy is large enough that we can start meeting our needs using Seeds. This event won't occur until the price of Seeds is at least $0.80 USD.</p>
                 </div>
-              </div>
+              </div>  
 
 
-              <div class="col-half">
+              <!--<div class="col-half">
                 <div class="time-card close">
                   <p class="data">-</p>
                   <p class="tc-title">Go live fully active</p>
                   <p class="tc-cont">3 lunar cycles after “Go Live” passes a vote, the Harvest protocols begin. Residents, Citizens and organisations begin earning a Harvest for their contributions. Seeds become increasingly stable as the algorithms take effect.</p>
                 </div>
-              </div>
+              </div>-->
 
 
 

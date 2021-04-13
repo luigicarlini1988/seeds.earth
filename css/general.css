@@ -2048,6 +2048,10 @@ section.light-wallet .wallet-r .col .wrapper img{
   transform:translateY(100px);
 }
 
+.history .col-half:last-child {
+  margin-bottom:140px;
+}
+
 .cs-right {
   padding-top:40px;
 }
