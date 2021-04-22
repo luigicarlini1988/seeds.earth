@@ -17,6 +17,8 @@ function getConfig() {
 
 	var account_name = form.querySelector('input[name="org_name"]').value;
 	var amount = form.querySelector('input[name="amount"]').value;
+	var amount_in_seeds = form.querySelector('input[name="amount_in_seeds"]').value;
+	var amount_currency = form.querySelector('select[name="amount_currency"]').value;
 	var email = form.querySelector('input[name="email"]').value;
 	var product_image = form.querySelector('input[name="product_image"]').value;
 	var product_name = form.querySelector('input[name="product_name"]').value;
@@ -30,6 +32,8 @@ function getConfig() {
 	obj.button_theme = button_theme;
 	obj.multistep_theme = multistep_theme;
 	obj.amount = amount;
+	obj.amount_in_seeds = amount_in_seeds;
+	obj.amount_currency = amount_currency;
 	obj.email = email;
 	obj.product_image = product_image;
 	obj.product_name = product_name;
