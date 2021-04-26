@@ -132,7 +132,7 @@
             <div class="ohl-wrap">
               <h1>Integration <span class="spring">Toolkit</h1>
               <p class="org-fake-tit">For Partners<br/><span class="text-font spring">&Collaborators</p>
-              <p>Find all the tools you need to <strong>invite</strong> your members to join, send them <strong>rewards</strong> and <strong>accept payments</strong> in Seeds on your website, or at your phisical store.</p>
+              <p>Find all the tools you need to <strong>invite</strong> your members to join, send them <strong>rewards</strong> and <strong>accept payments</strong> in Seeds on your website, or at your physical store.</p>
               <a class="backlink" href="javascript:history.back()">Go back</a>
             </div>
           </div>

@@ -942,7 +942,7 @@
                 <div class="time-card close">
                   <p class="data">February 2020</p>
                   <p class="tc-title">Campaigns begin</p>
-                  <p class="tc-cont">The Citizens begin voting on a wide diversity of campaigns to finance the regenerative renaissance. From planting trees to doing good deed and anything in between.</p>
+                  <p class="tc-cont">The Citizens begin voting on a wide diversity of campaigns to finance the regenerative renaissance. From planting trees to doing good deeds and anything in between.</p>
                 </div>
               </div>
 
@@ -957,8 +957,8 @@
               <div class="col-half">
                 <div class="time-card close">
                   <p class="data">February 2020</p>
-                  <p class="tc-title">Alliances Partners</p>
-                  <p class="tc-cont">Organisations can start proposing an Alliance share and earn Seeds for their contributions and dedication to creating a regenerative civilization.</p>
+                  <p class="tc-title">SEEDS Alliances</p>
+                  <p class="tc-cont">The Citizens begin voting on a wide diversity of Alliances from organisations to be gifted Seeds based on their dedication to creating a regenerative civilization and supporting this Regenerative Renaissance!</p>
                 </div>
               </div>
 
@@ -997,7 +997,7 @@
                   <p class="tc-title">Go Live / Go Stable</p>
                   <p class="tc-cont">Go Live" occurs when Citizens vote on whether or not they believe the SEEDS economy is robust enough to start stabilising the value of the Seeds currency and start the "Harvest". We want this point to occur when our economy is large enough that we can start meeting our needs using Seeds. This event won't occur until the price of Seeds is at least $0.80 USD.</p>
                 </div>
-              </div>  
+              </div>
 
 
               <!--<div class="col-half">
