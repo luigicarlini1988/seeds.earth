@@ -349,6 +349,9 @@
                                                                             </span>
                                                                     </li>
 
+                                                                    <?php
+                                                                    /*
+                                                                    vmodha: removed as requested by @markflowfarm on Discord
                                                                     <li>
                                                                         <span class="item-icon">
                                                                                 <img src="assets/images/icons/crypto/tlos.png" alt="TLOS - Telos">
@@ -369,6 +372,8 @@
                                                                                 <i class="fa fa-check"></i>
                                                                             </span>
                                                                     </li>
+                                                                    */
+                                                                    ?>
 
                                                                 </ul>
                                                             </div>
