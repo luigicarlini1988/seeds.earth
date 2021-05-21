@@ -297,8 +297,8 @@
                                                     <div class="combo-box" id="crypto-select">
                                                         <div class="box-inner">
                                                             <div class="combo-item">
-                                                                <img src="assets/images/icons/crypto/btc.png" alt="BTC - Bitcoin">
-                                                                <span data-currency="bitcoin" class="selected-item">Bitcoin</span><span class="currency-fees">(Preferred)</span>
+                                                                <img src="assets/images/icons/crypto/eos.png" alt="EOS">
+                                                                <span data-currency="eos" class="selected-item">EOS</span><span class="currency-fees">(Preferred)</span>
                                                             </div>
                                                         </div>
                                                         <div class="box-chevron">
@@ -307,15 +307,19 @@
                                                         <div class="box-dropdown">
                                                             <div class="dropdown-inner has-slimscroll">
                                                                 <ul>
-                                                                    <li class="is-active">
-                                                                        <span class="item-icon">
-                                                                                <img src="assets/images/icons/crypto/btc.png" alt="BTC - Bitcoin">
-                                                                            </span>
-                                                                        <span data-currency="bitcoin" class="item-name">Bitcoin</span><span class="currency-fees">(Preferred)</span>
-                                                                        <span class="checkmark">
-                                                                                <i class="fa fa-check"></i>
-                                                                            </span>
-                                                                    </li>
+
+                                                                  <li class="is-active">
+                                                                      <span class="item-icon">
+                                                                              <img src="assets/images/icons/crypto/eos.png" alt="EOS">
+                                                                          </span>
+                                                                      <span data-currency="eos" class="item-name">EOS</span>
+                                                                      <span class="currency-fees">(Preferred)</span>
+                                                                      <span class="checkmark">
+                                                                              <i class="fa fa-check"></i>
+                                                                          </span>
+                                                                  </li>
+
+
 
                                                                     <li>
                                                                         <span class="item-icon">
@@ -340,10 +344,9 @@
 
                                                                     <li>
                                                                         <span class="item-icon">
-                                                                                <img src="assets/images/icons/crypto/eos.png" alt="EOS">
+                                                                                <img src="assets/images/icons/crypto/btc.png" alt="BTC - Bitcoin">
                                                                             </span>
-                                                                        <span data-currency="eos" class="item-name">EOS</span>
-                                                                        <span class="currency-fees">(No Fees)</span>
+                                                                        <span data-currency="bitcoin" class="item-name">Bitcoin</span><span class="currency-fees">(Transfer Fees)</span>
                                                                         <span class="checkmark">
                                                                                 <i class="fa fa-check"></i>
                                                                             </span>
