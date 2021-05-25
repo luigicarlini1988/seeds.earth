@@ -453,4 +453,22 @@ $("#menu-button").click(function(){
         }
   });
 
+  //newsletter animations
+
+  $('#nl-sign-up').click(function(){
+    $('.pop-up').addClass('open');
+    $('body').addClass('lock');
+  });
+
+  $('#nl-sign-up-resp').click(function(){
+    $('.pop-up').addClass('open');
+    $('body').addClass('lock');
+  });
+
+
+  $('#close').click(function(){
+    $('.pop-up').removeClass('open');
+    $('body').removeClass('lock');
+  });
+
 });

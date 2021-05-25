@@ -156,10 +156,30 @@
     background-image: url(../img/header-3.jpg);
     background-size:cover;
   }
+
+  #nl-sign-up-resp {
+    display: block;
+    margin-left: 32px;
+    top: -5px;
+    position: relative;
+  }
 }
 
 
 @media screen and (max-width : 924px) {
+
+  .cta-header .android,
+  .cta-header .apple {
+    display:none;
+  }
+
+  .get-cta-h {
+    margin-left: 0px;
+  }
+
+  #nl-sign-up-resp {
+    margin-left:20px;
+  }
 
   section.eco-data {
     padding-bottom:60px;
@@ -629,6 +649,10 @@
   .pop-up #close {
     top: 20px;
     right: 0px;
+  }
+
+  .mauticform-input {
+        min-width: 260px;
   }
 }
 
@@ -1262,6 +1286,23 @@
     display:none;
   }
 
+  .cta-header a.ju img {
+    height:18px;
+    margin-right:6px;
+  }
+
+  .cta-header  p.nl-s img {
+    height: 12px;
+    margin-right: 6px;
+  }
+
+  #nl-sign-up-resp {
+    display: block;
+    margin-left: 16px;
+    top: -7px;
+
+  }
+
   .get-cta-h {
     margin-left:0;
   }
@@ -1359,6 +1400,21 @@
     margin-bottom: auto;
 }
 
+ .img-credit {
+  display:none;
+}
+
+.mauticform-row {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 00px;
+    width: 100%;
+}
+
+.mauticform-input {
+    min-width: calc(100% - 46px);
+}
+
 }
 
 @media screen and (max-width : 370px) {
@@ -1374,6 +1430,19 @@
   .scroller-3 {
     letter-spacing:-2px;
   }
+
+  section.header-home.nu-header .cta-header {
+    bottom: auto;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  #nl-sign-up-resp {
+    display: block;
+    margin-left: 0;
+    top: 0;
+    margin-top: 5px;
+}
 
 
 
@@ -1395,6 +1464,10 @@
   .scroller-2,
   .scroller-3 {
     letter-spacing:-2px;
+  }
+
+  .pop-up h3 {
+    font-size:30px;
   }
 
 }
