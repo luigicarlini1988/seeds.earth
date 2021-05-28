@@ -40,7 +40,7 @@
             </div>
 
             <div class="menu-link-bottom">
-                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://docs.google.com/forms/d/e/1FAIpQLSd35uWAOA-00B6QvucIhj_ft3dTSIaHJyjgLLisXNbgMJeMUw/viewform?usp=sf_link" target="blank">become an Alliance</a> <a class="ju spri" href="#">Newsletter</a>
+                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://docs.google.com/forms/d/e/1FAIpQLSd35uWAOA-00B6QvucIhj_ft3dTSIaHJyjgLLisXNbgMJeMUw/viewform?usp=sf_link" target="blank">become an Alliance</a> 
             </div>
           </div>
         </div>

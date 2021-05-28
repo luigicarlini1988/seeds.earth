@@ -2987,6 +2987,20 @@ input:focus, textarea:focus, select:focus{
   }
 
 
+  .mauticform-selectbox {
+    background-color: #fff;
+    height: auto!important;
+    padding: 16px 0px 16px 22px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    color: var(--forest);
+    width: fit-content;
+    max-width: none;
+    min-width: 280px;
+
+  }
+
+
 
   .mauticform-input:focus {
       outline:none!important;

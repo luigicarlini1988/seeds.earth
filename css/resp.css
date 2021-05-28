@@ -651,8 +651,10 @@
     right: 0px;
   }
 
-  .mauticform-input {
+  .mauticform-input,
+  .mauticform-selectbox {
         min-width: 260px;
+            max-width: 100%;
   }
 }
 
@@ -1411,8 +1413,10 @@
     width: 100%;
 }
 
-.mauticform-input {
+.mauticform-input,
+.mauticform-selectbox {
     min-width: calc(100% - 46px);
+        max-width: 100%;
 }
 
 }
