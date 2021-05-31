@@ -41,9 +41,9 @@
         <div class="legal">
           <p class="ul-tit">Legal</p>
           <ul>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Polocy</a></li>
-            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="privacy-policy">Privacy Policy</a></li>
+            <li><a href="terms-and-conditions">Terms & Conditions</a></li>      
+            <li><a href="privacy-policy#cookie-anchor">Cookie Policy</a></li>
           </ul>
           <p class="license">All content is licensed under a creative commons attribution sharealike 4.0 Hypha</p>
         </div>
