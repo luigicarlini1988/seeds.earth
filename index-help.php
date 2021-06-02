@@ -42,7 +42,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/loader-style.css">
-    <link rel="stylesheet" href="css/general.css?version=1.1">
+    <link rel="stylesheet" href="css/general.css?version=1.3">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/resp.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -389,17 +389,30 @@
 
           <!-- here we print the chat tool -->
           <div class="speak">
-            <a href="get-started.php">
+            <div class="sup-icons-cont">
+              <a href="https://discord.gg/rRtbasPCgB" target="_blank"/>
+                <div class="sup-icon"><img src="img/discord-support.svg"/></div>
+              </a>
+
+              <a href="https://t.me/seedstroubleshootinggroup" target="_blank"/>
+                <div class="sup-icon"><img src="img/telegram-support.svg"/></div>
+              </a>
+            </div>
+
             <!--<img src="img/speak.svg"/>
             <video src="videos/seeds-orb.webm" type="video/webm" playsinline autoplay muted loop>-->
+              <div class="sup-rota">
+                <img src="img/support-words.svg"/>
+              </div>
+              <div class="video-cutter">
+                  <video playsinline autoplay muted loop data-setup="{}">
 
-              <video playsinline autoplay muted loop data-setup="{}">
+                      <source src="videos/seeds-orb.webm" type="video/webm" />
+                      <source src="videos/seeds-orb.mp4" type="video/mp4" />
+                  </video>
+              </div>
 
-                <source src="videos/seeds-orb.webm" type="video/webm" />
-                  <source src="videos/seeds-orb.mp4" type="video/mp4" />
-              </video>
 
-            </a>
           </div>
 
           <div class="img-credit">

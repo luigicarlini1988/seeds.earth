@@ -19,14 +19,14 @@
         <div class="centered realm">
           <div class="fifty">
           <div class="menu-link-top">
-              <a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank">Apple Store</a> <a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank">Android Store</a>
+              <a class="ju spri" href="https://discord.gg/rRtbasPCgB" target="_blank">General Enquiries</a> <a class="ju spri" href="https://t.me/seedstroubleshootinggroup " target="_blank">APPs Troubleshooting</a>
           </div>
             <ul>
               <li id="one"><a href="index.php">Home</a></li>
               <li id="two"><a href="buy-seeds.php">Buy Seeds</a></li>
-              <li id="three"><a href="seeds-swap.php">Seeds Swap</a></li>
+              <li id="three"><a href="seeds-swap.php">Seeds Swap</a></li>          
+              <li id="five"><a href="integration-toolkit.php">Integrations</a></li>
               <li id="four"><a href="get-started.php">Get Started</a></li>
-              <li id="five"><a href="integration-toolkit.php">Int Toolkit</a></li>
             </ul>
           </div>
           <div class="fifty sec">
@@ -40,7 +40,7 @@
             </div>
 
             <div class="menu-link-bottom">
-                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://docs.google.com/forms/d/e/1FAIpQLSd35uWAOA-00B6QvucIhj_ft3dTSIaHJyjgLLisXNbgMJeMUw/viewform?usp=sf_link" target="blank">become an Alliance</a> 
+                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://docs.google.com/forms/d/e/1FAIpQLSd35uWAOA-00B6QvucIhj_ft3dTSIaHJyjgLLisXNbgMJeMUw/viewform?usp=sf_link" target="blank">become an Alliance</a>
             </div>
           </div>
         </div>
