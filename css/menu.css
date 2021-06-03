@@ -530,6 +530,7 @@ content:"04";
 
   .menu-link-top {
     position:absolute;
+    width:70%;
   }
 
   #real-menu .fifty ul {

@@ -355,7 +355,7 @@
 
               <div class="cta-header">
                 <div class="apple"><a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank"><img src="img/apple.svg">Apple Store</a></div>
-                <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank"><img src="img/google.svg">Play Store</a></div>
+                <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app" target="_blank"><img src="img/google.svg">Play Store</a></div>
                 <div class="get-cta-h">
                   <a class="ju spri" href="get-started.php"><img src="img/plus-green.svg" />Get Started</a>
                 </div>

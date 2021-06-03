@@ -32,7 +32,7 @@
          </div>
          <div class="buttons-store">
            <div class="apple"><a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank"><img src="img/apple.svg">Apple Store</a></div>
-           <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank"><img src="img/google.svg">Play Store</a></div>
+           <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app" target="_blank"><img src="img/google.svg">Play Store</a></div>
          </div>
        </div>
      </div>
@@ -156,7 +156,7 @@
             <p class="coming-soon-gp">Coming Very Soon</p>
            <!--<div class="buttons-store desk-soon">
              <div class="apple"><a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank"><img src="img/apple.svg">Apple Store</a></div>
-             <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank"><img src="img/google.svg">Play Store</a></div>
+             <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app" target="_blank"><img src="img/google.svg">Play Store</a></div>
            </div>-->
          </div>
        </div>
@@ -186,7 +186,7 @@
                         </div>
                         <div class="buttons-store">
                           <div class="apple"><a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank"><img src="img/apple.svg">Apple Store</a></div>
-                          <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank"><img src="img/google.svg">Play Store</a></div>
+                          <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app" target="_blank"><img src="img/google.svg">Play Store</a></div>
                         </div>
                       </div>
 
@@ -224,7 +224,7 @@
 
                       <div class="buttons-store end">
                         <div class="apple"><a class="ju spri" href="https://apps.apple.com/us/app/seeds-global-passport/id1478774948" target="_blank"><img src="img/apple-dark.svg">Apple Store</a></div>
-                        <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app&hl=it&gl=US" target="_blank"><img src="img/android-dark.svg">Play Store</a></div>
+                        <div class="android"><a class="ju spri" href="https://play.google.com/store/apps/details?id=com.joinseeds.app" target="_blank"><img src="img/android-dark.svg">Play Store</a></div>
                       </div>
 
                   </div>
