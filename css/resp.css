@@ -702,8 +702,27 @@
     min-height: 460px;
   }
 
+  section.header-home {
+    overflow:visible;
+  }
+
   .speak {
-    display:none;
+    bottom: -115px;
+  }
+
+
+.speak:hover {
+    transform: scale(.85) translateY(67px);
+    -moz-transform: scale(.85) translateY(67px);
+    -webkit-transform: scale(.85) translateY(67px);
+}
+  .speak:hover .sup-icon {
+    padding-bottom: 6px;
+}
+
+.speak:hover .sup-icons-cont {
+    top: 28px;
+
   }
 
   .cta-header {
@@ -1421,6 +1440,29 @@
 
 }
 
+@media screen and (max-width : 380px) {
+  #nl-sign-up-resp {
+    display: block;
+    margin-left: 0;
+    top: 0;
+    margin-top: 5px;
+}
+
+  section.header-home.nu-header .cta-header {
+    bottom: auto;
+    padding-bottom: 0px;
+    display: inline-block;
+  }
+
+  .speak:hover .sup-icon {
+    padding-bottom: 4px;
+  }
+  .speak:hover .sup-icons-cont {
+    top: 32px;
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width : 370px) {
 
   :root {
@@ -1435,18 +1477,9 @@
     letter-spacing:-2px;
   }
 
-  section.header-home.nu-header .cta-header {
-    bottom: auto;
-    padding-bottom: 10px;
-    display: inline-block;
-  }
 
-  #nl-sign-up-resp {
-    display: block;
-    margin-left: 0;
-    top: 0;
-    margin-top: 5px;
-}
+
+
 
 
 
