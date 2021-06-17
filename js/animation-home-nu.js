@@ -471,4 +471,13 @@ $("#menu-button").click(function(){
     $('body').removeClass('lock');
   });
 
+
+  //toggle constitution in footer
+
+  $('#const-up').click(function(){
+    $('.c-show').toggleClass('ent');
+  });
+
+  
+
 });

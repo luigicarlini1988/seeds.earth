@@ -3268,3 +3268,24 @@ margin-top:10px;
 #nl-sign-up-resp {
   display:none;
 }
+
+footer .resources li.const-ch {
+  padding-top:0px;
+  padding-left:12px;
+}
+
+.c-show {
+  height:0;
+  overflow:hidden;
+  transition-duration:.2s;
+  -moz-transition-duration:.2s;
+  -webkit-transition-duration:.2s;
+}
+
+li#const-up {
+  cursor:pointer;
+}
+
+.c-show.ent {
+  height:66px;
+}

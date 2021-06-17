@@ -28,7 +28,11 @@
         <div class="resources">
           <p class="ul-tit">Resources</p>
           <ul>
-            <li><a href="pdf/SEEDS-Constitution-and-Game-Guide-V-0-2-0.pdf" target="_blank">SEEDS Constitution</a></li>
+            <li id="const-up"><a>SEEDS Constitution</a></li>
+              <div class="c-show">
+                <li class="const-ch"><a href="pdf/SEEDS-Constitution-and-Game-Guide-V-0-2-0.pdf" target="_blank">Current</a></li>
+                <li class="const-ch"><a href="https://gateway.pinata.cloud/ipfs/QmSPzPUkyScQWc3Yx86Yabh8EzFxXDzB4KytM2N4N6MeuR" target="_blank">New Proposal</a></li>
+              </div>
             <li><a href="pdf/Token-allocation-and-economics.pdf" target="_blank">Token Allocation & Economics</a></li>
             <li><a href="pdf/Pager-for-festival-and-events.pdf" target="_blank">For Festivals and Events</a></li>
             <li><a href="pdf/Pager-for-organization-partners.pdf" target="_blank">For Organisation & Partners</a></li>
@@ -42,7 +46,7 @@
           <p class="ul-tit">Legal</p>
           <ul>
             <li><a href="privacy-policy">Privacy Policy</a></li>
-            <li><a href="terms-and-conditions">Terms & Conditions</a></li>      
+            <li><a href="terms-and-conditions">Terms & Conditions</a></li>
             <li><a href="privacy-policy#cookie-anchor">Cookie Policy</a></li>
           </ul>
           <p class="license">All content is licensed under a creative commons attribution sharealike 4.0 Hypha</p>

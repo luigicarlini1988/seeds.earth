@@ -42,7 +42,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/loader-style.css">
-    <link rel="stylesheet" href="css/general.css?version=1.5">
+    <link rel="stylesheet" href="css/general.css?version=1.6">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/resp.css?version=1.5">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -183,7 +183,7 @@
     <script src="js/onscreen.js" type="text/javascript"></script>
 
     <!--luigi's home custom animations-->
-    <script src="js/animation-home-nu.js" type="text/javascript"></script>
+    <script src="js/animation-home-nu.js?version=1.6" type="text/javascript"></script>
 
     <!--luigi's custom top scrollbar-->
     <script src="js/custom-scrollbar.js" type="text/javascript"></script>
@@ -384,7 +384,7 @@
                 <p class="nl-s spri" href="get-started.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</p>
               </div> -->
 
-            </div> 
+            </div>
           </div>
 
           <!-- here we print the chat tool -->
