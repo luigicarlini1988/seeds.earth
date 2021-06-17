@@ -212,7 +212,7 @@
     }else if (typeof MauticSDK != 'undefined') {
         MauticSDK.onLoad();
     }
-</script>
+  </script>
 
   </head>
   <body class="home-nu">
@@ -360,9 +360,9 @@
                   <a class="ju spri" href="get-started.php"><img src="img/plus-green.svg" />Get Started</a>
                 </div>
 
-                <div id="nl-sign-up-resp">
+              <!--  <div id="nl-sign-up-resp">
                   <p class="nl-s spri" href="get-started.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</p>
-                </div>
+                </div> -->
               </div>
 
 
@@ -380,11 +380,11 @@
 
 
 
-              <div id="nl-sign-up">
+            <!--  <div id="nl-sign-up">
                 <p class="nl-s spri" href="get-started.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</p>
-              </div>
+              </div> -->
 
-            </div>
+            </div> 
           </div>
 
           <!-- here we print the chat tool -->

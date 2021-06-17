@@ -1436,32 +1436,31 @@
 .mauticform-selectbox {
     min-width: calc(100% - 46px);
         max-width: 100%;
-}
+      }
+
+      #nl-sign-up-resp {
+        display: block;
+        margin-left: 0;
+        top: 0;
+        margin-top: 5px;
+    }
+
+      section.header-home.nu-header .cta-header {
+        bottom: auto;
+        padding-bottom: 0px;
+        display: inline!important;
+      }
+
+      .speak:hover .sup-icon {
+        padding-bottom: 4px;
+      }
+      .speak:hover .sup-icons-cont {
+        top: 32px;
+        opacity: 1;
+      }
 
 }
 
-@media screen and (max-width : 380px) {
-  #nl-sign-up-resp {
-    display: block;
-    margin-left: 0;
-    top: 0;
-    margin-top: 5px;
-}
-
-  section.header-home.nu-header .cta-header {
-    bottom: auto;
-    padding-bottom: 0px;
-    display: inline-block;
-  }
-
-  .speak:hover .sup-icon {
-    padding-bottom: 4px;
-  }
-  .speak:hover .sup-icons-cont {
-    top: 32px;
-    opacity: 1;
-  }
-}
 
 @media screen and (max-width : 370px) {
 
@@ -1476,12 +1475,6 @@
   .scroller-3 {
     letter-spacing:-2px;
   }
-
-
-
-
-
-
 
 }
 

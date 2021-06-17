@@ -48,7 +48,7 @@
     <!-- join widget CSS -->
 
     <link rel="stylesheet" href="css/buy-seeds.css">
-    <link rel="stylesheet" href="css/widgets/pay-with-seeds.css">
+    <link rel="stylesheet" href="css/widgets/pay-with-seeds.css?version=1.5">
 
     <!-- Javascript / jQuery libraries -->
     <script src="js/jquery-3-10-1-min.js" type="text/javascript"></script>
@@ -58,7 +58,7 @@
     <script src="js/owl.navigation.js" type="text/javascript"></script>
 
     <!--luigi's verification account -->
-    <script src="js/widgets/verification-account.js" type="text/javascript"></script>
+    <script src="js/widgets/verification-account.js?version=1.5" type="text/javascript"></script>
 
 
     <!--luigi's global custom animations-->

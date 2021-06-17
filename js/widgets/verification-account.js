@@ -85,7 +85,9 @@ $(document).ready(function ($){
 
 
       $('#real-widget-button-pay').on('click',function(){
-          if ( ( $('#input-amount').val().length === 0) || ( $('#input-email').val().length === 0) || ( $('#input-image').val().length === 0) || ( $('#input-product-name').val().length === 0) || ( $('#input-product-desc').val().length === 0)  ) {
+          var dropdown = document.getElementById("currency-dropdown");
+
+          if ( ( $('#input-amount').val().length === 0) || (dropdown.selectedIndex == 0) || ( $('#input-local').val().length === 0) || ( $('#input-email').val().length === 0) || ( $('#input-image').val().length === 0) || ( $('#input-product-name').val().length === 0) || ( $('#input-product-desc').val().length === 0)  ) {
             $('#fake-alert-box').removeClass('hide');
             $('html, body').animate({
                 scrollTop: $("#scroll-after-valid").offset().top
@@ -98,33 +100,76 @@ $(document).ready(function ($){
           }
         });
 
+
+        $('#real-widget-button-pay').on('click',function(){
+            var dropdown = document.getElementById("currency-dropdown");
+            if (dropdown.selectedIndex == 0) {
+              $('#currency-dropdown').addClass('empty-input');
+              $('#currency-dropdown').removeClass('correctt');
+            } else {
+              $('#currency-dropdown').removeClass('empty-input');
+              $('#currency-dropdown').addClass('correctt');
+            }
+        });
+
         $('#real-widget-button-pay').on('click',function(){
             if ($('#input-amount').val().length === 0) {
               $('#input-amount').addClass('empty-input');
+              $('#input-amount').removeClass('correctt');
+            } else {
+              $('#input-amount').removeClass('empty-input');
+              $('#input-amount').addClass('correctt');
+            }
+        });
+
+        $('#real-widget-button-pay').on('click',function(){
+            if ($('#input-local').val().length === 0) {
+              $('#input-local').addClass('empty-input');
+              $('#input-local').removeClass('correctt');
+            }  else {
+              $('#input-local').removeClass('empty-input');
+              $('#input-local').addClass('correctt');
             }
         });
 
         $('#real-widget-button-pay').on('click',function(){
             if ($('#input-email').val().length === 0) {
               $('#input-email').addClass('empty-input');
+              $('#input-email').removeClass('correctt');
+
+            }  else {
+              $('#input-email').removeClass('empty-input');
+              $('#input-email').addClass('correctt');
             }
         });
 
         $('#real-widget-button-pay').on('click',function(){
             if ($('#input-image').val().length === 0) {
               $('#input-image').addClass('empty-input');
+              $('#input-image').removeClass('correctt');
+            }  else {
+              $('#input-image').removeClass('empty-input');
+              $('#input-image').addClass('correctt');
             }
         });
 
         $('#real-widget-button-pay').on('click',function(){
             if ($('#input-product-name').val().length === 0) {
               $('#input-product-name').addClass('empty-input');
+              $('#input-product-name').removeClass('correctt');
+            }  else {
+              $('#input-product-name').removeClass('empty-input');
+              $('#input-product-name').addClass('correctt');
             }
         });
 
         $('#real-widget-button-pay').on('click',function(){
             if ($('#input-product-desc').val().length === 0) {
               $('#input-product-desc').addClass('empty-input');
+              $('#input-product-desc').removeClass('correctt');
+            }  else {
+              $('#input-product-desc').removeClass('empty-input');
+              $('#input-product-desc').addClass('correctt');
             }
         });
 

@@ -367,8 +367,14 @@ p#real-widget-clear {
 }
 
 
-.field .control input.empty-input {
+.field .control input.empty-input,
+.field .control select.empty-input {
   border:1px solid #D8772E;
+}
+
+.field .control input.correctt,
+.field .control select.correctt {
+  border:1px solid var(--spring);
 }
 
 .actual-field select {
