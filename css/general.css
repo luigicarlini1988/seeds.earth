@@ -190,6 +190,7 @@ section.header-home {
 .text-anim {
   font-size: var(--h-big);
   padding-top:50px;
+  width:100%;
 }
 
 .text-anim p {
@@ -3106,18 +3107,6 @@ input:focus, textarea:focus, select:focus{
   }
 
 
-  .mauticform-selectbox {
-    background-color: #fff;
-    height: auto!important;
-    padding: 16px 0px 16px 22px;
-    border-radius: 40px;
-    border: 2px solid #fff;
-    color: var(--forest);
-    width: fit-content;
-    max-width: none;
-    min-width: 280px;
-
-  }
 
 
 
@@ -3212,6 +3201,28 @@ margin-top:10px;
   padding-top:25px;
 }
 
+#mauticform_input_subscribeformjoinseedsearth_country {
+  -webkit-appearance:none;
+}
+
+
+  .mauticform-selectbox {
+    background-color: #fff;
+    height: auto!important;
+    padding: 16px 22px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    color: var(--forest);
+    width: fit-content;
+    max-width: none;
+    min-width: 328px;
+
+    }
+
+  form select {
+      -webkit-appearance:none;
+  }
+
 
     /* newsletter */
 
@@ -3230,6 +3241,7 @@ margin-top:10px;
     width: max-content;
     margin:0;
     cursor:pointer;
+
     }
 
     p.nl-s img {
@@ -3288,4 +3300,8 @@ li#const-up {
 
 .c-show.ent {
   height:66px;
+}
+
+.r-only {
+  display:none;
 }

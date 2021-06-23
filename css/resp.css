@@ -1438,6 +1438,10 @@
         max-width: 100%;
       }
 
+      .mauticform-selectbox {
+        width:100%;
+      }
+
       #nl-sign-up-resp {
         display: block;
         margin-left: 0;
@@ -1457,6 +1461,14 @@
       .speak:hover .sup-icons-cont {
         top: 32px;
         opacity: 1;
+      }
+
+      .d-only {
+        display:none;
+      }
+
+      .r-only {
+        display: flex;
       }
 
 }
