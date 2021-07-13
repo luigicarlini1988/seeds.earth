@@ -62,7 +62,7 @@
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'incl/passport-switcher',
+            url: 'incl/passport-switcher.html',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
@@ -77,7 +77,7 @@
     $(function() {
           $.ajax({
             type: 'GET',
-            url: 'incl/wallet-switcher',
+            url: 'incl/wallet-switcher.html',
             data: {ScreenWidth: $(window).width()},
             success: function(data) {
               // alert(data);
