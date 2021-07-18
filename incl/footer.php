@@ -30,8 +30,8 @@
           <ul>
             <li id="const-up"><a>SEEDS Constitution</a></li>
               <div class="c-show">
-                <li class="const-ch"><a href="pdf/SEEDS-Constitution-and-Game-Guide-V-0-2-0.pdf" target="_blank">Current</a></li>
-                <li class="const-ch"><a href="https://gateway.pinata.cloud/ipfs/QmSPzPUkyScQWc3Yx86Yabh8EzFxXDzB4KytM2N4N6MeuR" target="_blank">New Proposal</a></li>
+                <li class="const-ch"><a href="pdf/Official_SEEDS_Constitution_V_1_July_10_2021.pdf" target="_blank">Read It</a></li>
+                <li class="const-ch"><a href="https://docs.google.com/document/d/1hUVYiBANjVDTJyicM8YeEy22Tsliv68GW_y2EE-mvHw/edit?usp=drivesdk" target="_blank">Comment it</a></li>
               </div>
             <li><a href="pdf/Token-allocation-and-economics.pdf" target="_blank">Token Allocation & Economics</a></li>
             <li><a href="pdf/Pager-for-festival-and-events.pdf" target="_blank">For Festivals and Events</a></li>
