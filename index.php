@@ -99,17 +99,25 @@
             url: Url,
             type: "GET",
             success: function(result){
-              console.log(result);
 
 
-              var content0 = result.filter(function(r){ return r._id === 'citizen'; })[0].total;
-              $("#append0").append(content0);
+              var citizen = result.filter(function(r){ return r._id === 'citizen'; })[0].total;
+              $("#append0").append(citizen);
 
-              var content1 = result.filter(function(r){ return r._id === 'resident'; })[0].total;
-              $("#append1").append(content1);
+              var resident = result.filter(function(r){ return r._id === 'resident'; })[0].total;
+              $("#append1").append(resident);
 
-              var content2 = result.filter(function(r){ return r._id === 'visitor'; })[0].total;
-              $("#append2, #append-tot").append(content2);
+              var visitor = result.filter(function(r){ return r._id === 'visitor'; })[0].total;
+              $("#append2").append(visitor);
+
+              var totalusers = citizen + resident + visitor;
+              $(" #append-tot").append(totalusers);
+
+
+              console.log(citizen);
+              console.log(resident);
+              console.log(visitor);
+              console.log(totalusers);
 
 
             }
