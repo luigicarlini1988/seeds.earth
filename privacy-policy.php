@@ -43,7 +43,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/loader-style.css">
     <link rel="stylesheet" href="css/general.css?version=1.1">
-    <link rel="stylesheet" href="css/legal.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/resp.css">
 
@@ -68,7 +67,7 @@
 
 
   </head>
-  <body class="home-nu">
+  <body>
 
 
     <?php
@@ -106,7 +105,7 @@
         </div>
       </header>
 
-      <main class="legal-pages">
+      <main>
         <div id="back-head-120" class="parallax legal" data-image-src="img/header-3.jpg"></div>
         <section class="legal-content">
           <div class="centered">

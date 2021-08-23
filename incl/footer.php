@@ -6,7 +6,7 @@
     <div class="centered">
       <div class="foot-1">
         <div class="social">
-          <p>Hypha2020©</p>
+          <p>Hypha2021</p>
           <div class="soc-f"><img src="img/face.svg"/></div>
           <div class="soc-f"><img src="img/insta.svg"/></div>
           <a href="https://medium.com/joinseeds" target="_blank"><div class="soc-f medi"><img src="img/medium.svg"/></div></a>
@@ -37,7 +37,7 @@
             <li><a href="pdf/Pager-for-festival-and-events.pdf" target="_blank">For Festivals and Events</a></li>
             <li><a href="pdf/Pager-for-organization-partners.pdf" target="_blank">For Organisation & Partners</a></li>
             <li><a href="pdf/Economic-renaissance-v4.pdf" target="_blank">An Economic Renaissance</a></li>
-            <li><a href="pdf/3-Pager-V5-0.pdf" target="_blank">Currency/Regen Culture</a></li>
+            <li><a href="pdf/SEEDS-in-a-glance-4-Pager-V6-1.pdf" target="_blank">Currency/Regen Culture</a></li>
           </ul>
         </div>
       </div>
@@ -58,7 +58,7 @@
 
       <div class="foot-rp">
         <div class="frpl">
-          <p class="ul-tit">Hypha2020(cc)</p>
+          <p class="ul-tit">Hypha2021</p>
           <p class="license">All content is licensed under a creative commons attribution sharealike 4.0 Hypha</p>
         </div>
         <div class="frpr">

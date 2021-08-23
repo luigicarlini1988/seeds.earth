@@ -1,0 +1,15 @@
+#dashboard {
+  min-height:800px;
+  display:flex;
+  justify-content: space-between;
+  padding-top:100px;
+}
+
+.box-3 {
+  width:32%;
+  position:relative;
+}
+
+.dash-page {
+  background-color:var(--forest);
+}

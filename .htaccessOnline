@@ -1,8 +1,3 @@
-AuthType Basic
-AuthName "Area Protetta da Password"
-AuthUserFile  /opt/bitnami/apache/htdocs/.htpasswd
-Require valid-user
-
 RewriteEngine on
 RewriteBase /
 
@@ -16,3 +11,16 @@ RewriteRule ^(.*?)/?$ /$1.php [NC,END]
 RewriteRule ^(.+)\.html$ /$1 [R,L]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*?)/?$ /$1.html [NC,END]
+
+
+
+# Apply a CSP to all HTML and PHP files
+<FilesMatch "\.(html|php)$">
+    Header set Content-Security-Policy "frame-ancestors 'self' https://wiki.hypha.earth;"
+</FilesMatch>
+Content-Security-Policy: frame-ancestors 'self' https://www.example.org;
+
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "https://wiki.hypha.earth"
+</IfModule>

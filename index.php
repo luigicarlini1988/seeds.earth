@@ -512,7 +512,7 @@
                 </div>
               </div>
               <p class="special">Regenerators &<br/><span class="spring">Change Agents</span></p>
-              <p>Using the Global Passport app, we have <span id="append0"></span> Citizens, <span id="append1"></span> Residents and <span id="append2"></span> total regenerators.</p>
+              <p>Using the Global Passport app, we have <span id="append0"></span> Citizens, <span id="append1"></span> Residents and <span id="append2"></span> Visitors.</p>
               <div class="line"></div>
             </div>
 
