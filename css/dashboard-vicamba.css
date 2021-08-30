@@ -71,10 +71,6 @@ body.body-dashboard .grafana-app body {
 
 
 
-.grafana-app .react-grid-layout .react-grid-item:first-child {
-  display:none;
-}
-
 .grafana-app h1,
 .grafana-app h2,
 .grafana-app h3,
