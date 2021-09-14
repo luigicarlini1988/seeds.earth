@@ -24,7 +24,7 @@
             <ul>
               <li id="one"><a href="index.php">Home</a></li>
               <li id="two"><a href="buy-seeds.php">Buy Seeds</a></li>
-              <li id="three"><a href="seeds-swap.php">Seeds Swap</a></li>          
+              <li id="three"><a href="seeds-swap.php">Seeds Swap</a></li>
               <li id="five"><a href="integration-toolkit.php">Integrations</a></li>
               <li id="four"><a href="get-started.php">Get Started</a></li>
             </ul>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="menu-link-bottom">
-                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://docs.google.com/forms/d/e/1FAIpQLSd35uWAOA-00B6QvucIhj_ft3dTSIaHJyjgLLisXNbgMJeMUw/viewform?usp=sf_link" target="blank">become an Alliance</a>
+                <a class="ju spri" href="https://seedsambassadors.typeform.com/to/qGJ5gH" target="_blank">become an Ambassador</a> <a class="ju spri" href="https://joinseeds.earth/become-an-alliance" target="blank">become an Alliance</a>
             </div>
           </div>
         </div>
