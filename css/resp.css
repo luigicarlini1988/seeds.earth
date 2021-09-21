@@ -651,11 +651,6 @@
     right: 0px;
   }
 
-  .mauticform-input,
-  .mauticform-selectbox {
-        min-width: 260px;
-            max-width: 100%;
-  }
 }
 
 @media screen and (max-width : 600px) {
@@ -917,7 +912,7 @@
   }
 
   .frpr img {
-    width:100%;
+    width:50%;
   }
 
 
@@ -1312,7 +1307,8 @@
     margin-right:6px;
   }
 
-  .cta-header  p.nl-s img {
+  .cta-header  p.nl-s img,
+  .cta-header  a.nl-s img {
     height: 12px;
     margin-right: 6px;
   }
@@ -1432,15 +1428,7 @@
     width: 100%;
 }
 
-.mauticform-input,
-.mauticform-selectbox {
-    min-width: calc(100% - 46px);
-        max-width: 100%;
-      }
 
-      .mauticform-selectbox {
-        width:100%;
-      }
 
       #nl-sign-up-resp {
         display: block;

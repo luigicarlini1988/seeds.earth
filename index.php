@@ -41,10 +41,10 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/loader-style.css?version=1.8">
-    <link rel="stylesheet" href="css/general.css?version=1.8">
-    <link rel="stylesheet" href="css/menu.css?version=1.8">
-    <link rel="stylesheet" href="css/resp.css?version=1.8">
+    <link rel="stylesheet" href="css/loader-style.css?version=1.9">
+    <link rel="stylesheet" href="css/general.css?version=1.9">
+    <link rel="stylesheet" href="css/menu.css?version=1.9">
+    <link rel="stylesheet" href="css/resp.css?version=1.9">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
@@ -200,33 +200,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
 
-    <!--mautic form-->
-    <script type="text/javascript">
-      /** This section is only needed once per page if manually copying **/
-      if (typeof MauticSDKLoaded == 'undefined') {
-          var MauticSDKLoaded = true;
-          var head            = document.getElementsByTagName('head')[0];
-          var script          = document.createElement('script');
-          script.type         = 'text/javascript';
-          script.src          = 'https://newsletters.hypha.earth/media/js/mautic-form.js';
-          script.onload       = function() {
-              MauticSDK.onLoad();
-          };
-          head.appendChild(script);
-          var MauticDomain = 'https://newsletters.hypha.earth';
-          var MauticLang   = {
-              'submittingMessage': "Please wait..."
-          }
-      }else if (typeof MauticSDK != 'undefined') {
-          MauticSDK.onLoad();
-      }
-    </script>
-
 
   </head>
   <body class="home-nu">
 
-    <div class="pop-up">
+  <!-- OLD Newsletter form
+
+   <div class="pop-up">
 
       <div class="centered">
         <div id="close"><img src="img/x-close.svg"/></div>
@@ -291,7 +271,7 @@
 
       </div>
     </div>
-
+  -->
 
 
     <?php
@@ -378,7 +358,7 @@
                 </div>
 
                 <div id="nl-sign-up-resp">
-                  <p class="nl-s spri" href="get-started.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</p>
+                  <a href="newsletter-opt-in" class="nl-s spri" href="newsletter-opt-in.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</a>
                 </div>
               </div>
 
@@ -398,7 +378,7 @@
 
 
               <div id="nl-sign-up">
-                <p class="nl-s spri" href="get-started.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</p>
+                <a class="nl-s spri" href="newsletter-opt-in.php"><img src="img/nl-icon.svg" />Newsletter Sign-up</a>
               </div>
 
             </div>

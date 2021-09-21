@@ -217,7 +217,7 @@
 
                                     <div class="text-content">
                                         <div class=" has-text-centered">
-                                            <p>NOTE: User account names must containt exactly 12 characters, using a-z, 1-5, starting with a letter.</p>
+                                            <p>NOTE: User account names must contain exactly 12 characters, using a-z, 1-5, starting with a letter.</p>
                                             <p class="pop-up-trigger">Discover more about SEEDS Account Name</p>
                                         </div>
                                     </div>
