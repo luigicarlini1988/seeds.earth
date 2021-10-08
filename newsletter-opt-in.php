@@ -42,7 +42,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/loader-style.css?version=1.9">
     <link rel="stylesheet" href="css/general.css?version=1.9">
-    <link rel="stylesheet" href="css/optin-page.css?version=1.9">
+    <link rel="stylesheet" href="css/optin-page.css?version=2.0">
     <link rel="stylesheet" href="css/menu.css?version=1.9">
     <link rel="stylesheet" href="css/resp.css?version=1.9">
 
@@ -169,8 +169,24 @@
                       </div>
 
                       <div id="mauticform_multisubscribeseeds_captcha" data-validate="captcha" data-validation-type="captcha" class="mauticform-row mauticform-text mauticform-field-5 mauticform-required">
-                          <label id="mauticform_label_multisubscribeseeds_captcha" for="mauticform_input_multisubscribeseeds_captcha" class="mauticform-label">prove you are real: 18 - 5 ?</label>
+                          <label id="mauticform_label_multisubscribeseeds_captcha" for="mauticform_input_multisubscribeseeds_captcha" class="mauticform-label">What is 10 + 3 ?</label>
                           <input id="mauticform_input_multisubscribeseeds_captcha" name="mauticform[captcha]" value="" class="mauticform-input" type="text">
+                          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                      </div>
+
+                      <div class="mauticform-row"></div>
+
+                      <div id="mauticform_multisubscribeseeds_privacy_and_terms" data-validate="privacy_and_terms" data-validation-type="checkboxgrp" class="mauticform-row mauticform-checkboxgrp mauticform-field-6 mauticform-required">
+                          <label class="mauticform-label" for="mauticform_checkboxgrp_checkbox_privacy_and_terms_Iagreetothetermsandconditions1">Privacy and Terms</label>
+
+                          <div class="together-s">
+                            <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_and_terms][]" id="mauticform_checkboxgrp_checkbox_privacy_and_terms_00" type="checkbox" value="0">
+                                <label id="mauticform_checkboxgrp_label_privacy_and_terms_00" for="mauticform_checkboxgrp_checkbox_privacy_and_terms_00" class="mauticform-checkboxgrp-label">I agree to the <a href="https://joinseeds.earth/terms-and-conditions" target="_blank">terms and conditions</a></label>
+                            </div>
+                            <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_and_terms][]" id="mauticform_checkboxgrp_checkbox_privacy_and_terms_11" type="checkbox" value="1">
+                                <label id="mauticform_checkboxgrp_label_privacy_and_terms_11" for="mauticform_checkboxgrp_checkbox_privacy_and_terms_11" class="mauticform-checkboxgrp-label">I agree to the <a href="https://joinseeds.earth/privacy-policy" target="_blank">privacy policy</a></label>
+                            </div>
+                          </div>
                           <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                       </div>
 
