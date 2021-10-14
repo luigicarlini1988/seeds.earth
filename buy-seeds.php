@@ -283,7 +283,7 @@
 
                                     <div class="centered-title"><h2>Payment <span class="spring">Method</span></h2>
 
-                                        <p>
+                                        <p>Minimum amount: 20$</br>
                                             Select how you would like to buy Seeds:</p>
 
 
