@@ -115,11 +115,8 @@
             </div>
 
             <div id="dash-framer">
-               <iframe id="dash-grafana" style="height: 100%;width: 100%;position: absolute;" src="https://dashboard.hypha.earth/d/kAE6GkqGk/seeds-pulse?orgId=1&from=1630447200000&to=1633039199999" width="100%" height="auto" frameborder="0"></iframe>
+               <iframe id="dash-grafana" style="height: 100%;width: 100%;position: absolute;" src="https://dashboard.hypha.earth/dashboard/snapshot/76xxWau0CUhTGlHpnjAnBfGmBIXOm7m9?orgId=0" width="100%" height="auto" frameborder="0"></iframe>
             </div>
-
-
-          
 
       </main>
 

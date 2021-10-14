@@ -50,6 +50,7 @@
     <!-- Javascript / jQuery libraries -->
     <script src="js/jquery-3-10-1-min.js" type="text/javascript"></script>
     <script src="js/animation-global.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 
 
     <!--luigi's custom top scrollbar-->
@@ -79,6 +80,20 @@
     }else if (typeof MauticSDK != 'undefined') {
         MauticSDK.onLoad();
     }
+</script>
+
+
+<script>
+
+
+$(function () {
+    $('#mauticform_multisubscribeseeds').submit(function (e) {
+
+      if (validateForm() === false) {
+                  alert('Form is valid.');
+              }
+    });
+});
 </script>
 
 

@@ -54,6 +54,7 @@ body.body-dashboard .grafana-app body {
 }
 
 
+.grafana-app,
 .grafana-app .css-1mwktlb {
   background-color:var(--dark-forest);
   background-image:url('https://joinseeds.earth/img/menu-leaves.png');
