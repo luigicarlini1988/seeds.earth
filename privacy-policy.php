@@ -6,7 +6,7 @@
 
 
     <!-- Meta Tags Generic-->
-    <title>SEEDS :: Privacy Polocy</title>
+    <title>SEEDS :: Privacy Policy</title>
     <meta name="description" content="A new economy that rewards regenerative behaviours, finances the regeneration of our Earth and encourages collaboration and community building">
     <meta name="og:image" content="https://joinseeds.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />

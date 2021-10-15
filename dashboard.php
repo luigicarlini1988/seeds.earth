@@ -115,7 +115,7 @@
             </div>
 
             <div id="dash-framer">
-               <iframe id="dash-grafana" style="height: 100%;width: 100%;position: absolute;" src="https://dashboard.hypha.earth/dashboard/snapshot/sxCGe86YePbrC3HfdcKM2IgkJSRIAUk1" width="100%" height="auto" frameborder="0"></iframe>
+               <iframe id="dash-grafana" style="height: 100%;width: 100%;position: absolute;" src="https://dashboard.hypha.earth/dashboard/snapshot/LAwu5GUw5o9T3ecJfrocP29JJ3QL1tW0" width="100%" height="auto" frameborder="0"></iframe>
             </div>
 
       </main>
