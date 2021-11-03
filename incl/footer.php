@@ -36,7 +36,7 @@
             <li><a href="pdf/Token-allocation-and-economics.pdf" target="_blank">Token Allocation & Economics</a></li>
             <li><a href="pdf/Pager-for-festival-and-events.pdf" target="_blank">For Festivals and Events</a></li>
             <li><a href="pdf/Pager-for-organization-partners.pdf" target="_blank">For Organisation & Partners</a></li>
-            <li><a href="pdf/Economic-renaissance-v4.pdf" target="_blank">An Economic Renaissance</a></li>
+            <li><a href="pdf/Economic_Renaissance_v5.pdf" target="_blank">An Economic Renaissance</a></li>
             <li><a href="pdf/SEEDS-in-a-glance-4-Pager-V6-1.pdf" target="_blank">Currency/Regen Culture</a></li>
           </ul>
         </div>
