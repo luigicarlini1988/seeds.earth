@@ -24,6 +24,10 @@
   --kerning-p: -0.01em;
 }
 
+.menu-top-resp {
+  display:none;
+}
+
 #real-menu {
 
     position: fixed;
@@ -390,7 +394,8 @@ content:"04";
 
 .menu-link-bottom a,
 .menu-link-top a {
-  margin-right:40px;
+  margin-right:28px;
+  font-size:14px;
 }
 
 .menu-link-bottom a:last-child,
@@ -412,12 +417,50 @@ content:"04";
 
 .icon-seeds {
   position:absolute;
-  top:30px;
+  top:20px;
   left:30px;
 }
 
 .icon-seeds img {
   width:40px;
+}
+
+.menu-top-fixed {
+    position: absolute;
+    width: calc(100% - 100px);
+    display: flex;
+    z-index:10;
+    height:80px;
+    align-items: center;
+    margin-left:100px;
+    top:0;
+    transition-duration: .6s;
+    -moz-transition-duration: .6s;
+    -webkit-transition-duration: .6s;
+    transition-delay: :.8s;
+    -moz-transition-delay: .8s;
+    -webkit-transition-delay: .8s;
+    opacity:0;
+}
+
+  #real-menu.events .menu-top-fixed {
+
+    opacity:1;
+  }
+
+.menu-top-fixed a {
+  position:relative;
+  margin-right:28px;
+  font-size:14px;
+  margin-top:6px;
+}
+
+.menu-top-fixed a.ju::before {
+    left:0;
+}
+
+.menu-top-fixed a.ju:hover::before {
+    width: 100%;
 }
 
 @media screen and (max-width : 1050px) {
@@ -445,7 +488,7 @@ content:"04";
   }
 }
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 830px) {
 
   #real-menu .fifty {
     margin-left:0;
@@ -494,6 +537,12 @@ content:"04";
     padding-bottom:40px;
   }
 
+  .menu-top-fixed {
+    position: absolute;
+    width: 100%;
+    margin-left:0;
+  }
+
 }
 
 @media screen and (max-width : 600px) {
@@ -534,7 +583,7 @@ content:"04";
   }
 
   #real-menu .fifty ul {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .menu-link-bottom {
@@ -544,10 +593,35 @@ content:"04";
   }
 
   .menu-link-bottom a {
-    margin-bottom:20px;
+    margin-bottom:12px;
+    font-size:16px;
   }
 
   #real-menu ul li a:active {
     margin-left:30px;
+  }
+
+  .menu-top-fixed {
+    display:none;
+  }
+
+  .menu-top-resp {
+    display:block;
+    transition-duration: .6s;
+    -moz-transition-duration: .6s;
+    -webkit-transition-duration: .6s;
+    transition-delay: :.8s;
+    -moz-transition-delay: .8s;
+    -webkit-transition-delay: .8s;
+    opacity:0;
+  }
+
+  #real-menu.events .menu-top-resp {
+    opacity:1;
+  }
+
+  .menu-top-resp a {
+    margin-bottom:12px;
+    font-size:16px;
   }
 }

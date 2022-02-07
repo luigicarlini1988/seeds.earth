@@ -83,7 +83,7 @@ $(function(){
                                       $('.join-stick .general-stickers').prepend('<img class="real-collage" src="img/stickers/stick-join-collage.svg" />');
 
                                       var text = $('#text');
-                                      text.val('https://joinseeds.app.link/request-invite/' + text.val());
+                                      text.val('https://joinseeds.app.link/request-invite?acct=' + text.val());
 
                                       setTimeout(function () {
                                           $('html, body').animate({
@@ -290,7 +290,7 @@ $(function(){
 
                                      /* change text inside input*/
                                      var textpay = $('#text-pay');
-                                     textpay.val('https://joinseeds.app.link/payment/' + textpay.val());
+                                     textpay.val('https://joinseeds.app.link/pay-with-seeds?acct=' + textpay.val());
 
 
                                      setTimeout(function () {

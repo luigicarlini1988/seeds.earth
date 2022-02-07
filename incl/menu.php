@@ -17,10 +17,15 @@
       <div class="menu-inside">
         <div class="icon-seeds"><a href="index.php"><img src="img/logo-flower.svg"/></a></div>
         <div class="centered realm">
+        <div class="menu-top-fixed">
+            <a class="ju spri" href="https://joinseeds.earth/dashboard " target="_blank">Dashboard</a>
+            <a class="ju spri" href="https://explore.joinseeds.earth " target="_blank">Knowledge base</a>
+            <a class="ju spri" href="https://forum.joinseeds.earth " target="_blank">Forum</a>
+            <a class="ju spri" href="https://discord.gg/rRtbasPCgB" target="_blank">General Enquiries</a>
+            <a class="ju spri" href="https://t.me/seedstroubleshootinggroup " target="_blank">APPs Troubleshooting</a>
+
+        </div>
           <div class="fifty">
-          <div class="menu-link-top">
-              <a class="ju spri" href="https://discord.gg/rRtbasPCgB" target="_blank">General Enquiries</a> <a class="ju spri" href="https://t.me/seedstroubleshootinggroup " target="_blank">APPs Troubleshooting</a>
-          </div>
             <ul>
               <li id="one"><a href="index.php">Home</a></li>
               <li id="two"><a href="buy-seeds.php">Buy Seeds</a></li>
@@ -28,7 +33,15 @@
               <li id="five"><a href="integration-toolkit.php">Integrations</a></li>
               <li id="four"><a href="get-started.php">Get Started</a></li>
             </ul>
-          </div>
+        </div>
+        <div class="menu-top-resp">
+            <a class="ju spri" href="https://joinseeds.earth/dashboard " target="_blank">Dashboard</a>
+            <a class="ju spri" href="https://explore.joinseeds.earth " target="_blank">Knowledge base</a>
+            <a class="ju spri" href="https://forum.joinseeds.earth " target="_blank">Forum</a>
+            <a class="ju spri" href="https://discord.gg/rRtbasPCgB" target="_blank">General Enquiries</a>
+            <a class="ju spri" href="https://t.me/seedstroubleshootinggroup " target="_blank">APPs Troubleshooting</a>
+
+        </div>
           <div class="fifty sec">
             <div class="fs-cont">
               <p class="menu-tit">Who is behind SEEDS?</p>
