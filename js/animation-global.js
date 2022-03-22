@@ -13,7 +13,15 @@ window.onload = function() {
 
 
 
+
 $(document).ready(function(){
+
+
+  $(document).on('click', 'a[href^=#]', function(e){
+          e.preventDefault();
+          var id = $(this).attr('href');
+          $('html,body').animate({scrollTop: $(id).offset().top}, 500);
+      });
 
   $(".obscurer").addClass('close');
   $(".logo").removeClass('close');

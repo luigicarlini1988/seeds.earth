@@ -1,6 +1,4 @@
-<?php
 
-    echo '
     <!--burger menu-->
     <div id="menu-button">
         <div id="mbl1"></div>
@@ -64,6 +62,4 @@
     <div class="progress-container">
       <div class="progress-bar" id="bar"></div>
     </div>
-    ';
-
-    ?>
+  
