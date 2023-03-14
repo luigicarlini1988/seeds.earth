@@ -221,9 +221,6 @@ $(function () {
                             <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[multi_segment][]" id="mauticform_checkboxgrp_checkbox_multi_segment_22" type="checkbox" value="2">
                                 <label id="mauticform_checkboxgrp_label_multi_segment_22" for="mauticform_checkboxgrp_checkbox_multi_segment_22" class="mauticform-checkboxgrp-label">Renaissance Explorers</label>
                             </div>
-                            <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[multi_segment][]" id="mauticform_checkboxgrp_checkbox_multi_segment_33" type="checkbox" value="3">
-                                <label id="mauticform_checkboxgrp_label_multi_segment_33" for="mauticform_checkboxgrp_checkbox_multi_segment_33" class="mauticform-checkboxgrp-label">Hypha</label>
-                            </div>
 
                             <span class="mauticform-errormsg" style="display: none;"></span>
                         </div>
@@ -249,18 +246,6 @@ $(function () {
           <div class="ci-tit"><h4>Channels Info</h4></div>
           <div class="channel-grid">
 
-            <div class="channel-item">
-              <div class="ci-image-wrap">
-                <img src="img/hypha-nl.jpg"/>
-              </div>
-              <div class="text-content">
-                <h4>Hypha</h4>
-                <p>Has spent 4+ years building, testing and iterating decentralised and  foundational tools, each a potent product in their own right. The SEEDS ecosystem was one of Hypha’s first decentralised tools</p>
-                <div class="linker">
-                  <a href="https://hypha.earth" target="_blank">hypha.earth</a>
-                </div>
-              </div>
-            </div>
 
             <div class="channel-item">
               <div class="ci-image-wrap">
