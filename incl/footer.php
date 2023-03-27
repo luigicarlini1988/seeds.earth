@@ -17,7 +17,7 @@
           <p class="ul-tit">Explore</p>
           <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="buy-seeds.php">Buy Seeds</a></li>
+            <!--<li><a href="buy-seeds.php">Buy Seeds</a></li>-->
             <li><a href="seeds-swap.php">Seeds Swap</a></li>
             <li><a href="get-started.php">Get Started</a></li>
             <li><a href="integration-toolkit.php">Integration Toolkit</a></li>

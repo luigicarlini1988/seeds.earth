@@ -3312,3 +3312,33 @@ li#const-up {
 .r-only {
   display:none;
 }
+
+
+/* 2013 override*/
+
+section.header-home {
+  height:calc(100vh - 38px);
+}
+
+section.top-alert {
+  height:38px;
+  width:100%;
+  background-color:var(--spring);
+  position:relative
+}
+
+.home-nu #menu-button {
+  top: 68px;
+}
+
+.home-nu .h-home {
+  padding-top:38px;
+}
+
+
+section.top-alert .centered{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1169,7 +1169,7 @@
 
   #back-head-120 {
     background-image:url('../img/header-3.jpg');
-    height:70vh;
+    height:calc(70vh + 50px);
     background-size:auto 100%;
     background-position:top center;
     max-height:540px;
@@ -1520,7 +1520,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     #back-head-120 {
       background-image:url('../img/header-3.jpg');
-      height:80vh;
+      calc(height:80vh + 50px);
     }
 
   .passport-r .col.p2,
@@ -1559,7 +1559,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     #back-head-120 {
       background-image:url('../img/header-3.jpg');
-      height:80vh;
+      height:calc(80vh + 50px);
     }
 
 
