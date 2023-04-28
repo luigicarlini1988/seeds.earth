@@ -413,7 +413,7 @@
             <!-- here we print the chat tool -->
             <div class="speak">
                 <div class="sup-icons-cont">
-                    <a href="https://discord.gg/rRtbasPCgB" target="_blank" />
+                    <a href="https://discord.gg/d5VsJqj2" target="_blank" />
                     <div class="sup-icon"><img src="img/discord-support.svg" /></div>
                     </a>
 
