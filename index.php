@@ -335,7 +335,7 @@
         <div id="back-head-120" class="parallax" data-image-src="img/header-3.jpg"></div>
         <section class="top-alert">
             <div class="centered">
-                Global Passport APP is going to sunset from 15 March 2023. Please switch to Light Wallet.
+                The Global Passport has been removed from the App Stores. Please switch to Light Wallet.
             </div>
         </section>
         <section class="header-home nu-header">
